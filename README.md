@@ -1,6 +1,6 @@
 # Beat Claude
 
-**The hiring challenge for AI-native marketers**
+**The hiring challenge for AI-native professionals**
 
 Single Grain is looking for strategists who can think better than AI.
 
@@ -14,7 +14,7 @@ Single Grain is looking for strategists who can think better than AI.
 
 ## Why This Exists
 
-AI can do 80% of marketing strategy now. We need people who can do the 20% that AI can't: creative leaps, pattern recognition, judgment under uncertainty.
+AI can do 80% of knowledge work now. We need people who can do the 20% that AI can't: creative leaps, pattern recognition, judgment under uncertainty.
 
 If you can't beat Claude on a strategy challenge, you're competing with a $20/month tool. We're looking for people who make AI look basic.
 
@@ -31,8 +31,11 @@ To beat Claude, you need to add something it couldn't.
 | Challenge | Role Target | Difficulty |
 |-----------|-------------|------------|
 | [Marketing Strategy 001](challenges/marketing-strategy-001/) | CMO / VP Marketing | Hard |
-
-More challenges coming soon.
+| [Paid Media 002](challenges/paid-media-002/) | Paid Media Director | Medium |
+| [SEO Strategy 003](challenges/seo-strategy-003/) | Head of SEO | Hard |
+| [Engineer 004](challenges/engineer-004/) | Senior Engineer | Hard |
+| [Product Designer 005](challenges/product-designer-005/) | Senior Product Designer | Medium |
+| [Sales AE 006](challenges/sales-ae-006/) | Account Executive | Medium |
 
 ## How to Submit
 
