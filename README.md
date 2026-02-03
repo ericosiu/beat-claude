@@ -36,6 +36,7 @@ To beat Claude, you need to add something it couldn't.
 | [Engineer 004](challenges/engineer-004/) | Senior Engineer | Hard |
 | [Product Designer 005](challenges/product-designer-005/) | Senior Product Designer | Medium |
 | [Sales AE 006](challenges/sales-ae-006/) | Account Executive | Medium |
+| [YouTube Strategist 007](challenges/youtube-strategist-007/) | YouTube Strategist | Hard |
 
 ## How to Submit
 
