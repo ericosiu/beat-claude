@@ -91,6 +91,14 @@ The scoring rubric is a tool, not a formula. What actually matters:
 3. **Comparison**: Scores tallied, Claude's revealed
 4. **Decision**: Beat Claude → advance to interview
 
+## Format & Length
+
+All challenges have a **4-page maximum** (diagrams and wireframes don't count toward the limit). This is clearly stated in each challenge brief.
+
+**Reviewers will not penalize submissions for length** as long as they stay within the stated limit. A focused 2-page submission can absolutely beat a 4-page one—we score on quality, not volume.
+
+Submissions that exceed 4 pages will still be reviewed, but excessive length may affect Communication scores if it signals poor prioritization.
+
 ## Frequently Asked Questions
 
 **Q: What if I tie with Claude?**
@@ -108,3 +116,7 @@ One submission per challenge. If you want another shot, wait for a new challenge
 **Q: Who reviews submissions?**
 
 Single Grain team members with domain expertise in the challenge area.
+
+**Q: How long should this take?**
+
+Most challenges are designed to take 1-2 hours. If you're spending significantly more, you may be over-thinking it. We're testing judgment and prioritization, not endurance.

@@ -108,7 +108,7 @@ Answer these:
 
 Anything works. PDF, Markdown, Notion page, personal site, video walkthrough, code repo. We don't care about the container — we care about what's inside.
 
-Keep it tight. If you can make your case in 2 pages, don't write 10.
+**Maximum 4 pages.** If you can make your case in 2 pages, don't write 4. Estimated time: 1-2 hours.
 
 ## Evaluation
 

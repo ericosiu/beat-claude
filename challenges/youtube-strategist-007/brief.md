@@ -43,40 +43,21 @@ Create a **comprehensive YouTube strategy** that demonstrates three things:
 
 Your strategy should include:
 
-1. **Channel Audit & Diagnosis**
-   - What's working on the channel right now?
-   - What's broken or underperforming?
-   - What's the biggest unlock?
-
-2. **AI-Powered Content Workflow**
-   - Map out the end-to-end content pipeline from ideation to publishing
-   - Where does AI fit in each step? Be specific about tools and prompts
+1. **Channel Audit & AI-Powered Content Workflow**
+   - What's working on the channel right now? What's broken or underperforming? What's the biggest unlock?
+   - Map out the end-to-end content pipeline from ideation to publishing—where does AI fit at each step? Be specific about tools and prompts
    - What must remain human-driven and why?
 
-3. **Longform Strategy (8-20 min videos)**
-   - Content pillars and topic selection framework
-   - Title/thumbnail philosophy
-   - Scripting and structure approach
-   - Posting cadence and ideal publish times
-   - 10 specific video ideas with titles and hook lines
+2. **Content Strategy (Longform + Shortform)**
+   - Content pillars, topic selection framework, title/thumbnail philosophy
+   - 5 specific longform video ideas with titles and hook lines
+   - 5 specific Shorts concepts—how do Shorts feed the longform funnel?
+   - Posting cadence for both
 
-4. **Shortform Strategy (YouTube Shorts)**
-   - Where do Shorts come from? (Original vs. repurposed)
-   - Hook methodology for <3 second retention
-   - Posting cadence
-   - How Shorts feed the longform funnel
-   - 10 specific Shorts concepts
-
-5. **Growth Playbook**
-   - How do you get from 187K to 500K subscribers?
-   - What are the 3 biggest growth levers?
+3. **Growth Playbook & 90-Day Milestones**
+   - How do you get from 187K to 500K subscribers? What are the 3 biggest growth levers?
    - How do you leverage Eric's existing audience (podcast, LinkedIn, newsletter)?
-   - Collaboration and guest strategy
-
-6. **90-Day Milestones**
    - What should be true at Day 30, 60, and 90?
-   - What KPIs are you tracking weekly?
-   - What does success look like?
 
 ### Constraints
 
@@ -100,7 +81,7 @@ Your answer will be compared against Claude's answer to this same brief in a bli
 
 ### Format
 
-Submit as PDF or Markdown. No length requirement—be as concise or detailed as the strategy demands.
+Submit as PDF or Markdown. **Maximum 4 pages.** We value clarity and prioritization—if you can make your case in 2 pages, don't write 4. Estimated time: 1-2 hours.
 
 ---
 

@@ -63,35 +63,20 @@ You're an Account Executive at a marketing technology company. You have a stalle
 
 Your strategy should include:
 
-1. **Deal Diagnosis**
-   - Why is this deal really stalled?
-   - What's the CFO's actual objection?
-   - What's missing from the buying committee?
+1. **Deal Diagnosis & Stakeholder Strategy**
+   - Why is this deal really stalled? What's the CFO's actual objection?
+   - How do you get to the CMO? How do you neutralize the CFO? Should you try for the CEO?
+   - How do you handle the Marketo discount and leverage the HubSpot dissatisfaction?
 
-2. **Stakeholder Strategy**
-   - How do you get to the CMO?
-   - How do you neutralize the CFO's concerns?
-   - Should you try to get to the CEO? How?
-
-3. **Competitive Positioning**
-   - How do you handle the Marketo discount?
-   - How do you leverage the HubSpot dissatisfaction?
-   - What's your differentiation message?
-
-4. **Next 10 Actions**
+2. **Next 10 Actions**
    - Specific actions with dates
    - Who does what (you, your VP, CS, champion)
    - Sequence and dependencies
 
-5. **Negotiation Strategy**
-   - What concessions can you offer?
-   - What do you ask for in return?
+3. **Negotiation Strategy & Risk Assessment**
+   - What concessions can you offer? What do you ask for in return?
    - How do you create urgency without being pushy?
-
-6. **Risk Assessment**
-   - What could still go wrong?
-   - What's your walk-away point?
-   - If you lose, what do you learn?
+   - What could still go wrong? What's your walk-away point?
 
 ### Constraints
 
@@ -108,7 +93,7 @@ Your answer will be compared against Claude's answer to this same brief in a bli
 
 ### Format
 
-Submit as PDF or Markdown. Be specific—generic sales frameworks won't beat Claude.
+Submit as PDF or Markdown. **Maximum 4 pages.** Be specific—generic sales frameworks won't beat Claude. Estimated time: 1-2 hours.
 
 ---
 

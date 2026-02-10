@@ -45,34 +45,19 @@ Create a **paid media scaling plan** to go from $50K/mo to $200K/mo spend over 6
 
 Your plan should include:
 
-1. **Channel Strategy**
-   - How do you allocate the increased budget across channels?
-   - What new channels (if any) would you test?
-   - What's your rationale for each allocation?
+1. **Channel Strategy & Campaign Architecture**
+   - How do you allocate the increased budget across channels? What new channels (if any) would you test?
+   - What campaign types and structures for each channel? How do you segment audiences? Creative strategy?
 
-2. **Campaign Architecture**
-   - What campaign types and structures for each channel?
-   - How do you segment audiences?
-   - What's your creative strategy?
-
-3. **Scaling Roadmap**
-   - Month-by-month spend progression
-   - Key milestones and decision points
-   - When do you add headcount vs. agency vs. tools?
-
-4. **Measurement Framework**
-   - What metrics do you track at each stage of the funnel?
-   - How do you attribute revenue to paid channels?
-   - What's your testing methodology?
-
-5. **Risk Mitigation**
-   - What could cause CAC to blow up as you scale?
-   - How do you maintain creative freshness?
-   - What's your plan if LinkedIn CPCs spike?
-
-6. **Budget Breakdown**
+2. **Scaling Roadmap & Budget Breakdown**
+   - Month-by-month spend progression with key milestones and decision points
    - Detailed allocation: media spend, tools, creative, headcount
    - Expected CAC at $100K, $150K, and $200K spend levels
+   - When do you add headcount vs. agency vs. tools?
+
+3. **Measurement & Risk Mitigation**
+   - What metrics do you track at each stage of the funnel? How do you attribute revenue to paid channels?
+   - What could cause CAC to blow up as you scale? How do you maintain creative freshness?
 
 ### Constraints
 
@@ -89,7 +74,7 @@ Your answer will be compared against Claude's answer to this same brief in a bli
 
 ### Format
 
-Submit as PDF or Markdown. No length requirement—be as detailed as the strategy demands.
+Submit as PDF or Markdown. **Maximum 4 pages.** We value clarity and prioritization—if you can make your case in 2 pages, don't write 4. Estimated time: 1-2 hours.
 
 ---
 

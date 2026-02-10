@@ -52,39 +52,20 @@ Create a **comprehensive AI-enabled talent strategy** that demonstrates three th
 
 Your strategy should include:
 
-1. **Talent Audit & Diagnosis**
-   - What's working in the current setup?
-   - What's broken or missing?
-   - What's the single highest-leverage fix?
-
-2. **AI-Powered Talent Workflow**
+1. **AI-Powered Talent Workflow**
    - Map the full talent lifecycle: sourcing → screening → interviewing → offer → onboarding → retention
    - Where does AI fit at each stage? Be specific about tools, prompts, and workflows
-   - What must remain human and why?
-   - How do you avoid AI bias in hiring decisions?
+   - What must remain human and why? How do you avoid AI bias in hiring decisions?
 
-3. **Sourcing & Employer Brand Strategy**
-   - How do you build a pipeline that doesn't rely on job board pray-and-spray?
-   - How do you leverage Eric's personal brand and content for recruiting?
-   - What does the employer brand look like? What story are you telling candidates?
-   - How do you source for AI-native talent specifically?
-
-4. **Assessment & Selection**
-   - How do you evaluate candidates beyond resumes and interviews?
+2. **Sourcing, Assessment & Employer Brand**
+   - How do you build a pipeline beyond job boards? How do you leverage Eric's brand for recruiting?
    - How does "Beat Claude" fit into the broader assessment strategy?
-   - What's your interview process design? How many rounds, who's involved, what are you testing at each stage?
    - How do you improve the 65% offer acceptance rate?
 
-5. **Onboarding & Retention**
-   - Design a 30/60/90 onboarding program
-   - How do you get new hires productive faster using AI?
-   - What early warning systems do you build for retention risk?
-   - How do you create a culture where top talent wants to stay at an agency (notoriously high-turnover industry)?
-
-6. **Metrics & 90-Day Milestones**
-   - What KPIs define success for the talent function?
+3. **90-Day Plan & Metrics**
+   - What's the single highest-leverage fix and what do you do first?
    - What should be true at Day 30, 60, and 90?
-   - How do you report talent health to the CEO?
+   - What KPIs define success? How do you report talent health to the CEO?
 
 ### Constraints
 
@@ -108,7 +89,7 @@ Your answer will be compared against Claude's answer to this same brief in a bli
 
 ### Format
 
-Submit as PDF or Markdown. No length requirement—be as concise or detailed as the strategy demands.
+Submit as PDF or Markdown. **Maximum 4 pages.** We value clarity and prioritization—if you can make your case in 2 pages, don't write 4. Estimated time: 1-2 hours.
 
 ---
 

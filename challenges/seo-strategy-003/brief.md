@@ -53,35 +53,19 @@ Create a **12-month SEO recovery plan** to get back to 140K organic traffic/mo a
 
 Your plan should include:
 
-1. **Diagnostic Analysis**
-   - What's causing the traffic decline?
-   - How do you prioritize what to fix?
-   - What data would you want access to?
+1. **Diagnostic Analysis & Competitive Response**
+   - What's causing the traffic decline? How do you prioritize what to fix?
+   - How do you respond to Ramp's content push? Which battles do you fight vs. avoid?
 
-2. **Content Strategy**
-   - What do you do with 400+ existing posts?
-   - What new content should you create?
-   - How do you prioritize refresh vs. new?
+2. **Content & Technical Strategy**
+   - What do you do with 400+ existing posts? How do you prioritize refresh vs. new?
+   - How do you address Core Web Vitals and technical fixes?
+   - What's your link building approach on a $15K/mo budget?
 
-3. **Technical SEO**
-   - How do you address Core Web Vitals?
-   - What technical fixes are highest priority?
-   - How do you improve crawl efficiency?
-
-4. **Competitive Response**
-   - How do you respond to Ramp's content push?
-   - What's your differentiation strategy?
-   - Which battles do you fight vs. avoid?
-
-5. **Link Building**
-   - What's your approach with a $15K budget?
-   - How do you build authority in fintech?
-   - Realistic link acquisition targets?
-
-6. **12-Month Roadmap**
-   - Quarter-by-quarter priorities
-   - Key milestones and metrics
+3. **12-Month Roadmap**
+   - Quarter-by-quarter priorities with key milestones and metrics
    - Team/resource allocation
+   - What does success look like at 90 days, 6 months, and 12 months?
 
 ### Constraints
 
@@ -98,7 +82,7 @@ Your answer will be compared against Claude's answer to this same brief in a bli
 
 ### Format
 
-Submit as PDF or Markdown. No length requirement—be as detailed as the strategy demands.
+Submit as PDF or Markdown. **Maximum 4 pages.** We value clarity and prioritization—if you can make your case in 2 pages, don't write 4. Estimated time: 1-2 hours.
 
 ---
 

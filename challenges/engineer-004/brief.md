@@ -41,35 +41,19 @@ Design the **architecture for a real-time analytics pipeline** that solves the l
 
 Your design should include:
 
-1. **Architecture Overview**
-   - High-level system diagram
-   - Key components and their responsibilities
-   - Data flow from SDK to dashboard
+1. **Architecture & Technology Choices**
+   - High-level system diagram with key components and data flow from SDK to dashboard
+   - What technologies/services for each component? Why these over alternatives?
+   - How do you structure event data and handle user identity/stitching?
 
-2. **Technology Choices**
-   - What technologies/services for each component?
-   - Why these over alternatives?
-   - Build vs. buy decisions
-
-3. **Data Model**
-   - How do you structure event data?
-   - How do you handle user identity/stitching?
-   - Schema design for real-time queries
-
-4. **Scale & Reliability**
-   - How do you handle 50M+ events/day?
-   - What happens during traffic spikes (10x normal)?
-   - How do you ensure zero data loss?
-
-5. **Migration Strategy**
-   - How do you move from current system without breaking things?
-   - Rollback plan if something goes wrong
+2. **Scale, Reliability & Migration**
+   - How do you handle 50M+ events/day and 10x traffic spikes with zero data loss?
+   - How do you move from current system without breaking things? Rollback plan?
    - How do you validate data accuracy?
 
-6. **Trade-offs & Risks**
+3. **Trade-offs & Risks**
    - What are you optimizing for vs. sacrificing?
-   - What could go wrong?
-   - What would you do differently with more time/budget?
+   - What could go wrong? What would you do differently with more time/budget?
 
 ### Constraints
 
@@ -86,7 +70,7 @@ Your answer will be compared against Claude's answer to this same brief in a bli
 
 ### Format
 
-Submit as PDF or Markdown. Diagrams encouraged (ASCII, Mermaid, or images).
+Submit as PDF or Markdown. **Maximum 4 pages** (diagrams don't count toward limit). Diagrams encouraged (ASCII, Mermaid, or images). Estimated time: 1-2 hours.
 
 ---
 

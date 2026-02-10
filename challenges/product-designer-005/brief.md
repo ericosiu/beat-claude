@@ -56,40 +56,22 @@ You're joining a B2B SaaS company as a senior product designer. The company's on
 Your redesign should include:
 
 1. **Problem Analysis**
-   - What's actually causing the 60% drop-off?
-   - Which steps need the most attention?
+   - What's actually causing the 60% drop-off? Which steps need the most attention?
    - What assumptions are baked into the current flow?
 
-2. **Redesigned Flow**
+2. **Redesigned Flow & Design Decisions**
    - New step-by-step flow (with wireframes or detailed descriptions)
-   - How do you handle the team invite step?
-   - How do you preserve integration adoption without blocking?
-
-3. **Key Design Decisions**
-   - What did you add, remove, or change?
-   - Why will this improve conversion?
+   - How do you handle the team invite step and preserve integration adoption without blocking?
+   - How do you get users to value faster? How do you reintroduce "skipped" steps later?
    - What trade-offs are you making?
 
-4. **Progressive Disclosure Strategy**
-   - How do you get users to value faster?
-   - When do you ask for team invites?
-   - How do you reintroduce "skipped" steps later?
+3. **V1 Scope & Success Metrics**
+   - What's the minimum viable improvement for a 2-week sprint? What would you cut?
+   - How would you measure if this works? What leading indicators would you track?
 
-5. **Success Metrics**
-   - How would you measure if this works?
-   - What leading indicators would you track?
-   - How long before you'd know if it's working?
+### Format
 
-6. **V1 Scope (2-week sprint)**
-   - What's the minimum viable improvement?
-   - What would you cut if engineering says it's too much?
-   - What's the phased rollout plan?
-
-### Deliverable Format
-
-- Wireframes (low or high fidelity, your choice)
-- Written rationale for each major decision
-- Can use Figma, Sketch, or even hand-drawn + photos
+Submit as PDF, Markdown, or Figma link. **Maximum 4 pages** (wireframes don't count toward limit). Can use Figma, Sketch, or even hand-drawn + photos. Estimated time: 1-2 hours.
 
 ### Evaluation Criteria
 

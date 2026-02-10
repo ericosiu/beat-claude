@@ -33,7 +33,7 @@ Example: `[marketing-strategy-001] - Jane Smith`
 - **One submission per challenge** — no resubmissions
 - **Use any tools you want** — AI, research, collaborators
 - **No plagiarism** — your work, your thinking
-- **No length requirement** — be as brief or detailed as the strategy demands
+- **Maximum 4 pages** — we value clarity and prioritization, not volume
 
 ## Questions?
 

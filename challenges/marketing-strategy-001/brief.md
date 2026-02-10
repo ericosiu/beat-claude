@@ -37,28 +37,18 @@ Create a **90-day go-to-market strategy** to get them from $0 to $50K MRR.
 
 Your strategy should include:
 
-1. **Channel Prioritization**
-   - Which 2-3 channels will you focus on and why?
-   - What will you explicitly NOT do?
+1. **Channel Prioritization & Budget Allocation**
+   - Which 2-3 channels will you focus on and why? What will you explicitly NOT do?
+   - You have $100K to deploy over 90 days—how do you allocate it across channels, tools, and people?
 
-2. **Budget Allocation**
-   - You have $100K to deploy over 90 days
-   - How do you allocate it across channels, tools, and people?
-
-3. **Specific Campaigns**
+2. **Specific Campaigns**
    - Describe 3 specific campaigns or initiatives
    - Include expected outcomes and success metrics
 
-4. **Pricing Recommendation**
-   - What pricing model and price points?
-   - How does this support the $50K MRR goal?
-
-5. **Key Risks**
-   - What could go wrong?
-   - How do you mitigate each risk?
-
-6. **90-Day Milestones**
+3. **Pricing & 90-Day Milestones**
+   - What pricing model and price points? How does this support the $50K MRR goal?
    - What should be true at Day 30, 60, and 90?
+   - What are the key risks and how do you mitigate them?
 
 ### Constraints
 
@@ -75,7 +65,7 @@ Your answer will be compared against Claude's answer to this same brief in a bli
 
 ### Format
 
-Submit as PDF or Markdown. No length requirement—be as concise or detailed as the strategy demands.
+Submit as PDF or Markdown. **Maximum 4 pages.** We value clarity and prioritization—if you can make your case in 2 pages, don't write 4. Estimated time: 1-2 hours.
 
 ---
 
