@@ -51,16 +51,9 @@ To beat Claude, you need to add something it couldn't.
 
 ## How to Submit
 
-Email your answer to `beat-claude@singlegrain.com`
+Apply through our careers page: **[singlegrain.com/careers](https://www.singlegrain.com/careers/)**
 
-**Subject line:** `[Challenge-ID] - Your Name`
-
-Example: `[marketing-strategy-001] - Jane Smith`
-
-**Include:**
-- Your answer (PDF or Markdown)
-- LinkedIn URL
-- Resume (optional)
+Upload your challenge answer (PDF or Markdown) along with your application.
 
 ## What Happens Next
 
@@ -81,7 +74,7 @@ Top performers who beat Claude: [Hall of Fame](leaderboard/HALL_OF_FAME.md)
 
 ## Questions?
 
-Open an issue or email `beat-claude@singlegrain.com`
+Open an issue or apply at [singlegrain.com/careers](https://www.singlegrain.com/careers/)
 
 ---
 
