@@ -70,14 +70,14 @@ This challenge-specific rubric supplements the [general scoring methodology](../
 **What we're looking for:**
 - Scannable — uses tables, bullets, headers
 - Gets to the point fast — diagnosis before solution, then action
-- Respects the 4-page limit without feeling cramped
+- Respects the 2-page limit without feeling cramped
 - Writes like someone who sends "Done" messages, not "Working on it" messages
 
 **Red flags:**
 - Long preambles before getting to the plan
 - Excessive use of frameworks and acronyms
 - Reads like a consulting deck (polished but hollow)
-- Over 4 pages
+- Over 2 pages
 
 ---
 

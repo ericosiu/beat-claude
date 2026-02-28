@@ -136,7 +136,7 @@ Based on this data, which crons do you keep, kill, or improve? Show your reasoni
 
 ## Format
 
-**Maximum 4 pages.** If you can make your case in 3, don't write 4. Diagrams and decision trees don't count toward the limit. Estimated time: 1-2 hours.
+**Maximum 2 pages.** Diagrams and decision trees don't count toward the limit. Estimated time: 1-2 hours.
 
 Your submission is scored alongside Claude's baseline answer in a blind review. See [SCORING.md](../../SCORING.md) for the general rubric.
 
