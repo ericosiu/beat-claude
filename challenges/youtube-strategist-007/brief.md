@@ -62,7 +62,7 @@ Your strategy should include:
 ### Constraints
 
 - Eric can dedicate 4-6 hours/week to filming (he runs two companies)
-- Budget for editor + thumbnail designer is $5K-8K/month
+- Budget for editor + thumbnail designer is modest (think small team, not a studio)
 - The channel must serve Single Grain's brand (lead gen for the agency)
 - Content should position Eric as a thought leader in AI + marketing
 - Team currently: 1 video editor, 1 social media coordinator

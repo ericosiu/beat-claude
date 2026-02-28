@@ -28,7 +28,7 @@ This challenge-specific rubric supplements the [general scoring methodology](../
 - Thumbnail descriptions or concepts, not just "make better thumbnails"
 - Specific posting schedule with days/times
 - Real competitor analysis—references actual videos/creators with specifics
-- Budget allocation across the $5K-8K/month team budget
+- Budget allocation across the small-team budget
 
 **Red flags:**
 - "Create a content calendar" without showing what's on it

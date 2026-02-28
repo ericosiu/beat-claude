@@ -10,7 +10,7 @@ The problem: the talent function is understaffed, mostly reactive, and not using
 
 **Company Snapshot**
 - ~60 employees across marketing, engineering, operations, and leadership
-- Revenue: mid-eight figures, growing
+- Growing agency with Fortune 500 and venture-backed clients
 - Clients include Fortune 500 companies and venture-backed startups
 - CEO Eric Siu is publicly vocal about AI adoption—the company runs on Claude Code, AI agents, and automation internally
 - Hybrid/remote team, primarily US-based
