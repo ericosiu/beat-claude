@@ -48,7 +48,7 @@ To beat Claude, you need to add something it couldn't.
 | [Sales AE 006](challenges/sales-ae-006/) | Account Executive | Medium |
 | [YouTube Strategist 007](challenges/youtube-strategist-007/) | YouTube Strategist | Hard |
 | [Talent Manager 008](challenges/talent-manager-008/) | Senior Talent Manager | Hard |
-| [Ops COO 009](challenges/ops-coo-009/) | Head of Operations / COO | Hard |
+| [Ops COO 009](challenges/ops-coo-009/) | COO / GM | Hard |
 
 ## How to Submit
 

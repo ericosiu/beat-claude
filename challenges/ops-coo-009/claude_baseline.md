@@ -14,7 +14,7 @@
 - Quick scan: which items are already stale beyond recovery? Mark those dead. Likely cuts 23 to 15-18 actionable items.
 
 **Hour 2-4: Stop the Bleeding (ClickFlow Churn)**
-- The 2 churning ClickFlow customers are the highest-leverage fire. ClickFlow is $11K MRR — losing 2 customers could be 15-20% of revenue.
+- The 2 churning ClickFlow customers are the highest-leverage fire. TES products are at $12K MRR — losing 2 customers could be 15-20% of revenue.
 - Pull their usage data and churn signals. Draft a retention email for each: acknowledge the issue, offer a 30-minute call this week, propose a specific fix based on their usage pattern.
 - Send these personally. Don't wait for a process.
 
@@ -125,7 +125,7 @@ If the answer to #1 is "rarely" — the cron is either producing bad output or s
 | LinkedIn Prospect Sourcer | **Improve** | 8% meeting conversion is low but the volume matters — 2x daily is aggressive. Reduce to 1x daily, tighten ICP criteria, require 2+ promotion history. Fewer, better profiles. Target: 20% conversion. |
 | Content Repurpose — YouTube | **Keep** | 35% publish rate is healthy for content. The 65% unpublished isn't waste — it's editorial filtering working correctly. No changes needed. |
 | Deal Revival Scan | **Keep** | 60% follow-up rate on 3-5 deals weekly is strong. This is a high-value, low-volume cron. Leave it. |
-| Competitor Pricing Monitor | **Kill** | 3% action rate on daily alerts = noise. Pricing doesn't change daily. Switch to weekly or kill entirely. At a $7M agency, competitor pricing intel is nice-to-know, not act-on-daily. Kill it, revisit quarterly. |
+| Competitor Pricing Monitor | **Kill** | 3% action rate on daily alerts = noise. Pricing doesn't change daily. The cron scrapes 12 competitor sites every 24 hours to catch price changes that happen maybe once a quarter. Kill it, revisit quarterly with a manual check. |
 | Churn Signal Detector | **Improve** | 20% investigation rate on churn flags is dangerously low — this is revenue protection. The cron isn't the problem; the response process is. Make churn signals auto-escalate to yellow tier with required same-day investigation. Target: 90% investigation rate. |
 | Weekly Content Calendar | **Keep** | 50% usage of a weekly calendar is reasonable. Content teams cherry-pick what fits. If it dropped below 30%, I'd revisit. |
 | Candidate Outreach Follow-up | **Kill** | 5% response rate on automated re-engagement is below the noise floor. If the first sequence didn't work, robotic follow-ups won't fix it. Kill the auto-follow-up, replace with a weekly manual review of top 5 stale candidates worth a personal touch. |
@@ -134,15 +134,17 @@ If the answer to #1 is "rarely" — the cron is either producing bad output or s
 
 ---
 
-## Part 4: AI Operating Edge
+## Part 4: Operating Edge
 
-### Workflow I've Automated
+### AI Fluency
+
+#### Workflow I've Automated
 
 *Note: As Claude, I don't have personal operational experience to draw from. A human candidate should describe a real workflow here with actual before/after metrics. This is the section where humans have the strongest advantage — real war stories beat generated frameworks every time.*
 
 A strong answer would include: the specific problem, the tools used, the time/cost before automation, the time/cost after, and what broke along the way. Generic "I automated email with AI" answers are equivalent to this baseline.
 
-### Evaluating Oracle's SEO Recommendations
+#### Evaluating Oracle's SEO Recommendations
 
 To evaluate 12 "quick win" keywords without being an SEO expert, I'd check:
 
@@ -152,9 +154,9 @@ To evaluate 12 "quick win" keywords without being an SEO expert, I'd check:
 4. **What's the business relevance?** "Best marketing agency" is valuable. "What is marketing" is informational with low conversion intent. Filter for commercial/transactional keywords.
 5. **Track record check:** Of Oracle's last 20 recommendations, how many were actioned and what happened to their rankings? If no one's tracking this, that's the first thing to fix.
 
-### Head of Operations in 2028
+#### COO / GM in 2028
 
-By 2028, a Head of Operations at an AI-native company:
+By 2028, a COO / GM at an AI-native company:
 
 **Manages 20-50 AI agents the way a VP manages 20-50 people.** Performance reviews become output audits. 1:1s become prompt tuning. Hiring becomes agent deployment. Firing becomes decommissioning.
 
@@ -164,6 +166,24 @@ By 2028, a Head of Operations at an AI-native company:
 
 **The biggest risk in 2028:** Over-automating judgment calls. The temptation will be to automate everything, including decisions that require context, relationships, and intuition. The best ops leaders will know where the automation boundary should be — and will resist pressure to push it further than it should go.
 
+### Operational Experience
+
+#### Installing an Operating Rhythm
+
+*Note: As Claude, I cannot provide a real example of inheriting a broken operating rhythm. A human candidate should describe: what the cadence looked like before them (chaos, missed deadlines, no standups), what they installed (specific meetings, dashboards, reporting cadences), and how they enforced it when people resisted. The enforcement part is the real test — anyone can design a cadence, but making it stick requires a specific kind of operational authority.*
+
+#### Process Enforcement
+
+*Note: Claude cannot demonstrate process enforcement from experience. A strong answer names the specific process, who pushed back, why they pushed back, and what the candidate did to make compliance the path of least resistance. The best answers show a mix of firmness and systems thinking — making it harder to not follow the process than to follow it.*
+
+#### Keeping Trains on Time
+
+*Note: The cross-departmental coordination question is where real COOs/GMs distinguish themselves. Claude can describe frameworks (RACI matrices, project management tools, escalation paths), but the human advantage is describing the messy reality: the sales team that hates reporting, the creative team that misses deadlines, the exec who changes priorities mid-sprint. A strong answer shows how they handled the human friction, not just the process design.*
+
+### MMPI Self-Assessment
+
+*Note: As Claude, I cannot take a personality assessment. This section exists specifically to reveal something AI cannot provide — genuine self-awareness about personal wiring, strengths, blind spots, and how those traits map to the demands of this role. The best answers will show a candidate who knows how they're built and can articulate why that wiring makes them effective (or where they need to compensate).*
+
 ---
 
-*Total: ~3.5 pages*
+*Total: ~3.5 pages (Claude's answer is intentionally weaker on Part 4 Operational Experience and MMPI — these are the widest gaps for human candidates to exploit)*

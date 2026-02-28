@@ -4,15 +4,14 @@
 
 ### The Situation
 
-You're the new Head of Operations at a marketing agency that's mid-transition from traditional services to tech-enabled services (TES). The company has built an AI agent system that generates 50+ outputs per day. Nobody converts those outputs into outcomes. You're here to fix that.
+You're the new COO / GM at a marketing agency that's mid-transition from traditional services to tech-enabled services (TES). The company has built an AI agent system that generates 50+ outputs per day. Nobody converts those outputs into outcomes. You're here to fix that.
 
 **The Company: Single Grain**
 - ~45-person digital marketing agency (SEO, Paid Media, Creative, CRO)
 - Working with Amazon, Uber, Salesforce-class clients
-- Average agency deal: $20K+ MRR
-- SaaS product (ClickFlow): $11K MRR, targeting $25K MRR by end of year
-- Second product (Karrot): LinkedIn ad platform, stable revenue
-- Total revenue target: $7M this year, 50% TES revenue by 2028
+- Average agency deal: $20-30K MRR
+- Two TES/SaaS products (ClickFlow + Karrot): $12K combined MRR, targeting $83K MRR by end of year, with new signups coming in daily
+- Goal: 50% TES revenue by 2028
 
 **The CEO: Eric Siu**
 - ENTJ/8w7, Kolbe Quick Start 9, Follow Thru 2
@@ -75,26 +74,35 @@ Eric can't review 15+ items daily. Design a system that reduces his daily load t
 
 ### Part 3: The Elon Algorithm Audit
 
-You've been here 30 days. Time to audit the 48 crons. Here's a sample:
+You've been here 30 days. Time to audit the 48 crons. Here's a sample of 8 with descriptions of what each one does:
 
-| Cron | Agent | Frequency | Output | Action Rate |
-|------|-------|-----------|--------|-------------|
-| GSC Quick Win Scan | Oracle | Daily | 8-12 keywords | 12% actioned |
-| LinkedIn Prospect Sourcer | Cyborg | 2x daily | 10-15 profiles | 8% converted to meetings |
-| Content Repurpose — YouTube | Flash | Daily per video | 5-8 social posts | 35% published |
-| Deal Revival Scan | Alfred | Weekly | 3-5 stale deals | 60% followed up |
-| Competitor Pricing Monitor | Oracle | Daily | Price change alerts | 3% led to action |
-| Churn Signal Detector | Alfred | Daily | Risk flags | 20% investigated |
-| Weekly Content Calendar | Flash | Weekly | 15-post calendar | 50% used |
-| Candidate Outreach Follow-up | Cyborg | Daily | Re-engagement msgs | 5% response rate |
+| Cron | Agent | Frequency | What It Does | Output | Action Rate |
+|------|-------|-----------|-------------|--------|-------------|
+| GSC Quick Win Scan | Oracle | Daily | Pulls Google Search Console data to find pages ranking positions 8-20 that could move to page 1 with minor optimization (title tag changes, content additions, internal linking) | 8-12 keyword recommendations with specific pages and suggested changes | 12% actioned |
+| LinkedIn Prospect Sourcer | Cyborg | 2x daily | Searches LinkedIn for prospects matching our ICP (marketing leaders at companies $10M-$500M revenue), enriches profiles with company data, and drafts personalized outreach messages | 10-15 prospect profiles with draft outreach sequences | 8% converted to meetings |
+| Content Repurpose — YouTube | Flash | Daily per video | Takes new YouTube uploads from Eric's channel, pulls transcript, identifies 3-5 clip-worthy moments, generates platform-specific posts (LinkedIn, X, Instagram) with hooks and captions | 5-8 social posts per video, formatted per platform | 35% published |
+| Deal Revival Scan | Alfred | Weekly | Scans CRM for deals marked closed-lost or stalled in the last 90 days, cross-references with recent company news (funding, leadership changes, hiring signals) to identify re-engagement opportunities | 3-5 stale deals with trigger events and suggested re-approach angles | 60% followed up |
+| Competitor Pricing Monitor | Oracle | Daily | Scrapes competitor websites and G2/Capterra for pricing changes, new plan tiers, or promotional offers across 12 tracked competitors | Price change alerts with before/after comparison | 3% led to action |
+| Churn Signal Detector | Alfred | Daily | Monitors ClickFlow product usage data — flags accounts with declining logins, reduced feature usage, or support ticket spikes compared to their 30-day average | Risk flags with usage trend data and days since last login | 20% investigated |
+| Weekly Content Calendar | Flash | Weekly | Aggregates trending topics from Oracle's keyword data + social listening, maps them to Eric's content pillars, and generates a 15-post editorial calendar with suggested formats and hooks | 15-post calendar with topic, format, platform, and draft hook for each | 50% used |
+| Candidate Outreach Follow-up | Cyborg | Daily | Re-engages candidates who didn't respond to initial outreach after 5 days — sends a templated follow-up referencing their recent LinkedIn activity or company news | Automated re-engagement messages to non-responsive candidates | 5% response rate |
 
 Based on this data, which crons do you keep, kill, or improve? Show your reasoning. What's your framework for making this call?
 
-### Part 4: Your AI Operating Edge
+### Part 4: Your Operating Edge
 
+**AI Fluency:**
 - What's one operational workflow you've personally automated or augmented with AI? Give us the before/after with real metrics.
 - You're reviewing Oracle's output from last night: 12 "quick win" keywords for singlegrain.com. How do you evaluate whether these are actually good recommendations without being an SEO expert?
-- What does a Head of Operations look like in 2028 at a company where AI agents do 60% of the production work?
+- What does a COO / GM look like in 2028 at a company where AI agents do 60% of the production work?
+
+**Operational Experience:**
+- Tell us about a time you inherited a broken or nonexistent operating rhythm and installed one. What did the cadence look like? How did you enforce it when people resisted?
+- How do you ensure processes actually get followed — not just documented? Give a specific example of a process you enforced that people initially pushed back on.
+- Describe a situation where you had to keep the trains running on time across multiple departments or workstreams with competing priorities. What was the mechanism?
+
+**MMPI Self-Assessment:**
+- Using your preferred LLM (ChatGPT, Claude, Gemini, etc.), run an MMPI-style personality assessment on yourself. Include the key findings in your submission. We're not looking for a perfect profile — we're looking for self-awareness and willingness to be transparent about how you're wired.
 
 ---
 
@@ -135,5 +143,9 @@ Your submission is scored alongside Claude's baseline answer in a blind review. 
 ---
 
 **Ready to submit?** Email to `beat-claude@singlegrain.com` with subject line `[ops-coo-009] - Your Name`
+
+**Include with your submission:**
+- Your LinkedIn profile URL (we're looking for long tenure and a track record of promotions — ideally at 2+ companies, because that means multiple organizations valued you enough to invest in your growth)
+- Your MMPI self-assessment results (from Part 4)
 
 **Questions?** Open an issue in this repo.

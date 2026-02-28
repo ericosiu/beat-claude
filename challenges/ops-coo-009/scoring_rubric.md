@@ -101,4 +101,18 @@ Claude's baseline answer is structured and methodical:
 - Part 1 (Triage): Real operators know which fires are recoverable and which aren't — that instinct comes from experience, not analysis
 - Part 2 (Risk Tiering): The hardest part isn't the framework — it's knowing where the auto-approve boundary should be, which requires having made the wrong call before
 - Part 3 (Elon Algorithm): Claude will be balanced and diplomatic about killing crons. A great candidate will be decisive and slightly aggressive — they know that keeping things alive has a cost
-- Part 4 (AI Edge): Claude will admit it has no personal experience. This is the widest gap in the entire challenge.
+- Part 4 (Operating Edge): Claude will admit it has no personal experience. The operational experience questions (process enforcement, keeping trains running) are where real COOs/GMs shine — you can't fake "I enforced a cadence that people hated at first." The MMPI adds a self-awareness dimension Claude can't replicate.
+
+### LinkedIn & Background (Evaluated Separately)
+
+**What we're looking for:**
+- Long tenure at companies (not a job-hopper)
+- Track record of promotions — ideally at 2+ companies (multiple organizations invested in their growth)
+- COO, GM, VP Ops, or Head of Ops titles in their history
+- Evidence of running operations, not just advising on them
+
+**Red flags:**
+- Average tenure under 18 months across roles
+- No promotions visible — lateral moves only
+- LinkedIn is sparse or unverifiable
+- No operational titles in work history
