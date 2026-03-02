@@ -49,6 +49,7 @@ To beat Claude, you need to add something it couldn't.
 | [YouTube Strategist 007](challenges/youtube-strategist-007/) | YouTube Strategist | Hard |
 | [Talent Manager 008](challenges/talent-manager-008/) | Senior Talent Manager | Hard |
 | [Ops COO 009](challenges/ops-coo-009/) | COO / GM | Hard |
+| [Sales Director 010](challenges/sales-director-010/) | Sales Director (Player-Coach) | Hard |
 
 ## How to Submit
 
