@@ -1,4 +1,4 @@
-# Scoring Rubric: Talent Manager 008
+# Scoring Rubric: Head of Talent 008
 
 This challenge-specific rubric supplements the [general scoring methodology](../../SCORING.md).
 
@@ -7,104 +7,108 @@ This challenge-specific rubric supplements the [general scoring methodology](../
 ### Strategic Depth (30 points)
 
 **What we're looking for:**
-- Understands that agency talent is a fundamentally different problem than tech company talent (high turnover industry, margin pressure, client-facing roles, pace)
-- Recognizes that "hire great people" is a company priority—this isn't a backfill function, it's a growth engine
+- Understands this is a people function build, not just a recruiting gig — addresses performance, comp, culture, and retention alongside hiring
+- Recognizes that agency talent is fundamentally different from tech company talent (high turnover industry, margin pressure, client-facing roles, pace)
 - Addresses the tension between speed (unfilled seats cost revenue) and quality (bad hires cost more)
-- Thinks about talent as a system, not a series of one-off hires
-- Connects employer brand to the specific assets Single Grain has (Eric's brand, Beat Claude, AI culture)
-- Second-order thinking: what happens when you hire AI-native people into an agency structure? What cultural tensions arise?
+- Thinks about people infrastructure as a system — each piece (recruiting, onboarding, performance, comp, retention) reinforces the others
+- Understands the cultural complexity of the agency-to-TES transition: two business models, two types of employees (agency operators vs. product builders), and the friction between them
+- Second-order thinking: what happens to agency culture when you hire AI-native product people? How do you unify comp bands across services and SaaS?
 
 **Red flags:**
+- Treats this as a recruiting role and ignores performance/comp/culture
 - Generic HR playbook that could apply to any company
 - Ignores the agency context entirely (margins, client pressure, turnover norms)
-- Suggests building a large talent team when budget is one headcount + $3K/month
-- Doesn't address the "AI-enabled" requirement beyond surface level
-- Treats Beat Claude as a gimmick rather than a strategic asset
+- Suggests building a large HR team when budget is one headcount + $3K/month
+- Doesn't address the dual business model challenge (agency + TES)
+- Performance management section is just "do quarterly reviews"
 
 ### Specificity (25 points)
 
 **What we're looking for:**
 - Names a specific ATS with reasoning (not just "implement an ATS")
-- Actual outreach message templates (not just "write personalized messages")
-- Specific interview questions and what they're evaluating
-- Named tools with costs (Ashby vs. Greenhouse vs. Lever, and why)
+- Actual compensation bands with ranges for at least 2-3 key roles
+- Specific performance review cadence and format designed for agency speed
+- Named tools with costs and a real $3K/month budget allocation
 - Onboarding schedule by day/week with actual activities
 - Concrete employer brand content ideas (not just "create content")
-- Budget breakdown: how does $3K/month get allocated across tools?
+- Specific interview questions and what they're evaluating
+- Outreach message templates (not just "write personalized messages")
+- A leveling framework (even a simple one) with criteria for advancement
 
 **Red flags:**
 - "Implement a modern ATS" without naming one
-- "Build an employer brand" without describing what that looks like
+- "Build comp bands" without showing what they look like
+- "Design a performance system" without specifying format, frequency, or tools
 - "Use AI for screening" without explaining how
-- Onboarding section is a list of principles rather than a schedule
-- No numbers anywhere (targets, costs, timelines)
+- No numbers anywhere (targets, costs, timelines, salary ranges)
 
 ### AI Fluency (20 points)
 
-**This challenge is fundamentally about AI-enabled talent management. We want to see:**
-- A genuine AI workflow for recruiting—not "use ChatGPT to write job descriptions" but an end-to-end pipeline where AI is integrated at every step
-- Understanding of where AI adds real value in talent (sourcing at scale, pattern matching in resumes, personalized outreach, data analysis) vs. where it's dangerous (final hiring decisions, diversity, culture assessment)
-- Specific prompt strategies or approaches for talent tasks
-- Thoughtful treatment of AI bias in hiring—this is a legal and ethical minefield. Do they know that?
-- Ideas for using AI in onboarding and retention (not just recruiting)
-- Recognition that the talent function should model the AI culture they're hiring for
+**This challenge is about building an AI-native people function. We want to see:**
+- AI integrated across the full people lifecycle — not just recruiting, but performance analysis, comp benchmarking, retention prediction, and culture health monitoring
+- Understanding of where AI adds real value in people ops (sourcing at scale, pattern matching in resumes, engagement sentiment analysis, comp market data) vs. where it's dangerous (final hiring decisions, performance ratings, termination decisions)
+- Specific prompt strategies or workflows for people tasks
+- Thoughtful treatment of AI bias in hiring — this is a legal and ethical minefield. EEOC implications, state-specific AI hiring laws, adverse impact analysis
+- Ideas for AI-powered manager enablement (coaching prompts, 1:1 agendas, feedback drafting)
+- Recognition that the people function should model the AI culture it's hiring for
 
 **Red flags:**
 - AI section reads like a tool wishlist with no workflow
+- AI only appears in the recruiting section — absent from performance, comp, retention
 - No mention of bias/fairness concerns in AI-assisted hiring
-- Suggests fully automating hiring decisions
-- Treats AI as a nice-to-have rather than core to the strategy
-- Doesn't connect the company's AI culture to the talent strategy
+- Suggests fully automating hiring or performance decisions
+- "I use ChatGPT for job descriptions" as the AI strategy
 
 ### Creativity (15 points)
 
 **What we're looking for:**
-- Non-obvious sourcing channels or strategies (beyond LinkedIn + job boards)
+- Non-obvious sourcing channels or strategies beyond LinkedIn + job boards
 - Creative uses of Eric's content and brand for recruiting
-- Innovative assessment ideas beyond standard interviews
-- Fresh thinking on agency retention (this is a notoriously hard problem—conventional answers won't score well)
+- Innovative performance management that fits agency speed (not corporate annual review theater)
+- Fresh thinking on agency retention — this is notoriously hard and conventional answers won't score well
 - Ideas for making "Beat Claude" a bigger recruiting flywheel
-- Novel approaches to onboarding that leverage AI in ways we haven't seen
+- A comp philosophy that competes with FAANG on total value even when base salary can't match
+- Novel approaches to maintaining culture across the agency-to-TES transition
+- Ideas borrowed from product design (employee journey mapping, internal NPS, experience optimization)
 
 **Bonus points for:**
-- Ideas that turn the talent function into a marketing asset (recruiting content that also builds the brand)
+- Ideas that turn the people function into a brand asset (recruiting content that also builds the brand)
 - Creative retention strategies specific to AI-native professionals
-- Unconventional sourcing that taps into communities most recruiters don't reach
-- Approaches borrowed from product design (candidate journey mapping, funnel optimization, NPS)
+- A leveling or career progression framework that works across both agency and TES roles
+- Approaches to manager development that don't require a dedicated L&D team
 
 ### Communication (10 points)
 
 **What we're looking for:**
 - Reads like a strategy doc you'd present to the CEO, not an HR textbook
-- Clear prioritization—what do you do first, second, third?
+- Clear prioritization — what do you build first, second, third?
 - Tables, timelines, and frameworks that make the strategy scannable
-- Appropriate level of detail (enough to execute, not so much it's overwhelming)
-- Writes about talent the way a business leader thinks about it (revenue impact, ROI, systems) not the way a generic recruiter does (process, compliance, policies)
+- Writes about people the way a business leader thinks about it (revenue impact, ROI, systems) not the way a generic HR person does (process, compliance, policies)
+- Respects the 4-page limit — shows ability to prioritize ruthlessly
 
 ---
 
 ## Hints for What Beats Claude
 
-Claude's baseline answer covers the fundamentals well:
-- Reasonable talent audit
-- Competent ATS recommendation (Ashby)
-- Standard AI workflow table
-- Logical onboarding program
-- Sensible metrics and milestones
+Claude's baseline answer covers the recruiting fundamentals well but treats performance, comp, and culture as afterthoughts:
+- Competent ATS recommendation and interview process design
+- Standard AI workflow table for recruiting
+- Reasonable 90-day milestones focused heavily on hiring
+- Performance and comp sections are surface-level frameworks without real substance
 
 **To beat it, you might:**
-- **Show real agency recruiting experience.** Claude talks about agencies generically. If you've actually hired for agencies, show it—reference real challenges, real solutions, real outcomes
-- **Go deeper on AI bias and compliance.** Claude mentions bias briefly. This is a legal and ethical area where depth matters. EEOC implications, adverse impact analysis, state-specific AI hiring laws—show you actually understand the risks
-- **Propose a creative sourcing strategy.** Claude suggests LinkedIn + referrals + communities. What's the non-obvious channel? How do you reach AI-native marketers who aren't on LinkedIn Recruiter?
-- **Design the Beat Claude flywheel.** Claude mentions promoting it. How do you turn it into a self-sustaining candidate pipeline that grows organically?
-- **Get specific on comp strategy.** Claude acknowledges agencies can't match FAANG. But what's the actual comp philosophy? How do you structure offers that win on total value, not just base salary?
-- **Address the hard retention problem.** Agency retention is brutal. Claude offers standard advice. If you've solved this problem or seen it solved, show us how
-- **Make the onboarding program feel real.** Claude's onboarding is a framework. Design Day 1 hour-by-hour. Design Week 1 session-by-session. Make it so concrete we could run it tomorrow
+- **Show you've built a people function before.** Claude talks frameworks. If you've actually stood up HR/People from scratch at a growing company, show it — reference real challenges, real solutions, real outcomes
+- **Go deep on performance management.** Claude's answer is "quarterly reviews + engagement surveys." Design an actual system: what format? What questions? How do you calibrate across departments? How do you handle underperformance at an agency where every seat costs money?
+- **Design real comp bands.** Claude acknowledges the FAANG pay gap. You should present an actual comp philosophy with sample bands, total comp structure, and a rationale for how to win on value when you can't win on base
+- **Address the cultural tension of agency-to-TES.** Two business models = two cultures trying to coexist. Claude mentions it once. You should have a strategy for it
+- **Propose a retention system, not just retention ideas.** Agency retention is brutal. Don't give generic advice. Show the early warning system, the intervention playbook, the manager toolkit
+- **Go deeper on AI bias and compliance.** Claude mentions bias briefly. This is a legal and ethical area where depth matters. EEOC implications, adverse impact analysis, state-specific AI hiring laws
+- **Make the onboarding program feel real.** Design Day 1 hour-by-hour. Design Week 1 session-by-session. Make it so concrete we could run it tomorrow
 
 **Claude's answer tends to be:**
-- Comprehensive but reads like a consulting deck
+- Strong on recruiting mechanics but thin on the rest of the people function
 - Correct on AI tools but generic on workflow depth
-- Solid on structure but lacks "I've done this before" credibility
-- Good framework but not enough "here's exactly what I'd do Monday morning"
+- Solid structure but lacks "I've built this before" credibility
+- Good frameworks but missing the hard parts: comp negotiations, underperformance conversations, cultural friction
 
-The bar to beat is "smart generalist who read about modern recruiting." To win, show us you've actually built talent functions, solved agency-specific hiring problems, and know how to operate AI tools in recruiting—not just theorize about them.
+The bar to beat is "smart generalist who read about modern HR." To win, show us you've actually built a people function, solved agency-specific retention problems, designed comp systems that compete without FAANG budgets, and built performance systems that actually drive accountability — not just compliance.

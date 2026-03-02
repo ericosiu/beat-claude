@@ -47,7 +47,7 @@ To beat Claude, you need to add something it couldn't.
 | [Product Designer 005](challenges/product-designer-005/) | Senior Product Designer | Medium |
 | [Sales AE 006](challenges/sales-ae-006/) | Account Executive | Medium |
 | [YouTube Strategist 007](challenges/youtube-strategist-007/) | YouTube Strategist | Hard |
-| [Talent Manager 008](challenges/talent-manager-008/) | Senior Talent Manager | Hard |
+| [Head of Talent 008](challenges/talent-manager-008/) | Head of Talent (End-to-End People Function) | Hard |
 | [Ops COO 009](challenges/ops-coo-009/) | COO / GM | Hard |
 | [Sales Director 010](challenges/sales-director-010/) | Sales Director (Player-Coach) | Hard |
 
