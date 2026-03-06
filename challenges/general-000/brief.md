@@ -122,6 +122,7 @@ If yes — you advance to a conversation regardless of score (as long as you're 
 
 ---
 
-**Ready to submit?** Email to `beat-claude@singlegrain.com` with subject line `[general-000] - Your Name`
+**Ready to submit?** Apply through our careers page: **[singlegrain.com/careers](https://www.singlegrain.com/careers/)**
+Upload your challenge answer (PDF or Markdown) along with your application.
 
 **Questions?** Open an issue in this repo.

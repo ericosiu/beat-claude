@@ -142,7 +142,8 @@ Your submission is scored alongside Claude's baseline answer in a blind review. 
 
 ---
 
-**Ready to submit?** Email to `beat-claude@singlegrain.com` with subject line `[ops-coo-009] - Your Name`
+**Ready to submit?** Apply through our careers page: **[singlegrain.com/careers](https://www.singlegrain.com/careers/)**
+Upload your challenge answer (PDF or Markdown) along with your application.
 
 **Include with your submission:**
 - Your LinkedIn profile URL (we're looking for long tenure and a track record of promotions — ideally at 2+ companies, because that means multiple organizations valued you enough to invest in your growth)

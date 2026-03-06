@@ -83,4 +83,5 @@ Your answer will be compared against Claude's answer to this same brief in a bli
 
 **Questions about the brief?** Open an issue in this repo.
 
-**Ready to submit?** Email to `beat-claude@singlegrain.com` with subject line `[product-designer-005] - Your Name`
+**Ready to submit?** Apply through our careers page: **[singlegrain.com/careers](https://www.singlegrain.com/careers/)**
+Upload your challenge answer (PDF or Markdown) along with your application.

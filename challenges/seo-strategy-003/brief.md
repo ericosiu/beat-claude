@@ -88,4 +88,5 @@ Submit as PDF or Markdown. **Maximum 4 pages.** We value clarity and prioritizat
 
 **Questions about the brief?** Open an issue in this repo.
 
-**Ready to submit?** Email to `beat-claude@singlegrain.com` with subject line `[seo-strategy-003] - Your Name`
+**Ready to submit?** Apply through our careers page: **[singlegrain.com/careers](https://www.singlegrain.com/careers/)**
+Upload your challenge answer (PDF or Markdown) along with your application.

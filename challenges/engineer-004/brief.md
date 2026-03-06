@@ -76,4 +76,5 @@ Submit as PDF or Markdown. **Maximum 4 pages** (diagrams don't count toward limi
 
 **Questions about the brief?** Open an issue in this repo.
 
-**Ready to submit?** Email to `beat-claude@singlegrain.com` with subject line `[engineer-004] - Your Name`
+**Ready to submit?** Apply through our careers page: **[singlegrain.com/careers](https://www.singlegrain.com/careers/)**
+Upload your challenge answer (PDF or Markdown) along with your application.

@@ -4,21 +4,8 @@
 
 1. **Pick a challenge** from [`/challenges`](../challenges/)
 2. **Create your answer** (PDF or Markdown)
-3. **Email it** to `beat-claude@singlegrain.com`
-
-## Email Format
-
-**Subject:** `[challenge-id] - Your Name`
-
-Example: `[marketing-strategy-001] - Jane Smith`
-
-**Body:**
-- Brief intro (optional)
-- LinkedIn URL
-- Resume (optional)
-
-**Attachment:**
-- Your answer as PDF or Markdown
+3. **Apply through our careers page:** **[singlegrain.com/careers](https://www.singlegrain.com/careers/)**
+   Upload your challenge answer (PDF or Markdown) along with your application.
 
 ## What Happens Next
 
