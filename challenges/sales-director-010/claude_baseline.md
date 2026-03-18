@@ -10,7 +10,7 @@
 
 The hardest part of selling a hybrid services + product company isn't the product pitch — it's managing buyer confusion. When a prospect hears "agency," they think custom deliverables and high-touch service. When they hear "SaaS," they think self-serve and scalable. Single Grain is asking the market to hold both ideas simultaneously.
 
-The unlock is leading with outcomes, not delivery models. A $20K/month agency engagement and a ClickFlow subscription solve the same problem — growing organic traffic and revenue — through different mechanisms. The sales motion should match the buyer's sophistication and internal resources:
+The unlock is leading with outcomes, not delivery models. A $15K/month agency engagement and a ClickFlow subscription solve the same problem — growing organic traffic and revenue — through different mechanisms. The sales motion should match the buyer's sophistication and internal resources:
 
 - **Enterprise with large marketing teams** → ClickFlow (they have people to execute, need the intelligence layer)
 - **Mid-market without deep bench** → Agency services (they need hands on keyboards)
@@ -53,11 +53,11 @@ Pipeline triage criteria:
 
 | Product | ICP | Deal Size | Cycle |
 |---------|-----|-----------|-------|
-| Agency | VP Marketing at $50M-$500M companies, 10-50 person marketing team, spending $100K+/month on paid + organic | $20-40K MRR | 60-90 days |
-| ClickFlow | Head of Content / SEO Director at $20M+ companies, 500+ pages of content, organic traffic is a top-3 channel | $2-5K MRR | 14-30 days |
-| Karrot | Demand Gen / ABM leader at B2B software companies, running LinkedIn campaigns, $10K+/month ad spend | $3-8K MRR | 21-45 days |
+| Agency | VP Marketing at $30M-$300M companies, 10-50 person marketing team, spending $75K+/month on paid + organic | $15-30K MRR | 60-90 days |
+| ClickFlow | Head of Content / SEO Director at $25M+ companies, 500+ pages of content, organic traffic is a top-3 channel | $3-7K MRR | 14-30 days |
+| Karrot | Demand Gen / ABM leader at B2B software companies, running LinkedIn campaigns, $15K+/month ad spend | $2-6K MRR | 21-45 days |
 
-**Month 1 targets:** Close 2-3 Fast Close deals for $15-20K in new MRR. Complete pipeline audit. Have working knowledge of all three product pitches.
+**Month 1 targets:** Close 2-3 Fast Close deals for $10-15K in new MRR. Complete pipeline audit. Have working knowledge of all three product pitches.
 
 ### Days 31-60: Build the Machine
 
@@ -72,7 +72,7 @@ Pipeline triage criteria:
 
 **Sales Process by Product**
 
-Agency ($20K+ MRR):
+Agency ($15K+ MRR):
 1. Discovery call (30 min) → 2. Audit/strategy session (45 min) → 3. Proposal presentation → 4. Executive alignment → 5. Close
 - Typical cycle: 60-90 days
 - Key: multi-thread to CMO/VP level early
@@ -93,7 +93,7 @@ Karrot (SaaS):
 |--------|--------|
 | Meetings booked | 15/week (team) |
 | Proposals sent | 5/week (team) |
-| Pipeline created | $150K/month |
+| Pipeline created | $125K/month |
 | Speed-to-lead (inbound) | < 5 minutes |
 | Stage conversion rates | Track weekly, coach on drops |
 
@@ -108,7 +108,7 @@ Karrot (SaaS):
 
 ### Days 61-90: Scale
 
-**Hitting $30K Personal MRR While Leading**
+**Hitting $25K Personal MRR While Leading**
 
 Time split: 60% selling / 40% managing
 - I own 3-5 enterprise agency deals (highest ACV, longest cycle)
@@ -127,7 +127,7 @@ Time split: 60% selling / 40% managing
 
 **First Hire: Second Closer (Month 3-4)**
 
-Why: The current closer handles mid-market + SaaS. To scale, I need a second closer who can run enterprise agency deals so I can shift from 60/40 to 40/60 (more managing, less selling). I'd look for someone with agency sales experience and $50K+ deal experience.
+Why: The current closer handles mid-market + SaaS. To scale, I need a second closer who can run enterprise agency deals so I can shift from 60/40 to 40/60 (more managing, less selling). I'd look for someone with agency sales experience and $40K+ deal experience.
 
 **Weekly Team Cadence**
 
@@ -156,7 +156,7 @@ A structured AI workflow for deal research and preparation:
 
 ### AI-Powered Prospecting Play: ClickFlow
 
-**Target:** Head of Content / SEO Director at B2B SaaS companies, $20M+ revenue, 500+ published pages
+**Target:** Head of Content / SEO Director at B2B SaaS companies, $25M+ revenue, 500+ published pages
 
 **Step 1: ICP Research (AI)**
 - Use Claude to analyze top 50 ClickFlow customers → extract patterns (industry, company size, tech stack, content volume)
