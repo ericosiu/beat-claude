@@ -1,5 +1,7 @@
 # Claude's Answer: Sales Director 010
 
+> **Note:** Some financial figures in this challenge have been anonymized. Revenue targets, deal sizes, and company metrics are representative but do not reflect actual company data.
+
 *This is Claude's response to the challenge brief. Your submission will be compared against this in a blind review.*
 
 ---

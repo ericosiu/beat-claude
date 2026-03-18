@@ -1,5 +1,7 @@
 # Challenge: Sales Director 010
 
+> **Note:** Some financial figures in this challenge have been anonymized. Revenue targets, deal sizes, and company metrics are representative but do not reflect actual company data.
+
 ## Player-Coach: Build the Revenue Engine
 
 ### The Situation
@@ -19,7 +21,7 @@ You're the new Sales Director (Player-Coach) at a marketing agency mid-transitio
 | ClickFlow | SaaS | AI-powered content optimization. Recently launched. Primary growth lever for TES transformation. |
 | Karrot | SaaS | Personalized LinkedIn ad and landing page platform. Enterprise software customers. Stable revenue. |
 
-- Targeting $7M in total revenue this year
+- Revenue in the mid-eight figures annually
 - Goal: 50% TES (tech-enabled services) revenue by 2028
 - CEO Eric Siu hosts the Leveling Up podcast and co-hosts Marketing School with Neil Patel
 
