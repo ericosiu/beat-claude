@@ -7,9 +7,9 @@
 You're the new Sales Director (Player-Coach) at a marketing agency mid-transition from traditional services to tech-enabled services. You carry a personal quota AND lead a small sales team. You sell the full portfolio — agency services, SaaS product, and ad platform — depending on what fits the prospect.
 
 **The Company: Single Grain**
-- ~50-person digital marketing agency (SEO, Paid Media, Creative, CRO)
+- ~60-person digital marketing agency (SEO, Paid Media, Creative, CRO)
 - Working with Amazon, Uber, Salesforce-class clients
-- Average agency deal: $15K+ MRR
+- Average agency deal: $20K+ MRR
 
 **Three Business Lines**
 
@@ -19,7 +19,7 @@ You're the new Sales Director (Player-Coach) at a marketing agency mid-transitio
 | ClickFlow | SaaS | AI-powered content optimization. Recently launched. Primary growth lever for TES transformation. |
 | Karrot | SaaS | Personalized LinkedIn ad and landing page platform. Enterprise software customers. Stable revenue. |
 
-- Targeting $10M in total revenue this year
+- Targeting $7M in total revenue this year
 - Goal: 50% TES (tech-enabled services) revenue by 2028
 - CEO Eric Siu hosts the Leveling Up podcast and co-hosts Marketing School with Neil Patel
 
@@ -27,8 +27,8 @@ You're the new Sales Director (Player-Coach) at a marketing agency mid-transitio
 
 | Metric | Target |
 |--------|--------|
-| Personal quota | $25K/month in new MRR |
-| Team target | $3M annual |
+| Personal quota | $30K/month in new MRR |
+| Team target | $4M annual |
 
 **Your team on day one:** One BDR (top-of-funnel outbound), one Sales Ops/BDR hybrid (pipeline support + outbound), and one closer (runs deals).
 
@@ -68,7 +68,7 @@ Tell us why you want THIS role at THIS company. Not a generic cover letter. We w
 
 ### Part 2: 90-Day Sales Plan (Max 4 Pages)
 
-You just got the job. Build your 90-day plan to hit $25K/month in personal MRR and set the team up for the $3M annual target. Be specific.
+You just got the job. Build your 90-day plan to hit $30K/month in personal MRR and set the team up for the $4M annual target. Be specific.
 
 **Your plan must address:**
 
@@ -80,12 +80,12 @@ You just got the job. Build your 90-day plan to hit $25K/month in personal MRR a
 
 #### Days 31-60: Build the Machine
 - What's your outbound strategy? Channels, volume, messaging framework.
-- How do you structure the sales process for a $15K+/month agency deal vs. a ClickFlow SaaS sale vs. a Karrot pilot?
+- How do you structure the sales process for a $20K+/month agency deal vs. a ClickFlow SaaS sale vs. a Karrot pilot?
 - What CRM/pipeline hygiene do you implement? What metrics do you track weekly?
 - How do you identify whether current reps need coaching, new playbooks, or replacement?
 
 #### Days 61-90: Scale
-- How do you hit $25K MRR personal while also ramping the team?
+- How do you hit $30K MRR personal while also ramping the team?
 - What's your plan for cross-selling agency clients into ClickFlow/Karrot (and vice versa)?
 - What's the first hire you'd make to scale the team? Why?
 - What does your weekly sales team cadence look like? (meetings, reviews, pipeline calls)
