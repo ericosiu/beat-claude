@@ -22,7 +22,7 @@ This challenge-specific rubric supplements the [general scoring methodology](../
 
 **What we're looking for:**
 - 90-day plan with real mechanics, not just phases
-- Distinct sales motions for services ($20K+ MRR) vs. SaaS (ClickFlow/Karrot)
+- Distinct sales motions for high-value agency retainers vs. SaaS (ClickFlow/Karrot)
 - Realistic ramp assumptions with specific numbers
 - Cross-sell strategy between product lines
 - Team assessment framework (coach vs. replace decisions)
@@ -96,7 +96,7 @@ Claude's baseline answer is structured and methodical:
 - Demonstrate you've listened to Eric's content and understand his priorities
 - Propose a specific cross-sell motion with triggers and timing
 - Show how you've personally used AI to close more deals (with numbers)
-- Address the hardest part: how you close $30K/month yourself while also ramping a team
+- Address the hardest part: how you hit your personal quota while also ramping a team
 
 **Claude's answer tends to be:**
 - Structurally sound but generic enough to apply to any company
