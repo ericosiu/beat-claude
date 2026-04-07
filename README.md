@@ -30,11 +30,12 @@ To beat Claude, you need to add something it couldn't.
 
 ## Start Here
 
-**Don't see your role below? Start with the General Challenge.** It's open to anyone — no specific domain required. We're looking for exceptional thinkers, regardless of title.
+**Don't see your role below? Start with the General Challenge or the Internship Challenge.**
 
 | Challenge | Role Target | Difficulty |
 |-----------|-------------|------------|
 | [**General 000**](challenges/general-000/) | **Anyone — show us how you think** | **Open** |
+| [**Intern 011**](challenges/intern-011/) | **Internship — any role. Build an AI agent.** | **Hard** |
 
 ## Role-Specific Challenges
 
