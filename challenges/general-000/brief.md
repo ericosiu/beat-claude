@@ -8,7 +8,7 @@
 
 Single Grain is a digital marketing agency that works with companies like Amazon, Uber, and Salesforce. We're transitioning from a traditional agency to a tech-enabled services (TES) company - AI agents handle the repetitive work, humans do the thinking that AI can't.
 
-We use Claude Code, custom AI agents, and automation across every department. If you're not already working with AI daily, this probably isn't the right fit.
+We use AI coding tools, custom AI agents, and automation across every department. If you're not already working with AI daily, this probably isn't the right fit.
 
 ### Your Submission
 
@@ -70,7 +70,7 @@ We're an AI-forward company. This section is about how you work with AI today an
 
 Answer these:
 
-1. **Your AI stack.** What AI tools do you use daily? Not a list - tell us *how* you use them and what they've changed about your output. Be specific. "I use ChatGPT" tells us nothing. "I use Claude Code to run 5 parallel research agents that produce deliverables my team used to spend 3 days on" tells us a lot.
+1. **Your AI stack.** What AI tools do you use daily? Not a list - tell us *how* you use them and what they've changed about your output. Be specific. "I use ChatGPT" tells us nothing. "I use AI coding tools to run 5 parallel research agents that produce deliverables my team used to spend 3 days on" tells us a lot.
 
 2. **Your best AI win.** Describe one specific time you used AI to produce a result that wouldn't have been possible (or would have taken 10x longer) without it. What was the task? What did you build/do? What was the outcome?
 
@@ -95,13 +95,13 @@ A polished written answer without an artifact and source-labeled numbers is unli
 
 ## What We're Evaluating
 
-We look for proof of exceptional ability, AI fluency, self-awareness, clear communication, and non-obvious insight. The strongest answers are specific enough to verify and personal enough that Claude could not have invented them from the brief.
+We look for proof of exceptional ability, AI fluency, self-awareness, clear communication, and non-obvious insight. The strongest answers are specific enough to verify and personal enough that generic AI could not have invented them from the brief.
 
 ## What Will Lose
 
 - Generic AI hype without personal evidence
 - Impressive-sounding claims with no proof
-- Answers that are clearly just Claude's output with light editing
+- Answers that are clearly just the private benchmark output with light editing
 - Playing it safe or being comprehensive instead of being specific
 
 ## What Will Win
@@ -121,7 +121,7 @@ Anything works. PDF, Markdown, Notion page, personal site, video walkthrough, co
 
 ## Evaluation
 
-Your submission is scored alongside Claude's baseline answer in a blind review. See [SCORING.md](../../SCORING.md) for the general rubric.
+Your submission is scored alongside the private reviewer benchmark answer in a blind review. See [SCORING.md](../../SCORING.md) for the general rubric.
 
 For this challenge, we're also applying the **Dinner Test:**
 
@@ -134,4 +134,4 @@ If yes - you advance to a conversation regardless of score (as long as you're ab
 **Ready to submit?** Apply through our careers page: **[singlegrain.com/careers](https://www.singlegrain.com/careers/)**
 Upload your challenge answer (PDF or Markdown) along with your application.
 
-**Questions?** Open an issue in this repo.
+**Questions?** Open an issue only for general public clarification. For role-specific ambiguity, state your assumptions in the submission.

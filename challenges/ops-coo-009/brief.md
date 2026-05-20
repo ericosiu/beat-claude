@@ -4,158 +4,130 @@
 
 ### The Situation
 
-You're the new COO / GM at a marketing agency that's mid-transition from traditional services to tech-enabled services (TES). The company has built an AI agent system that generates 50+ outputs per day. Nobody converts those outputs into outcomes. You're here to fix that.
+You are the new COO / GM at a mid-sized marketing agency transitioning from traditional services to tech-enabled services. The company has an internal automation layer that produces daily recommendations, drafts, alerts, and task suggestions. The problem is not idea generation; it is converting useful outputs into business outcomes without creating an executive bottleneck.
 
-**The Company: Single Grain**
-- ~45-person digital marketing agency (SEO, Paid Media, Creative, CRO)
-- Working with Amazon, Uber, Salesforce-class clients
-- Average agency deal: $20-30K MRR
-- Two TES/SaaS products (ClickFlow + Karrot): $12K combined MRR, targeting $83K MRR by end of year, with new signups coming in daily
-- Goal: 50% TES revenue by 2028
+**Company context**
 
-**The CEO: Eric Siu**
-- ENTJ/8w7, Kolbe Quick Start 9, Follow Thru 2
-- Hosts Leveling Up podcast, co-hosts Marketing School with Neil Patel
-- Self-rated: Follow-Through C-tier, Organization C-tier, Workflow Consistency D-tier
-- Starts 10 things, finishes 3. Your job: make it 10 for 10
-- Currently spends 60+ minutes/day on operational approvals (should be 15)
+- Mid-sized digital marketing agency with SEO, paid media, creative, CRO, and product-led service work.
+- Serves enterprise and growth-stage clients.
+- Expanding from pure services into software-assisted delivery.
+- Leadership wants a tighter operating cadence, clearer ownership, and safer automation.
 
-**The AI Agent System**
+**Current operating symptoms**
 
-| Agent | Function | Daily Output |
-|-------|----------|-------------|
-| Oracle | SEO/content intelligence - scans GSC/GA4, surfaces quick wins, drafts content | 8-12 keyword recommendations, content briefs |
-| Flash | Content repurposing - turns YouTube videos into social clips, newsletters | 5-10 content pieces across platforms |
-| Cyborg | Talent/outreach - sources candidates, sends personalized outreach | 10-15 prospect profiles, outreach sequences |
-| Alfred | Orchestration/chief of staff - coordinates agents, generates briefings | Daily briefings, cross-agent task routing |
+- Many automated outputs are generated each week, but only a portion receive timely owner review.
+- Actionable items age in a shared review queue.
+- Some customer, content, and sales follow-ups have gone stale because no one owned the final step.
+- The executive sponsor is context-rich but time-constrained and should not be the default approver for every low-risk action.
+- The internal dashboard exists but is underused; operators still rely on ad hoc messages, meetings, and memory.
 
-**Total:** 48 crons across 4 agents. 50+ messages/day. 15+ items hit the review queue daily. Average queue age: 2+ days. Eric is the bottleneck.
+**Your day-one team**
 
-**The Dashboard (Single Brain)**
-- Mission Control homepage with agent status, KPIs, pending actions
-- Pipeline page showing AI-surfaced prospects in various stages
-- Campaign manager for multi-step outreach sequences
-- Currently live but underutilized - Eric checks it sporadically
-
-**Your Team on Day One**
-- You
-- The AI agent system (your primary workforce)
-- Eric (CEO - your boss and your biggest operational challenge)
-- Shaun (CTO - maintains the tech layer)
-- Sales team (one closer, one BDR, one hybrid)
+- You.
+- A small technical partner who maintains the automation layer.
+- Department leads across sales, marketing, client service, and product-led initiatives.
+- A time-constrained executive sponsor for high-risk decisions only.
 
 ---
 
 ## Your Task
 
-You inherit this system on Monday. The review queue has 23 pending items, some 4 days old. ClickFlow just lost 2 customers this month (no one followed up on churn signals). Oracle surfaced 15 quick-win keywords last week - none have been actioned. Three sales prospects went cold because outreach follow-ups expired.
+Create your operational takeover plan. Address all four parts below.
 
-**Create your operational takeover plan.** Address all four parts below.
+### Part 1: First 48 Hours: Triage
 
----
+The house is messy. There is a queue of pending items, customer-risk signals, stale follow-ups, and multiple departments waiting for decisions.
 
-### Part 1: First 48 Hours (Triage)
+- What do you do first? Walk through the first 48 hours in enough detail that a reviewer can see your operating judgment.
+- How do you triage a backlog before you fully understand the system?
+- Which fires do you handle first, and why?
+- What do you need from the executive sponsor in the first 48 hours? Assume you get one short working session.
 
-The house is on fire. You have 23 pending items, 2 churning customers, and a CEO who's already moved on to his next big idea.
+### Part 2: Risk Tiering System
 
-- What do you do first? Walk us through your first 48 hours, hour by hour.
-- How do you triage the 23 pending items without knowing the system yet?
-- Which of the three fires (queue backlog, ClickFlow churn, stale prospects) do you handle first, and why?
-- What do you need from Eric in these first 48 hours? Be specific - he's got 30 minutes for you.
+The executive sponsor cannot review every item. Design a system that reduces executive review to only the highest-risk decisions.
 
-### Part 2: The Risk Tiering System
+- Define green, yellow, and red tiers with examples.
+- What auto-executes without human review? What requires operator review? What requires executive review?
+- How do you handle an auto-approved item that should not have passed?
+- Show the actual decision tree, fields, or criteria, not just the concept.
 
-Eric can't review 15+ items daily. Design a system that reduces his daily load to 3-5 items.
+### Part 3: Automation Portfolio Audit
 
-- Define your green/yellow/red tiers with specific examples of what goes in each
-- What auto-executes without human review? What's the risk tolerance?
-- How do you handle the inevitable mistake - an auto-approved item that shouldn't have been?
-- Show us the actual decision tree or criteria, not just the concept
+After a month, you audit the automation layer. Use the sample below as a public, generalized proxy for the kind of operating review you would perform.
 
-### Part 3: The Elon Algorithm Audit
+| Workflow type | Frequency | Output | Current issue |
+|---|---|---|---|
+| Search/content opportunity scan | Daily | Optimization recommendations | Low follow-through |
+| Prospect sourcing and enrichment | Multiple times weekly | Prospect records and draft outreach | Inconsistent quality and ownership |
+| Content repurposing workflow | Per source asset | Social and newsletter drafts | Unclear approval path |
+| Deal or customer revival scan | Weekly | Re-engagement opportunities | Follow-up depends on memory |
+| Competitive monitoring | Weekly/daily mix | Market-change alerts | Too many low-signal alerts |
+| Customer-risk detector | Daily | Account risk flags | Weak closed-loop response |
+| Editorial planning workflow | Weekly | Topic calendar and briefs | Useful but not always tied to priority |
+| Candidate or partner follow-up | Daily | Re-engagement messages | Risk of generic outreach |
 
-You've been here 30 days. Time to audit the 48 crons. Here's a sample of 8 with descriptions of what each one does:
-
-| Cron | Agent | Frequency | What It Does | Output | Action Rate |
-|------|-------|-----------|-------------|--------|-------------|
-| GSC Quick Win Scan | Oracle | Daily | Pulls Google Search Console data to find pages ranking positions 8-20 that could move to page 1 with minor optimization (title tag changes, content additions, internal linking) | 8-12 keyword recommendations with specific pages and suggested changes | 12% actioned |
-| LinkedIn Prospect Sourcer | Cyborg | 2x daily | Searches LinkedIn for prospects matching our ICP (marketing leaders at companies $10M-$500M revenue), enriches profiles with company data, and drafts personalized outreach messages | 10-15 prospect profiles with draft outreach sequences | 8% converted to meetings |
-| Content Repurpose - YouTube | Flash | Daily per video | Takes new YouTube uploads from Eric's channel, pulls transcript, identifies 3-5 clip-worthy moments, generates platform-specific posts (LinkedIn, X, Instagram) with hooks and captions | 5-8 social posts per video, formatted per platform | 35% published |
-| Deal Revival Scan | Alfred | Weekly | Scans CRM for deals marked closed-lost or stalled in the last 90 days, cross-references with recent company news (funding, leadership changes, hiring signals) to identify re-engagement opportunities | 3-5 stale deals with trigger events and suggested re-approach angles | 60% followed up |
-| Competitor Pricing Monitor | Oracle | Daily | Scrapes competitor websites and G2/Capterra for pricing changes, new plan tiers, or promotional offers across 12 tracked competitors | Price change alerts with before/after comparison | 3% led to action |
-| Churn Signal Detector | Alfred | Daily | Monitors ClickFlow product usage data - flags accounts with declining logins, reduced feature usage, or support ticket spikes compared to their 30-day average | Risk flags with usage trend data and days since last login | 20% investigated |
-| Weekly Content Calendar | Flash | Weekly | Aggregates trending topics from Oracle's keyword data + social listening, maps them to Eric's content pillars, and generates a 15-post editorial calendar with suggested formats and hooks | 15-post calendar with topic, format, platform, and draft hook for each | 50% used |
-| Candidate Outreach Follow-up | Cyborg | Daily | Re-engages candidates who didn't respond to initial outreach after 5 days - sends a templated follow-up referencing their recent LinkedIn activity or company news | Automated re-engagement messages to non-responsive candidates | 5% response rate |
-
-Based on this data, which crons do you keep, kill, or improve? Show your reasoning. What's your framework for making this call?
+Based on this data, which workflows do you keep, kill, merge, or improve? Show your reasoning and the framework you would use.
 
 ### Part 4: Your Operating Edge
 
-**AI Fluency:**
-- What's one operational workflow you've personally automated or augmented with AI? Give us the before/after with real metrics.
-- You're reviewing Oracle's output from last night: 12 "quick win" keywords for singlegrain.com. How do you evaluate whether these are actually good recommendations without being an SEO expert?
-- What does a COO / GM look like in 2028 at a company where AI agents do 60% of the production work?
+**AI fluency**
 
-**Operational Experience:**
+- What is one operational workflow you have personally automated or augmented with AI? Give the before/after with source-labeled numbers.
+- How would you evaluate whether an automated recommendation is actually good when you are not the domain expert?
+- What does a COO / GM look like in a company where AI handles a large share of production work?
+
+**Operational experience**
+
 - Tell us about a time you inherited a broken or nonexistent operating rhythm and installed one. What did the cadence look like? How did you enforce it when people resisted?
-- How do you ensure processes actually get followed - not just documented? Give a specific example of a process you enforced that people initially pushed back on.
-- Describe a situation where you had to keep the trains running on time across multiple departments or workstreams with competing priorities. What was the mechanism?
+- How do you ensure processes actually get followed, not just documented?
+- Describe a situation where you coordinated multiple departments or workstreams with competing priorities. What was the mechanism?
 
-**MMPI Self-Assessment:**
-- Using your preferred LLM (ChatGPT, Claude, Gemini, etc.), run an MMPI-style personality assessment on yourself. Include the key findings in your submission. We're not looking for a perfect profile - we're looking for self-awareness and willingness to be transparent about how you're wired.
+**Working-style reflection**
+
+- Describe your operating style under ambiguity and pressure.
+- Where are you strongest: starting, prioritizing, following through, communicating, or enforcing cadence?
+- Where do you need guardrails or complementary partners?
+- Give one example of how you have adjusted your working style based on feedback.
 
 ---
-
 
 ## Required Submission Packet
 
 Include these items with your submission:
 
 1. **Written answer**: the main response to the brief.
-2. **Operating artifact**: Ops operating artifact, such as a KPI dashboard, operating cadence, risk register, process map, decision log, or system audit.
+2. **Operating artifact**: ops operating artifact, such as a KPI dashboard, operating cadence, risk register, process map, decision log, or system audit.
 3. **Evidence log**: list major claims and the proof tier for each, using the tiers in [SCORING.md](../../SCORING.md).
 4. **Number source labels**: label every number as observed, estimated, benchmarked, or assumed.
 5. **AI usage disclosure**: name the tools you used, what they helped with, what you changed, and what you checked yourself.
 6. **What breaks it**: describe the most likely failure modes, bad inputs, missing data, or constraints that would make your answer wrong.
 7. **What stays human**: explain which decisions or approvals should not be automated and why.
+8. **Artifact access**: provide working links, permissions, sample data, and setup notes.
 
 A polished written answer without an artifact and source-labeled numbers is unlikely to advance.
 
 ## What We're Evaluating
 
-We look for operational judgment, AI fluency, complexity reduction, source-labeled specificity, and concise communication. The best answers show concrete triage decisions and a system that reduces load instead of creating more process.
+We look for operational judgment, AI fluency, complexity reduction, source-labeled specificity, failure handling, and concise communication. The best answers show concrete triage decisions and a system that reduces load instead of creating more process.
 
 ## What Will Lose
 
-- A 48-hour plan that starts with "schedule stakeholder meetings"
-- A risk tiering system that's conceptual instead of concrete
-- An Elon Algorithm audit that keeps everything running and adds more
-- "I use ChatGPT for writing SOPs" as your AI edge
-- Anything that could apply to any company's operations
-
-## What Will Win
-
-- Triage decisions that reveal pattern recognition from real experience
-- A risk tiering system specific enough to implement Monday
-- An audit that kills at least 2 crons with clear reasoning
-- Evidence you've actually managed automated systems, not just read about it
-- The instinct to close loops, not open new workstreams
-
----
+- A 48-hour plan that starts and ends with stakeholder meetings.
+- A risk-tiering system that is conceptual instead of operational.
+- An automation audit that keeps everything and adds more process.
+- Vague AI fluency with no real workflow or results.
+- Anything that could apply to any company's operations.
 
 ## Format
 
-**Maximum 2 pages.** Diagrams and decision trees don't count toward the limit. Estimated time: 1-2 hours.
+**Maximum 2 pages.** Diagrams and decision trees do not count toward the limit. Estimated time: 1-2 hours.
 
-Your submission is scored alongside Claude's baseline answer in a blind review. See [SCORING.md](../../SCORING.md) for the general rubric.
+Your submission is reviewed using private benchmark guidance. See [SCORING.md](../../SCORING.md) for the public guide.
 
 ---
 
 **Ready to submit?** Apply through our careers page: **[singlegrain.com/careers](https://www.singlegrain.com/careers/)**
-Upload your challenge answer (PDF or Markdown) along with your application.
+Upload your challenge answer and artifact links with your application.
 
-**Include with your submission:**
-- Your LinkedIn profile URL (we're looking for long tenure and a track record of promotions - ideally at 2+ companies, because that means multiple organizations valued you enough to invest in your growth)
-- Your MMPI self-assessment results (from Part 4)
-
-**Questions?** Open an issue in this repo.
+**Questions?** Open an issue only for general public clarification. For role-specific ambiguity, state your assumptions in the submission.

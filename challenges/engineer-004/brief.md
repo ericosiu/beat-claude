@@ -81,7 +81,7 @@ A polished written answer without an artifact and source-labeled numbers is unli
 
 See [SCORING.md](../../SCORING.md) for how submissions are evaluated.
 
-Your answer will be compared against Claude's answer to this same brief in a blind review.
+Your answer will be compared against the private reviewer benchmark for the same brief in a blind review.
 
 ### Format
 
@@ -89,7 +89,7 @@ Submit as PDF or Markdown. **Maximum 4 pages** (diagrams don't count toward limi
 
 ---
 
-**Questions about the brief?** Open an issue in this repo.
+**Questions about the brief?** Open an issue only for general public clarification. For role-specific ambiguity, state your assumptions in the submission.
 
 **Ready to submit?** Apply through our careers page: **[singlegrain.com/careers](https://www.singlegrain.com/careers/)**
 Upload your challenge answer (PDF or Markdown) along with your application.

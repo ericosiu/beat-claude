@@ -1,6 +1,6 @@
 # Hall of Fame
 
-Candidates who beat Claude.
+Candidates who beat generic AI.
 
 ---
 
@@ -12,12 +12,12 @@ Candidates who beat Claude.
 
 1. Pick a challenge from [`/challenges`](../challenges/)
 2. Submit your answer
-3. Beat Claude in our blind review
+3. Beat generic AI in our blind review
 4. Get listed here (with your permission)
 
-## What "Beating Claude" Means
+## What "Beating generic AI" Means
 
-- Your submission scored higher than Claude's on the same challenge
+- Your submission scored higher than the private benchmark for the same challenge
 - Reviewed blind by Single Grain team members
 - Evaluated on: Strategic Depth, Specificity, AI Fluency, Creativity, Communication
 

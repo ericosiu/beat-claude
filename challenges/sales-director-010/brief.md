@@ -4,162 +4,134 @@
 
 ### The Situation
 
-You're the new Sales Director (Player-Coach) at a marketing agency mid-transition from traditional services to tech-enabled services. You carry a personal quota AND lead a small sales team. You sell the full portfolio - agency services, SaaS product, and ad platform - depending on what fits the prospect.
+You are the new Sales Director (Player-Coach) at a marketing agency transitioning from traditional services to tech-enabled services. You carry an individual target and lead a small team. You sell the full portfolio: agency services, software-assisted offers, and related growth products depending on prospect fit.
 
-**The Company: Single Grain**
-- ~45-person digital marketing agency (SEO, Paid Media, Creative, CRO)
-- Working with Amazon, Uber, Salesforce-class clients
-- Average agency deal: high five-figure MRR
+**Company context**
 
-**Three Business Lines**
+- Mid-sized digital marketing agency with SEO, paid media, creative, CRO, and product-led service work.
+- Serves enterprise and growth-stage clients.
+- Transitioning from traditional services into more repeatable, tech-enabled delivery.
+- Leadership has a public content presence and expects sales to use AI and automation responsibly.
 
-| Business | Type | Description |
-|----------|------|-------------|
-| Single Grain (Agency) | Services | Full-service digital marketing: SEO, Paid Media, Creative, CRO. Enterprise clients. |
-| ClickFlow | SaaS | AI-powered content optimization. Recently launched. Primary growth lever for TES transformation. |
-| Karrot | SaaS | Personalized LinkedIn ad and landing page platform. Enterprise software customers. Stable revenue. |
+**Business lines**
 
-- Targeting aggressive revenue growth this year
-- Goal: 50% TES (tech-enabled services) revenue by 2028
-- CEO Eric Siu hosts the Leveling Up podcast and co-hosts Marketing School with Neil Patel
+| Business line | Type | Description |
+|---|---|---|
+| Agency services | Services | Full-service digital marketing for enterprise and growth-stage clients. |
+| Software-assisted content product | SaaS / TES | Content and SEO optimization product used as a growth lever. |
+| Software-assisted advertising product | SaaS / TES | Personalized ad and landing-page workflow for enterprise software customers. |
 
-**Your Quota & Team**
+**Your quota and team**
 
-| Metric | Target |
-|--------|--------|
-| Personal quota | Significant monthly new MRR target (disclosed during interview) |
-| Team target | Multi-million annual (disclosed during interview) |
+Specific quota targets are shared privately during the interview process. For the public challenge, use clearly labeled assumptions for personal target, team target, pipeline coverage, cycle length, and conversion rates.
 
-**Your team on day one:** One BDR (top-of-funnel outbound), one Sales Ops/BDR hybrid (pipeline support + outbound), and one closer (runs deals).
+Your day-one team is small: top-of-funnel outbound support, pipeline/support operations, and a closer. Assume you need to both sell and build the machine.
 
-**What we expect from this hire from day one:**
-- Worship speed-to-lead. Minutes, not hours.
-- Build automation without being asked. If a workflow can be systematized, do it before anyone notices.
-- Think in systems. Not just "close deals" - build the machine that closes deals repeatedly.
-- Implement outbound without worrying about comp mechanics. We'll figure out comp together. We need someone who moves first.
-- Send structured reporting proactively. Don't wait to be asked for pipeline updates or forecasts.
-- Install AI tooling. If there's an AI tool that makes the team faster, you find it, test it, and roll it out.
+**What we expect from this hire from day one**
 
-**Everything else, you research yourself.** We're watching how you prepare.
+- Prioritize speed-to-lead.
+- Build automation without waiting for perfect instructions.
+- Think in systems, not just individual deals.
+- Create outbound motion with clear assumptions and ethical guardrails.
+- Send structured reporting proactively.
+- Test AI tooling where it improves quality, speed, or consistency.
+
+Everything else, research from public sources or state as an assumption.
 
 ---
 
 ## Your Task
 
-This is a 3-part challenge. We will run Claude on the exact same prompts and compare its output to yours. Your job: prove that a human sales leader brings something AI can't replicate.
+This is a three-part challenge. Your job is to prove that a human sales leader brings judgment, buyer insight, and operating discipline that a generic AI response cannot replicate.
 
----
+### Part 1: The Role I Want
 
-### Part 1: The Role I Want (Max 2 Pages)
+Tell us why you want this role at this company. Not a generic cover letter. We want to see:
 
-Tell us why you want THIS role at THIS company. Not a generic cover letter. We want to see:
+1. **Your thesis on selling the agency-to-tech-enabled-services transition.** How do you pitch a company that is both services and product-led? What is hard about it? How have you handled similar complexity before?
+2. **How you carry an individual target and lead a team.** Show time allocation, bottleneck prevention, and when you personally join a deal versus coach the rep.
+3. **What you know about Single Grain's market position, competitors, and opportunity.** Name public specifics and source-label claims.
 
-1. **Your thesis on selling the agency-to-TES transition.** How do you pitch a company that's both a services firm and a product company? What's the hardest part? How have you done something similar before?
+### Part 2: 90-Day Sales Plan
 
-2. **How you'd carry a personal quota AND lead a team.** Specific time allocation. How do you avoid being the bottleneck? When do you jump on a deal vs. coach a rep through it?
+You just got the job. Build your 90-day plan to hit your individual target assumption and set the team up for the team target assumption.
 
-3. **What you already know about Single Grain's market position, competitors, and opportunity.** Name specifics. Show your research.
+#### Days 1-30: Learn and Close
 
-**What a great answer looks like:** You've studied our positioning, listened to Eric's content, understand the TES thesis, and have a point of view on the hardest challenge we'll face selling this hybrid model.
-
-**What an instant rejection looks like:** A generic "I'm passionate about sales leadership" letter that could be sent to any agency.
-
----
-
-### Part 2: 90-Day Sales Plan (Max 4 Pages)
-
-You just got the job. Build your 90-day plan to hit your personal MRR quota and set the team up for the annual team target. Be specific.
-
-**Your plan must address:**
-
-#### Days 1-30: Learn & Close
-- How do you learn the three product lines fast enough to start selling in week 2-3?
-- What's your first-week discovery process? Who do you talk to internally? What questions do you ask?
-- How do you identify the 5-10 fastest deals in the existing pipeline and start closing?
-- What does your ideal customer profile (ICP) look like for each product line?
+- How do you learn the business lines fast enough to start selling quickly?
+- What is your first-week discovery process? Who do you talk to internally? What questions do you ask?
+- How do you identify the fastest viable deals in the existing pipeline?
+- What does your ideal customer profile look like for each business line?
 
 #### Days 31-60: Build the Machine
-- What's your outbound strategy? Channels, volume, messaging framework.
-- How do you structure the sales process for a high-value agency retainer vs. a ClickFlow SaaS sale vs. a Karrot pilot?
-- What CRM/pipeline hygiene do you implement? What metrics do you track weekly?
-- How do you identify whether current reps need coaching, new playbooks, or replacement?
+
+- What is your outbound strategy: channels, volume, messaging framework, and quality control?
+- How do you structure the sales process for a high-value services retainer versus a software-assisted product sale?
+- What CRM and pipeline hygiene do you implement?
+- What metrics do you track weekly?
+- How do you identify whether reps need coaching, playbooks, role changes, or replacement?
 
 #### Days 61-90: Scale
-- How do you hit your personal MRR target while also ramping the team?
-- What's your plan for cross-selling agency clients into ClickFlow/Karrot (and vice versa)?
-- What's the first hire you'd make to scale the team? Why?
-- What does your weekly sales team cadence look like? (meetings, reviews, pipeline calls)
 
-**What a great answer looks like:** A plan with specific numbers, named strategies (not just "do outbound"), realistic ramp assumptions, and evidence you understand the difference between selling services vs. SaaS.
+- How do you balance personal selling with team ramp?
+- What is your plan for cross-selling between services and software-assisted offers?
+- What is the first hire or contractor you would add if the plan works? Why?
+- What does your weekly sales cadence look like: meetings, reviews, pipeline calls, coaching, and forecast updates?
 
-**What an instant rejection looks like:** A plan that could work at any company. Buzzwords without mechanics. No numbers.
+Strong plans include source-labeled assumptions, named strategies, realistic ramp logic, and evidence you understand the difference between selling services and software-assisted offers.
 
----
+### Part 3: Your AI Edge
 
-### Part 3: Your AI Edge (Max 2 Pages)
+Single Grain is AI-forward. If you are not fluent, you will be behind on day one.
 
-We're an AI-first company. Every department uses AI daily. If you're not fluent, you'll be behind on day one.
-
-1. **Your current AI stack for sales.** What tools do you use daily? Not just "I've tried ChatGPT." Show us: what specific sales workflows have you automated or augmented with AI? Give one detailed example with before/after results.
-
-2. **AI-powered prospecting play.** Design a specific outbound sequence for one of our three products (your choice: Single Grain agency services, ClickFlow, or Karrot). Show how you'd use AI at each step - from ICP research to list building to personalized outreach to follow-up. Be specific enough that we could execute it Monday.
-
-3. **What sales leaders who ignore AI get wrong.** Give us your honest take on where AI replaces sales activities vs. where human judgment is irreplaceable. What does a Sales Director look like in 2028?
-
-**What a great answer looks like:** You show a real workflow where AI made you measurably faster/better. Your outbound sequence is specific to one of our products (not generic). Your 2028 vision shows you've thought deeply about this, not just read an article about it.
-
-**What an instant rejection looks like:** "I use ChatGPT for email drafts." No specificity, no results, no point of view.
+1. **Your current AI stack for sales.** What tools do you use daily? Show one specific sales workflow you automated or augmented with AI, including before/after results and source labels.
+2. **AI-powered prospecting play.** Design a specific outbound sequence for one business line. Show how AI supports ICP research, list building, personalization, follow-up, QA, and handoff. Make it specific enough to execute Monday.
+3. **What sales leaders who ignore AI get wrong.** Where does AI replace sales activity? Where is human judgment irreplaceable? What does a Sales Director look like in 2028?
 
 ---
 
 ## Constraints
 
-- **Format:** PDF or Markdown
-- **Length:** Max 8 pages total across all 3 parts
-- **Time limit:** 72 hours from when you start
-
----
+- **Format:** PDF or Markdown.
+- **Length:** Max 8 pages total across all 3 parts.
+- **Time limit:** 72 hours from when you start.
+- Use public data or safe assumptions only. Do not request private quota, customer, compensation, or employee details in a public issue.
 
 ## Auto-Reject Signals
 
-- Generic answers that could apply to any agency or SaaS company
-- No evidence of AI fluency or an anti-AI stance
-- 90-day plan with no numbers (quota targets, outbound volume, pipeline targets)
-- No mention of Single Grain's specific products, market, or leadership
-- Submission over 8 pages (shows inability to prioritize and edit)
-- Late submission without proactive communication
+- Generic answers that could apply to any agency or SaaS company.
+- No evidence of AI fluency or an anti-AI stance.
+- A 90-day plan with no source-labeled numbers or assumptions.
+- No mention of Single Grain's specific products, market, or leadership from public sources.
+- Submission over the page limit.
+- Late submission without proactive communication.
 
 ---
-
 
 ## Required Submission Packet
 
 Include these items with your submission:
 
 1. **Written answer**: the main response to the brief.
-2. **Operating artifact**: Sales leadership operating artifact, such as a pipeline review template, forecast model, coaching cadence, hiring scorecard, territory model, or sales dashboard.
+2. **Operating artifact**: sales leadership operating artifact, such as a pipeline review template, forecast model, coaching cadence, hiring scorecard, territory model, or sales dashboard.
 3. **Evidence log**: list major claims and the proof tier for each, using the tiers in [SCORING.md](../../SCORING.md).
 4. **Number source labels**: label every number as observed, estimated, benchmarked, or assumed.
 5. **AI usage disclosure**: name the tools you used, what they helped with, what you changed, and what you checked yourself.
 6. **What breaks it**: describe the most likely failure modes, bad inputs, missing data, or constraints that would make your answer wrong.
 7. **What stays human**: explain which decisions or approvals should not be automated and why.
+8. **Artifact access**: provide working links, permissions, sample data, and setup notes.
 
 A polished written answer without an artifact and source-labeled numbers is unlikely to advance.
 
 ## Evaluation Criteria
 
-We look for Single Grain specificity, strategic depth, AI fluency, sales judgment, evidence quality, and concise communication. The best answers show real sales operating experience, not generic revenue leadership language.
+We look for Single Grain specificity, strategic depth, AI fluency, sales judgment, evidence quality, artifact quality, and concise communication. The best answers show real sales operating experience, not generic revenue leadership language.
 
-See [SCORING.md](../../SCORING.md) for the general rubric. Challenge-specific public guidance is in [scoring_rubric.md](scoring_rubric.md).
-
-**The Claude Comparison:** We will run Claude on the same Part 2 and Part 3 prompts. If your output is indistinguishable from Claude's - same generic structure, same vague recommendations, no human insight - that tells us something. The best candidates give answers that Claude literally cannot: real war stories, earned intuition, original frameworks from experience.
+See [SCORING.md](../../SCORING.md) for the public guide. Challenge-specific public guidance is in [scoring_rubric.md](scoring_rubric.md).
 
 ---
 
 **Ready to submit?** Apply through our careers page: **[singlegrain.com/careers](https://www.singlegrain.com/careers/)**
-Upload your challenge answer (PDF or Markdown) along with your application.
+Upload your challenge answer and artifact links with your application.
 
-**Include with your submission:**
-- Your LinkedIn profile URL (we're looking for long tenure and a track record of promotions - ideally at 2+ companies, because that means multiple organizations valued you enough to invest in your growth)
-
-**Questions?** Open an issue in this repo.
+**Questions?** Open an issue only for general public clarification. For role-specific ambiguity, state your assumptions in the submission.

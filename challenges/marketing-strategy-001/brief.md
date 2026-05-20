@@ -31,7 +31,7 @@ You're advising a Series A startup that has built an AI-powered customer support
 
 ### Your Task
 
-Create a **90-day go-to-market strategy** to get them from $0 to $50K MRR.
+Create a **90-day go-to-market strategy** that turns free beta usage into a repeatable paid acquisition motion. Use source-labeled assumptions for any target metrics.
 
 ### What to Submit
 
@@ -46,7 +46,7 @@ Your strategy should include:
    - Include expected outcomes and success metrics
 
 3. **Pricing & 90-Day Milestones**
-   - What pricing model and price points? How does this support the $50K MRR goal?
+   - What pricing model and price points? How does this support the paid growth goal?
    - What should be true at Day 30, 60, and 90?
    - What are the key risks and how do you mitigate them?
 
@@ -76,7 +76,7 @@ A polished written answer without an artifact and source-labeled numbers is unli
 
 See [SCORING.md](../../SCORING.md) for how submissions are evaluated.
 
-Your answer will be compared against Claude's answer to this same brief in a blind review.
+Your answer will be compared against the private reviewer benchmark for the same brief in a blind review.
 
 ### Format
 
@@ -84,7 +84,7 @@ Submit as PDF or Markdown. **Maximum 4 pages.** We value clarity and prioritizat
 
 ---
 
-**Questions about the brief?** Open an issue in this repo.
+**Questions about the brief?** Open an issue only for general public clarification. For role-specific ambiguity, state your assumptions in the submission.
 
 **Ready to submit?** Apply through our careers page: **[singlegrain.com/careers](https://www.singlegrain.com/careers/)**
 Upload your challenge answer (PDF or Markdown) along with your application.

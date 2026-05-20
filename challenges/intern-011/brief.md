@@ -62,7 +62,7 @@ Show us how you'd turn this into an AI agent system. Include:
 
 ### Step 3: Build It
 
-**Ship a working prototype.** This is what separates you from Claude's answer.
+**Ship a working prototype.** This is what separates you from the private reviewer benchmark.
 
 It doesn't have to be production-ready. It doesn't have to be pretty. But it has to work. We want to see your code, your prompts, your test data, and your thinking.
 
@@ -70,7 +70,7 @@ Acceptable formats:
 - **GitHub repo** with a README and demo instructions
 - **Replit / CodeSandbox**: a link we can click and run
 - **Video demo** (under 5 minutes) showing it working with real or realistic data
-- **Claude Code / Cursor session export** showing you building it step by step
+- **AI coding tools / Cursor session export** showing you building it step by step
 - **No-code build** (Make, Zapier, n8n) with a Loom walkthrough
 
 Your prototype must include three test cases:
@@ -117,7 +117,7 @@ We look for builder instinct, agent design quality, creative problem framing, AI
 ## What Will Lose
 
 - A strategy doc with no working prototype
-- Pasting the workflow into Claude and submitting what comes back
+- Pasting the workflow into generic AI and submitting what comes back
 - Describing tools you'd use without actually using them
 - Over-scoping - designing a system that would take a team 6 months
 - Playing it safe with obvious solutions
@@ -138,13 +138,13 @@ Submit as PDF, Markdown, or a link to your repo/demo. **Maximum 4 pages** for th
 
 ## Evaluation
 
-Your submission is scored alongside Claude's baseline answer in a blind review. See [SCORING.md](../../SCORING.md) for the general rubric.
+Your submission is scored alongside the private reviewer benchmark answer in a blind review. See [SCORING.md](../../SCORING.md) for the general rubric.
 
-For this challenge, we weight the **prototype heavily**. Claude can write a great architecture doc. It can't ship a working demo with real judgment calls about what to automate vs. keep human. If you build something that works, you're already ahead.
+For this challenge, we weight the **prototype heavily**. AI coding tools can write a great architecture doc. They can't ship a working demo with real judgment calls about what to automate vs. keep human. If you build something that works, you're already ahead.
 
 ---
 
 **Ready to submit?** Apply through our careers page: **[singlegrain.com/careers](https://www.singlegrain.com/careers/)**
 Upload your challenge answer (PDF or Markdown) along with your application.
 
-**Questions?** Open an issue in this repo.
+**Questions?** Open an issue only for general public clarification. For role-specific ambiguity, state your assumptions in the submission.

@@ -1,41 +1,26 @@
-# Scoring Rubric: Ops COO 009
+# Public Review Guide: Ops Coo 009
 
-This challenge-specific rubric is public and intentionally high level. Detailed scoring keys, exact point bands, reviewer calibration notes, and curveball prompts are private.
-
-Use this page to understand what kind of work tends to beat Claude. Do not treat it as a checklist to game.
+This challenge-specific guide is intentionally high level. Private reviewer calibration, answer benchmarks, follow-up exercises, and detailed scoring notes are not published.
 
 ## What Strong Submissions Show
 
 ### 1. Real judgment
-
-The answer makes hard choices, names tradeoffs, respects the constraints in the brief, and explains why the recommended path is better than plausible alternatives.
+Make hard choices, name tradeoffs, respect the constraints in the brief, and explain why your path is better than plausible alternatives.
 
 ### 2. Execution artifact
-
-Include an operating artifact a reviewer can inspect. For this challenge, strong artifacts include an operating cadence, risk register, KPI dashboard, process map, decision log, or system audit artifact.
+Include an operating artifact a reviewer can inspect, such as a model, workflow, prototype, decision log, scorecard, process map, audit, or demo that fits the challenge.
 
 ### 3. Source-labeled specificity
-
-Specificity only counts when it is grounded. Label every number as one of:
-
-- Observed
-- Estimated
-- Benchmarked
-- Assumed
-
-Unlabeled numbers are treated as weak evidence. Fake precision is worse than a clearly stated assumption.
+Label every number as observed, estimated, benchmarked, or assumed. Unlabeled numbers are weak evidence; fake precision is worse than a stated assumption.
 
 ### 4. Proof quality
-
-Use the proof tiers in [SCORING.md](../../SCORING.md). Claims, screenshots, and demos help, but the strongest submissions show before and after data, source records, logs, or independent verification.
+Use the public evidence standards in [SCORING.md](../../SCORING.md). Stronger work includes source records, logs, before/after comparisons, or independent verification.
 
 ### 5. AI fluency with limits
-
-Use AI where it creates leverage, but show what you checked, what you changed, and what should stay human. The best answers show both automation instinct and judgment about where automation is unsafe.
+Use AI where it creates leverage, but disclose tools used, what you changed, what you checked, and what should stay human.
 
 ### 6. Failure handling
-
-Name what would break the plan or artifact. Include bad inputs, edge cases, missing data, unclear ownership, user resistance, budget constraints, or model failure. Explain how you would detect and handle the failure.
+Name what would break the plan or artifact, how you would detect it, and how you would respond.
 
 ## What Usually Loses
 
@@ -44,10 +29,10 @@ Name what would break the plan or artifact. Include bad inputs, edge cases, miss
 - Numbers with no source labels.
 - Claims without evidence.
 - A plan that ignores the brief's constraints.
-- A one-off demo that only works on a perfect input.
+- A demo that only works on perfect inputs.
 - Recommendations that cannot be executed by the team described in the brief.
 - Hiding what stays human.
 
 ## How Review Works
 
-Your submission is compared against Claude's baseline in blind review. Strong or close submissions may get a private curveball, source check, or live walkthrough. The goal is to identify people who can operate, not people who can optimize for a public rubric.
+Submissions are reviewed against private benchmarks and reviewer guidance outside this public repo. Strong or close submissions may receive a source check, artifact walkthrough, or follow-up exercise. The goal is to identify people who can operate, not people who can optimize for a public rubric.

@@ -2,11 +2,11 @@
 
 This is the public evaluation guide for Beat Claude, Single Grain's hiring challenge.
 
-It is intentionally high level. Detailed scoring notes, reviewer calibration, and follow-up curveballs are private so the challenge tests judgment instead of rubric matching.
+It is intentionally high level. Detailed scoring notes, reviewer calibration, answer benchmarks, and follow-up prompts are private so the challenge tests judgment instead of rubric matching.
 
 ## How We Evaluate
 
-Submissions go through blind review against Claude's baseline answer for the same brief. Reviewers look for work that shows real operating judgment, not a polished prompt output.
+Submissions go through blind review using private reviewer guidance for the same brief. Reviewers look for work that shows real operating judgment, not polished prompt output.
 
 Strong submissions usually have:
 
@@ -16,9 +16,9 @@ Strong submissions usually have:
 4. **AI fluency**: smart use of AI with clear limits, human checkpoints, and failure handling.
 5. **Communication**: concise, structured, direct, and easy to review.
 
-## What Beats Claude
+## What Strong Work Shows
 
-Claude can produce a competent strategy document. To beat it, you need to show something a generic model output usually cannot:
+A generic model can produce a competent strategy document. Strong candidates show something the brief alone cannot reliably produce:
 
 - An operating artifact we can inspect.
 - Specific judgment based on real constraints.
@@ -26,7 +26,7 @@ Claude can produce a competent strategy document. To beat it, you need to show s
 - A clear view of what breaks, what stays human, and why.
 - Domain taste, creative pattern recognition, or practical experience.
 
-Ties do not advance. If your work is only as good as Claude's baseline, we keep looking.
+Generic answers do not advance.
 
 ## Required Evidence Standards
 
@@ -38,10 +38,10 @@ Every submission should include an evidence log. Label your proof with the highe
 | 1 | Screenshots | Static proof of a screen, doc, result, or workflow. |
 | 2 | Demo artifact | A sheet, repo, Loom, workflow, prototype, dashboard, or mock that can be reviewed. |
 | 3 | Logs or source records | Exports, raw data, source records, commits, prompt traces, CRM notes, analytics pulls, or similar. |
-| 4 | Before and after data | Measured change with a clear baseline and method. |
+| 4 | Before and after data | Measured change with a clear benchmark and method. |
 | 5 | Independent verification | A user, customer, system, reviewer, or production process confirms the result. |
 
-Tier 0 to 2 can be useful context. Tier 4 to 5 is what usually wins.
+Lower tiers can be useful context. Higher tiers usually carry more weight.
 
 ## Number Source Labels
 
@@ -90,9 +90,9 @@ Include:
 
 Undisclosed AI use is not the issue. Passing off generic AI work as proven operating judgment is the issue.
 
-## Curveball and Live Walkthrough
+## Follow-Up and Live Walkthrough
 
-After submission, strong candidates may receive a private follow-up curveball or live walkthrough request. This can include:
+After submission, strong candidates may receive a private follow-up exercise or live walkthrough request. This can include:
 
 - A changed constraint.
 - A messy data sample.
@@ -106,7 +106,7 @@ This step is part of the review process. It exists to separate real operators fr
 
 Submissions are unlikely to advance if they:
 
-- Optimize for the public rubric instead of solving the business problem.
+- Optimize for the public guide instead of solving the business problem.
 - Use polished language without an operating artifact.
 - Include numbers with no source labels.
 - Invent proof, metrics, customers, users, or system outputs.
@@ -122,10 +122,6 @@ Most challenges have a 4-page maximum for the written answer. Diagrams, artifact
 Short and sharp is better than long and vague.
 
 ## Frequently Asked Questions
-
-**Q: What if I tie with Claude?**
-
-Ties do not advance automatically. We may ask a curveball, request source proof, or schedule a walkthrough.
 
 **Q: Can I use AI?**
 

@@ -1,107 +1,104 @@
 # Challenge: Head of Talent 008
 
-## Build and Own the Entire People Function
+## Build and Own the People Function
 
 ### The Situation
 
-You're being hired as the **Head of Talent** at Single Grain, a digital marketing agency in transition. You own the entire people function end-to-end: recruiting, onboarding, performance management, compensation philosophy, culture, retention, and org design. There is no HR team - you are the people function.
-
-The CEO has declared "hire great people" as one of only 3 company priorities for the year. But this role goes beyond recruiting. Single Grain needs someone who builds the full people infrastructure that lets a 60-person company scale to 100+ without breaking.
+You are being hired as the **Head of Talent** at Single Grain, a digital marketing agency in transition. You own the people function end-to-end: recruiting, onboarding, performance management, compensation philosophy, culture, retention, and org design. There is no large HR team; you are expected to build lightweight systems that managers can actually use.
 
 **Company Snapshot**
-- ~60 employees across marketing, engineering, operations, and leadership
-- Transitioning from traditional agency to tech-enabled services (TES) model - targeting 50% TES revenue by 2028
-- Clients include Fortune 500 companies (Amazon, Uber, Salesforce) and venture-backed startups
-- CEO Eric Siu hosts the Leveling Up podcast and co-hosts Marketing School with Neil Patel - vocal about AI adoption
-- The company runs on Claude Code, AI agents, and automation internally
-- Hybrid/remote team, primarily US-based
-- Agency margins mean every bad hire is expensive ($50K-150K per mis-hire including ramp time, lost clients, and backfill)
+
+- Mid-sized digital marketing agency with marketing, engineering, operations, and leadership roles.
+- Transitioning from traditional agency work toward tech-enabled services.
+- Clients include enterprise companies and venture-backed startups.
+- Leadership is vocal about AI adoption and expects every function to become more AI-native.
+- Hybrid/remote team with a bias toward speed, clarity, and practical execution.
 
 **What You Inherit**
-- 5-8 open roles at any given time across departments (engineering, paid media, SEO, content, account management)
-- No dedicated recruiter - hiring is done by department heads + a fractional HR consultant
-- No ATS, no structured interview process, no scorecards
-- No formal performance review system - feedback is ad hoc
-- No compensation bands or leveling framework - every offer is negotiated from scratch
-- No structured onboarding beyond "here's your laptop and Slack"
-- No employer brand strategy - candidates don't know what it's like to work at Single Grain
-- A unique hiring test called "Beat Claude" where candidates compete against AI on strategy challenges
-- Average time-to-fill: 45-60 days
-- Offer acceptance rate: ~65% (too low)
-- 90-day new hire retention: ~75% (should be 90%+)
-- No visibility into team health - no engagement surveys, no attrition forecasting, no manager effectiveness data
+
+- Several open roles across departments at any given time.
+- Hiring is mostly run by department heads with limited centralized support.
+- No consistent ATS, interview loop, or hiring scorecards.
+- Feedback, performance, onboarding, and manager enablement are inconsistent.
+- Compensation and leveling need a clearer philosophy, but do not need heavy bureaucracy.
+- Employer brand is underdeveloped; candidates do not yet have a clear picture of how the company works.
+- A public hiring challenge called "Beat Claude" is part of the candidate assessment system.
+- People data is sparse; you need to create visibility without over-surveying or over-administering the team.
 
 **The AI Mandate**
-- Eric expects every function to be AI-forward. "If you're not using AI in your workflow, you're already behind"
-- The talent/people function itself should model AI-native work - use AI for sourcing, screening, onboarding, performance analytics, comp benchmarking, and retention signals
-- Talent candidates who can't demonstrate AI fluency are a poor culture fit
+
+The talent function should model AI-native work: sourcing assistance, structured screening, onboarding drafts, performance-cycle operations, engagement signal review, and talent analytics. AI should not make final people decisions without human judgment and fairness checks.
 
 **Competitive Context**
-- Competing for talent against: other agencies (Wpromote, Directive, Power Digital), in-house teams at tech companies, and fully remote startups
-- Single Grain's advantages: AI-forward culture, CEO with public brand, interesting clients, growth trajectory
-- Single Grain's disadvantages: agency pay scales (can't match FAANG), smaller brand than mega-agencies, fast-paced environment isn't for everyone
+
+Single Grain competes for talent against agencies, in-house marketing teams, tech companies, and remote startups. The company can offer AI-forward work, interesting clients, autonomy, and growth, but must be honest about pace, ambiguity, and agency constraints.
 
 ---
 
-### Your Task
+## Your Task
 
-Create a **comprehensive strategy for building the people function from scratch** that demonstrates:
+Create a practical strategy for building the people function from scratch. Demonstrate:
 
-1. **Full-Scope People Leadership** - This isn't just a recruiting role. Show how you'd build recruiting, onboarding, performance management, compensation, culture, and retention into one coherent system.
-
-2. **AI-Native Operations** - Every workflow should leverage AI. Show the actual systems, not just the tools. Where does AI create unfair advantages? Where must humans stay in the loop?
-
-3. **Specificity to Single Grain** - This strategy is for a 60-person AI-native agency in transition, not a generic company. Show you understand the constraints and opportunities.
+1. **Full-scope people leadership**: recruiting, onboarding, performance, compensation philosophy, culture, retention, and org design as one coherent system.
+2. **AI-native operations**: workflows, checks, and artifacts rather than a list of tools.
+3. **Specificity to Single Grain**: a mid-sized AI-forward agency in transition, not a generic company.
 
 ### What to Submit
 
 Your strategy should include all four sections:
 
 #### 1. People Function Architecture
-- What does the full people function look like when you're done building it? Map the systems: recruiting, onboarding, performance, comp, culture, retention.
+
+- What does the full people function look like when you are done building it?
 - What do you build first, second, third? Why that sequence?
-- How do you run all of this as a team of one (yourself) + $3K/month in tools? What do you automate vs. own personally vs. delegate to managers?
+- How do you run this with limited headcount and a lean monthly tooling budget?
+- What do you automate, personally own, and delegate to managers?
 
 #### 2. Recruiting Engine
-- How do you build a pipeline beyond job boards? How do you leverage Eric's brand?
-- How does "Beat Claude" fit into the broader assessment strategy?
-- How do you improve the 65% offer acceptance rate?
-- What does your compensation philosophy look like when you can't match FAANG pay?
 
-#### 3. Performance, Retention & Culture
-- How do you design a performance management system for a fast-moving agency? (Annual reviews won't cut it.)
-- How do you build compensation bands and leveling without creating bureaucracy?
-- What's your retention strategy for an agency where burnout and poaching are constant threats?
-- How do you maintain culture during the agency-to-TES transition when the company is essentially running two business models?
+- How do you build a pipeline beyond job boards?
+- How does Beat Claude fit into a broader assessment strategy without over-relying on a single test?
+- How do you improve offer quality and candidate close rates without relying only on pay?
+- What does your compensation philosophy look like when you cannot simply outbid larger companies?
 
-#### 4. 90-Day Plan & Metrics
-- What's the single highest-leverage thing you do first?
+#### 3. Performance, Retention, and Culture
+
+- How do you design performance management for a fast-moving agency where annual reviews alone are insufficient?
+- How do you introduce leveling and compensation principles without creating bureaucracy?
+- What is your retention strategy for an environment where burnout and poaching are real risks?
+- How do you maintain culture during the agency-to-tech-enabled-services transition?
+
+#### 4. 90-Day Plan and Metrics
+
+- What is the single highest-leverage thing you do first?
 - What should be true at Day 30, 60, and 90?
-- What KPIs define success for the full people function - not just recruiting metrics?
-- How do you report people health to the CEO?
+- What KPIs define success for the full people function, not just recruiting?
+- How do you report people health to leadership in a way that drives action?
 
 ### Constraints
 
-- Budget: You have one headcount (yourself) + $3K/month for tools and job board spend
-- You don't have an ATS yet - you need to recommend and implement one
-- Department heads are busy and can give ~2-3 hours/week to hiring and people activities
-- The CEO wants to see measurable improvement within 90 days
-- Agency culture means speed matters - roles that stay open too long cost real revenue
-- You must balance speed with quality - fast hires that churn in 90 days are worse than slow hires that stay
-- No existing people data - you're starting from zero on engagement, performance baselines, and comp benchmarking
+- You are a team of one with limited manager time.
+- You need to recommend and implement lightweight tooling.
+- Department heads are busy and can only spend a limited number of hours each week on hiring and people activities.
+- Leadership wants measurable improvement within 90 days.
+- Speed matters, but rushed hires who churn are worse than slower hires who stay.
+- You are starting with limited people data.
+- Do not include or request private compensation, employee, or candidate data in your submission; use safe assumptions and public benchmarks.
 
+---
 
 ## Required Submission Packet
 
 Include these items with your submission:
 
 1. **Written answer**: the main response to the brief.
-2. **Operating artifact**: Talent operating artifact, such as a scorecard, interview loop, recruiting funnel model, onboarding cadence, performance system, or talent dashboard.
+2. **Operating artifact**: talent operating artifact, such as a scorecard, interview loop, recruiting funnel model, onboarding cadence, performance system, or talent dashboard.
 3. **Evidence log**: list major claims and the proof tier for each, using the tiers in [SCORING.md](../../SCORING.md).
 4. **Number source labels**: label every number as observed, estimated, benchmarked, or assumed.
 5. **AI usage disclosure**: name the tools you used, what they helped with, what you changed, and what you checked yourself.
 6. **What breaks it**: describe the most likely failure modes, bad inputs, missing data, or constraints that would make your answer wrong.
 7. **What stays human**: explain which decisions or approvals should not be automated and why.
+8. **Artifact access**: provide working links, permissions, sample data, and setup notes.
 
 A polished written answer without an artifact and source-labeled numbers is unlikely to advance.
 
@@ -109,18 +106,15 @@ A polished written answer without an artifact and source-labeled numbers is unli
 
 See [SCORING.md](../../SCORING.md) for how submissions are evaluated.
 
-Your answer will be compared against Claude's answer to this same brief in a blind review. We pay special attention to whether you understand the full people function, can design practical systems, use AI as leverage, and write like someone a CEO would trust with people decisions.
+We pay special attention to whether you understand the full people function, can design practical systems, use AI as leverage with human safeguards, and write like someone leadership would trust with people decisions.
 
 ### Format
 
-Submit as PDF or Markdown. **Maximum 4 pages.** We value clarity and prioritization - if you can make your case in 2 pages, don't write 4. Estimated time: 1-2 hours.
+Submit as PDF or Markdown. **Maximum 4 pages.** We value clarity and prioritization. Estimated time: 1-2 hours.
 
 ---
 
-**Questions about the brief?** Open an issue in this repo.
+**Questions about the brief?** Open an issue only for general public clarification. For role-specific ambiguity, state your assumptions in the submission.
 
 **Ready to submit?** Apply through our careers page: **[singlegrain.com/careers](https://www.singlegrain.com/careers/)**
-Upload your challenge answer (PDF or Markdown) along with your application.
-
-**Include with your submission:**
-- Your LinkedIn profile URL (we're looking for long tenure and a track record of promotions - ideally at 2+ companies, because that means multiple organizations valued you enough to invest in your growth)
+Upload your challenge answer and artifact links with your application.
