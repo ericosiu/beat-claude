@@ -1,2 +1,12 @@
 __pycache__/
 *.pyc
+
+# Defense-in-depth: private review material must never be committed here.
+*_private.md
+*_private/
+answer_key*
+answer-key*
+benchmark_answers*
+benchmark-answers*
+reviewer_notes*
+calibration_notes*
