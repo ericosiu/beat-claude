@@ -64,6 +64,8 @@ Every challenge submission should include:
 
 Submissions without an operating artifact or source-labeled numbers are unlikely to advance.
 
+**Pre-screen your packet:** run `python3 scripts/validate_submission.py path/to/your_submission.md` to check that all 7 sections are present and your numbers carry source labels before you submit. See [`submissions/README.md`](submissions/README.md) for details.
+
 ## Candidate Confidentiality and Data Policy
 
 Do not include confidential, proprietary, regulated, or sensitive personal data in your submission. Use public sources, synthetic data, anonymized samples, or your own work product. Do not submit passwords, API keys, customer lists, employee records, compensation details, private analytics exports, or anything you do not have permission to share. If a task would normally require private data, state the assumption and show the artifact with safe sample data.
