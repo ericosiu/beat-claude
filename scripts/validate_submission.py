@@ -18,6 +18,12 @@ It checks three things:
    SCORING.md nearby. This is a heuristic; reviewers make the final call.
 3. Evidence-tier citations (advisory WARN): major claims should reference
    the SCORING.md evidence tiers (Tier 0-5) in the evidence log.
+4. Verifiability (advisory WARN): [Observed] numbers and Tier 2-5 evidence
+   claims assert something a reviewer can inspect, so the same section
+   should contain at least one verifiable artifact reference: a link, an
+   attached file path, a screenshot/attachment reference, or a reproduction
+   command. High-tier claims with nothing checkable are treated as Tier 0
+   (claims only) at review time.
 
 Exit codes: 0 when all required sections are present (warnings allowed),
 1 when required sections are missing, or when --strict is passed and any
@@ -63,6 +69,23 @@ NUMBER_PATTERN = re.compile(
 HEADING_LINE = re.compile(r"^\s{0,3}#{1,6}\s")
 TABLE_RULE_LINE = re.compile(r"^\s*\|?[\s:|-]+\|?\s*$")
 URL_PATTERN = re.compile(r"https?://\S+|\([^)\s]*\.[a-z]{2,}[^)]*\)")
+
+# Verifiability check: [Observed] numbers and Tier 2-5 evidence claims assert
+# an inspectable artifact or record (SCORING.md: Tier 2 = demo artifact,
+# 3 = logs/source records, 4 = before/after data, 5 = independent
+# verification). Tier 0 claims no proof and Tier 1 screenshots are usually
+# attached with the application, so both are exempt here.
+OBSERVED_CLAIM_PATTERN = re.compile(r"\[\s*observed\s*\]", re.I)
+HIGH_TIER_CLAIM_PATTERN = re.compile(r"\btiers?\s*[2-5]\b", re.I)
+VERIFIABLE_REF_PATTERN = re.compile(
+    r"https?://\S+"  # a link a reviewer can open
+    # an attached data/code/media file the reviewer can inspect
+    r"|\b\S+\.(?:csv|tsv|xlsx?|jsonl?|pdf|png|jpe?g|gif|mp4|mov|zip|py|ipynb|sql|sh|har|log)\b"
+    # an explicit screenshot/attachment/appendix pointer
+    r"|\b(?:screenshots?|attach(?:ed|ments?)|appendix|appendices|exhibit)\b"
+    r"|^\s*\$\s+\S",  # a shell reproduction command
+    re.I | re.M,
+)
 
 
 def read_submission_files(target: Path) -> list[tuple[Path, str]]:
@@ -134,6 +157,45 @@ def count_evidence_tier_refs(text: str) -> int:
     return len(EVIDENCE_TIER_PATTERN.findall(text))
 
 
+def iter_sections(text: str):
+    """Yield (start_line, title, body) per markdown section, splitting on
+    headings outside fenced code blocks. Text before the first heading is
+    its own section titled "(preamble)"."""
+    lines = text.splitlines()
+    in_fence = False
+    title = "(preamble)"
+    start_line = 1
+    body: list[str] = []
+    for line_no, line in enumerate(lines, 1):
+        if line.lstrip().startswith("```"):
+            in_fence = not in_fence
+        if not in_fence and HEADING_LINE.match(line):
+            if body and any(chunk.strip() for chunk in body):
+                yield start_line, title, "\n".join(body)
+            title = line.lstrip("# \t").strip() or "(untitled)"
+            start_line = line_no
+            body = []
+            continue
+        body.append(line)
+    if body and any(chunk.strip() for chunk in body):
+        yield start_line, title, "\n".join(body)
+
+
+def find_unverifiable_claims(text: str) -> list[tuple[int, str]]:
+    """Return (start_line, section_title) for sections that make [Observed]
+    or Tier 2-5 claims but contain nothing checkable: no link, attached file
+    path, screenshot/attachment reference, or reproduction command."""
+    flagged: list[tuple[int, str]] = []
+    for start_line, title, body in iter_sections(text):
+        if not (OBSERVED_CLAIM_PATTERN.search(body) or HIGH_TIER_CLAIM_PATTERN.search(body)):
+            continue
+        # A fenced code block counts as a reproduction command.
+        if "```" in body or VERIFIABLE_REF_PATTERN.search(body):
+            continue
+        flagged.append((start_line, title))
+    return flagged
+
+
 def run(target: Path, strict: bool = False, out=sys.stdout) -> int:
     files = read_submission_files(target)
     if not files:
@@ -158,7 +220,29 @@ def run(target: Path, strict: bool = False, out=sys.stdout) -> int:
     else:
         print(f"[PASS] Required packet sections: all {len(REQUIRED_SECTIONS)} found", file=out)
 
-    # Check 2: number source labels (advisory).
+    # Check 2: verifiability of high-tier claims (advisory, prominent).
+    unverifiable: list[tuple[Path, int, str]] = []
+    for path, text in files:
+        for start_line, title in find_unverifiable_claims(text):
+            unverifiable.append((path, start_line, title))
+    if unverifiable:
+        warnings += 1
+        print(f"[WARN] Verifiability: {len(unverifiable)} section(s) make [Observed] or "
+              "Tier 2-5 claims with nothing checkable in the same section.", file=out)
+        print("       High-tier claims need a verifiable artifact reference (link, attached "
+              "file path,", file=out)
+        print("       screenshot/attachment reference, or reproduction command) or reviewers "
+              "treat them", file=out)
+        print("       as Tier 0 (claims only):", file=out)
+        for path, start_line, title in unverifiable[:20]:
+            print(f"       - {path}:{start_line}: section \"{title}\"", file=out)
+        if len(unverifiable) > 20:
+            print(f"       ... and {len(unverifiable) - 20} more", file=out)
+    else:
+        print("[PASS] Verifiability: every section with [Observed] or Tier 2-5 claims "
+              "contains a checkable reference", file=out)
+
+    # Check 3: number source labels (advisory).
     unlabeled: list[tuple[Path, int, str]] = []
     for path, text in files:
         for line_no, snippet in find_unlabeled_numbers(text):
@@ -174,7 +258,7 @@ def run(target: Path, strict: bool = False, out=sys.stdout) -> int:
     else:
         print("[PASS] Number source labels: no unlabeled numeric claims detected", file=out)
 
-    # Check 3: evidence-tier citations (advisory).
+    # Check 4: evidence-tier citations (advisory).
     tier_refs = count_evidence_tier_refs(combined)
     if tier_refs == 0:
         warnings += 1

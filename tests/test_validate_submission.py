@@ -35,12 +35,12 @@ Budget model spreadsheet, view-only link below.
 
 ## Evidence Log
 
-- Claim: prior campaign improved conversion. Tier 3 (analytics export).
-- Claim: workflow runs end to end. Tier 2 (demo recording).
+- Claim: prior campaign improved conversion. Tier 3 (analytics export, export.csv attached).
+- Claim: workflow runs end to end. Tier 2 (demo recording, https://example.com/demo).
 
 ## Number Source Labels
 
-- [Observed] 48 leads entered the sheet last week.
+- [Observed] 48 leads entered the sheet last week (sheet: https://example.com/sheet).
 - [Benchmarked] 2% to 5% reply rate from public outbound benchmarks.
 
 ## AI Usage Disclosure
@@ -102,6 +102,50 @@ class HelperTests(unittest.TestCase):
         self.assertEqual(MOD.count_evidence_tier_refs("Tier 3 proof and tier 2 demo."), 2)
         self.assertEqual(MOD.count_evidence_tier_refs("No proof levels named."), 0)
 
+    def test_iter_sections_splits_on_headings(self):
+        text = "intro line\n\n## First\n\nbody one\n\n## Second\n\nbody two\n"
+        sections = list(MOD.iter_sections(text))
+        self.assertEqual([t for _, t, _ in sections], ["(preamble)", "First", "Second"])
+
+    def test_iter_sections_ignores_headings_in_code_fences(self):
+        text = "## Only\n\n```\n# not a heading\n```\ntail\n"
+        sections = list(MOD.iter_sections(text))
+        self.assertEqual([t for _, t, _ in sections], ["Only"])
+
+    def test_observed_claim_without_reference_flagged(self):
+        text = "## Results\n\n[Observed] Traffic grew from 40K to 400K in 8 months.\n"
+        flagged = MOD.find_unverifiable_claims(text)
+        self.assertEqual([title for _, title in flagged], ["Results"])
+
+    def test_high_tier_claim_without_reference_flagged(self):
+        text = "## Evidence Log\n\n- Growth claim. Tier 4 (before/after analytics).\n"
+        flagged = MOD.find_unverifiable_claims(text)
+        self.assertEqual([title for _, title in flagged], ["Evidence Log"])
+
+    def test_link_in_section_satisfies_verifiability(self):
+        text = ("## Results\n\n[Observed] Traffic grew 40% "
+                "(dashboard: https://example.com/report).\n")
+        self.assertEqual(MOD.find_unverifiable_claims(text), [])
+
+    def test_file_path_screenshot_and_command_satisfy_verifiability(self):
+        bodies = (
+            "- Claim one. Tier 3. Proof: raw export in leads.csv",
+            "- Claim one. Tier 3. Proof: screenshot included with the application",
+            "- Claim one. Tier 3. Reproduce with:\n$ make weekly-report",
+        )
+        for body in bodies:
+            with self.subTest(body=body):
+                text = f"## Evidence Log\n\n{body}\n"
+                self.assertEqual(MOD.find_unverifiable_claims(text), [])
+
+    def test_code_fence_counts_as_reproduction_command(self):
+        text = "## Evidence Log\n\nTier 3 logs, reproduced by:\n\n```\nmake report\n```\n"
+        self.assertEqual(MOD.find_unverifiable_claims(text), [])
+
+    def test_low_tier_claims_exempt_from_verifiability(self):
+        text = "## Evidence Log\n\n- Honest gap: launch date claim is Tier 0 for now.\n"
+        self.assertEqual(MOD.find_unverifiable_claims(text), [])
+
 
 class RunTests(unittest.TestCase):
     def setUp(self):
@@ -147,6 +191,33 @@ class RunTests(unittest.TestCase):
         code, report = self.run_validator(path, strict=True)
         self.assertEqual(code, 1)
         self.assertIn("--strict", report)
+
+    def test_unverifiable_high_tier_claims_warn_but_pass(self):
+        text = COMPLETE_SUBMISSION + (
+            "\n## More Wins\n\n[Observed] Pipeline grew 300% after my rebuild. "
+            "Tier 5 (leadership confirmed).\n"
+        )
+        path = self.write("submission.md", text)
+        code, report = self.run_validator(path)
+        self.assertEqual(code, 0)
+        self.assertIn("[WARN] Verifiability", report)
+        self.assertIn('section "More Wins"', report)
+        self.assertIn("Tier 0 (claims only)", report)
+
+    def test_unverifiable_high_tier_claims_fail_strict(self):
+        text = COMPLETE_SUBMISSION + (
+            "\n## More Wins\n\n[Observed] Pipeline grew 300% after my rebuild.\n"
+        )
+        path = self.write("submission.md", text)
+        code, report = self.run_validator(path, strict=True)
+        self.assertEqual(code, 1)
+        self.assertIn("[WARN] Verifiability", report)
+
+    def test_verifiable_submission_passes_verifiability_check(self):
+        path = self.write("submission.md", COMPLETE_SUBMISSION)
+        code, report = self.run_validator(path)
+        self.assertEqual(code, 0)
+        self.assertIn("[PASS] Verifiability", report)
 
     def test_missing_tier_references_warn(self):
         text = COMPLETE_SUBMISSION.replace("Tier 3", "strong").replace("Tier 2", "solid")
