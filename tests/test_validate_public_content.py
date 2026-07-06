@@ -117,6 +117,26 @@ class ValidatePublicContentTests(unittest.TestCase):
         self.write("tests/test_some_tool.py", "password = 'not-a-real-one'\n")
         self.assertEqual(self.validate(), [])
 
+    def test_private_key_material_flagged_even_in_code_dirs(self):
+        # Actual secret material is a global check: the code-dir exemption for
+        # generic keywords must not exempt pasted private keys.
+        header = "-----BEGIN RSA " + "PRIVATE KEY-----"
+        self.write("scripts/deploy_helper.py", f'KEY = """{header}\nMIIEow...\n"""\n')
+        failures = self.validate()
+        self.assertTrue(any("private key material" in f for f in failures), failures)
+
+    def test_real_pem_header_variants_flagged_in_docs(self):
+        for variant in ("RSA ", "OPENSSH ", "EC ", "ENCRYPTED ", ""):
+            with self.subTest(variant=variant or "pkcs8"):
+                path = self.write(
+                    "notes.md", "-----BEGIN " + variant + "PRIVATE KEY-----\n"
+                )
+                failures = self.validate()
+                self.assertTrue(
+                    any("private key material" in f for f in failures), failures
+                )
+                path.unlink()
+
     def test_keyword_checks_still_apply_to_docs(self):
         self.write("submissions/notes.md", "Store your credentials in a vault.\n")
         failures = self.validate()

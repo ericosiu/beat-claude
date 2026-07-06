@@ -14,9 +14,9 @@ Scoping notes:
 - The business/keyword checks target public-facing docs (challenges/**,
   top-level markdown, templates). Files under ``scripts/`` and ``tests/`` are
   excluded from those checks because code and test fixtures legitimately use
-  words like "credential" or "password" without leaking anything. Real secrets
-  in code should be caught by a dedicated secret scanner (e.g. gitleaks or
-  GitHub secret scanning), not by this public-content keyword lint.
+  words like "credential" or "password" without leaking anything. Actual
+  secret material (private key blocks) stays a global check because it is
+  never legitimate anywhere in this repo, code included.
 - A line containing the marker ``beatclaude: allow`` is skipped by all
   line-level checks, so intentional mentions do not require editing this
   checker. Use sparingly and only for clearly benign content.
@@ -37,10 +37,14 @@ INLINE_ALLOW_MARKER = "beatclaude: allow"
 
 ANSWER_KEY_CHECK = ("public answer-key filename/reference", re.compile(r"claude_baseline", re.I))
 
-# Checks that apply to every scanned file. Leaking an answer-key reference is
-# a problem anywhere in the repo, including code.
+# Checks that apply to every scanned file. Leaking an answer-key reference or
+# private key material is a problem anywhere in the repo, including code.
+# The key pattern anchors on the PEM dashes and tolerates the algorithm
+# word(s) real headers carry (RSA/OPENSSH/EC/ENCRYPTED/...), which
+# "BEGIN <one-word> KEY" missed; prose about keys never matches.
 GLOBAL_CHECKS: list[tuple[str, re.Pattern[str]]] = [
     ANSWER_KEY_CHECK,
+    ("private key material", re.compile(r"-----BEGIN\s+(?:[A-Z0-9]+\s+)*PRIVATE\s+KEY-----", re.I)),
 ]
 
 # Business-specific keyword checks, scoped to public-facing content only
@@ -52,7 +56,7 @@ SCOPED_CHECKS: list[tuple[str, re.Pattern[str]]] = [
     ("CEO psychometrics or medical-style self-assessment", re.compile(r"\b(MMPI|ENTJ|enneagram|8w7|Kolbe|psychometric|personality\s+assessment)\b", re.I)),
     ("internal agent/system names", re.compile(r"\b(Oracle|Cyborg|Flash|Alfred|Single\s+Brain|Mission\s+Control)\b", re.I)),
     ("internal product-level targets", re.compile(r"\b(ClickFlow|Karrot)\b.*\b(MRR|target|quota|churn|lost\s+\d+\s+customers)\b|\b(MRR|target|quota|churn)\b.*\b(ClickFlow|Karrot)\b", re.I)),
-    ("secret or credential", re.compile(r"\b(api[_-]?key|secret[_-]?key|password\s*=|BEGIN\s+(RSA|OPENSSH|PRIVATE)\s+KEY|credentials?)\b", re.I)),
+    ("secret or credential", re.compile(r"\b(api[_-]?key|secret[_-]?key|password\s*=|credentials?)\b", re.I)),
 ]
 
 ALLOWLIST = {
