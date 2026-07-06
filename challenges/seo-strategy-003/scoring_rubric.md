@@ -1,38 +1,43 @@
-# Public Review Guide: Seo Strategy 003
+# Public Review Guide: SEO Strategy 003
 
-This challenge-specific guide is intentionally high level. Private reviewer calibration, answer benchmarks, follow-up exercises, and detailed scoring notes are not published.
+This guide is challenge-specific but intentionally high level. Read [SCORING.md](../../SCORING.md) first: the five evaluation dimensions, the evidence tiers, and the number source labels apply to every challenge. Private reviewer calibration, answer benchmarks, and follow-up exercises are not published.
 
-## What Strong Submissions Show
+## What Strong Submissions Demonstrate
 
-### 1. Real judgment
-Make hard choices, name tradeoffs, respect the constraints in the brief, and explain why your path is better than plausible alternatives.
+### 1. Diagnosis before prescription
+The brief gives several plausible causes for the decline: content decay, technical debt, a faster competitor, and shifting search results. Strong submissions separate these causes, estimate the contribution of each (labeled), and let the diagnosis drive the plan. Weak submissions jump straight to a standard playbook.
 
-### 2. Execution artifact
-Include an operating artifact a reviewer can inspect, such as a model, workflow, prototype, decision log, scorecard, process map, audit, or demo that fits the challenge.
+### 2. A triage system for the existing content library
+Hundreds of aging posts cannot all be refreshed. Strong answers show a decision framework: which posts to refresh, consolidate, prune, or leave alone, and in what order, with the reasoning visible. The best artifacts for this brief are exactly this: an audit sheet or refresh model a reviewer can inspect.
 
-### 3. Source-labeled specificity
-Label every number as observed, estimated, benchmarked, or assumed. Unlabeled numbers are weak evidence; fake precision is worse than a stated assumption.
+### 3. Competitive judgment about which battles to fight
+The brief names a well-funded competitor publishing aggressively. Strong submissions choose where to compete head-on, where to flank, and where to concede, and explain why. Pretending the competitor can be out-published on this budget is a judgment failure.
 
-### 4. Proof quality
-Use the public evidence standards in [SCORING.md](../../SCORING.md). Stronger work includes source records, logs, before/after comparisons, or independent verification.
+### 4. Engineering asks sized to the constraint
+One sprint per quarter is the entire technical budget. Strong plans rank technical fixes by expected impact per unit of engineering time and state what gets cut. Plans requiring continuous engineering support ignore the brief.
 
-### 5. AI fluency with limits
-Use AI where it creates leverage, but disclose tools used, what you changed, what you checked, and what should stay human.
+### 5. A 90-day traction story for leadership
+Recovery takes longer than a quarter, but leadership wants signal early. Strong submissions pick early indicators that honestly predict recovery and explain what they will do if those indicators do not move.
 
-### 6. Failure handling
-Name what would break the plan or artifact, how you would detect it, and how you would respond.
+### 6. Conversion, not just traffic
+The task includes improving conversion from organic visitors. Strong answers connect the content plan to the visitor's intent and the path to the product, not just to rankings.
 
-## What Usually Loses
+## Challenge-Specific Failure Modes
 
-- A polished strategy document with no artifact.
-- Generic AI phrasing with no lived judgment.
-- Numbers with no source labels.
-- Claims without evidence.
-- A plan that ignores the brief's constraints.
-- A demo that only works on perfect inputs.
-- Recommendations that cannot be executed by the team described in the brief.
-- Hiding what stays human.
+- **The generic audit-everything opener.** A quarter spent auditing before anything ships, despite the explicit 90-day traction constraint.
+- **Playbook recitation.** Refresh content, fix technical issues, build links — with no prioritization, sequencing, or connection to this site's actual situation.
+- **Unlabeled recovery projections.** Traffic recovery curves asserted without labeling the assumptions behind them.
+- **Budget-blind link building.** Link strategies whose real-world cost exceeds the stated budget, or that risk the domain's credibility.
 
-## How Review Works
+## Evidence That Matters for This Brief
 
-Submissions are reviewed against private benchmarks and reviewer guidance outside this public repo. Strong or close submissions may receive a source check, artifact walkthrough, or follow-up exercise. The goal is to identify people who can operate, not people who can optimize for a public rubric.
+- **Tier 2** is the floor: the audit sheet, keyword map, or refresh-prioritization model itself.
+- **Tier 3** strengthens it: real analytics or crawler exports (from your own past work, sanitized) showing you have run this motion before, or sources for every benchmarked figure.
+- **Tier 4** is the differentiator: before/after data from a decline you actually reversed, with the method stated.
+- Your evidence log should distinguish what you observed from public tools, what you benchmarked from named sources, and what you assumed about this company's data you cannot see.
+
+Strong or close submissions may be asked to defend the triage framework live against a messy sample of real posts.
+
+---
+
+Format, page limits, and the full submission packet are defined in the challenge [brief](brief.md) and the repository [README](../../README.md). You can pre-screen your packet with `python3 scripts/validate_submission.py`.
