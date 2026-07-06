@@ -35,10 +35,15 @@ python3 scripts/validate_submission.py path/to/your_submission.md --strict
 What it checks:
 
 1. **Required packet sections (fail)**: all 7 sections above are present. The linter looks for the section names (or close variants such as "What breaks it" for failure handling), so use them as headings or labels in your document.
-2. **Number source labels (advisory)**: paragraphs with numeric claims should carry an `[Observed]`, `[Estimated]`, `[Benchmarked]`, or `[Assumed]` label, per [SCORING.md](../SCORING.md).
-3. **Evidence-tier citations (advisory)**: your evidence log should map major claims to the SCORING.md proof tiers (Tier 0-5).
+2. **Verifiability (advisory)**: sections that make `[Observed]` or Tier 2-5 claims should contain something a reviewer can check — a link, an attached file path, a screenshot reference, or a reproduction command.
+3. **Number source labels (advisory)**: paragraphs with numeric claims should carry an `[Observed]`, `[Estimated]`, `[Benchmarked]`, or `[Assumed]` label, per [SCORING.md](../SCORING.md).
+4. **Evidence-tier citations (advisory)**: your evidence log should map major claims to the SCORING.md proof tiers (Tier 0-5).
 
 A passing pre-screen does not mean a passing review; it only confirms the packet is complete and your numbers are labeled. The advisory checks are heuristics — reviewers make the final call.
+
+## Verification
+
+We spot-verify submissions. Claimed artifacts may be requested live, numbers may be re-derived with you in the interview, and `[Observed]` or Tier 2-5 claims that give reviewers nothing to check are scored as Tier 0 (claims only). Review may also include comparison against a fresh model-generated answer to the same brief, produced at review time — pasting our public materials into an AI tool gets you to that baseline, not past it. See the [Verification section in SCORING.md](../SCORING.md#verification).
 
 ## Candidate Confidentiality and Data Policy
 

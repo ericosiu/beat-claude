@@ -61,6 +61,17 @@ Examples:
 
 Unlabeled numbers hurt the review. Fake precision hurts more than honest assumptions.
 
+## Verification
+
+We spot-verify submissions. Treat every claim as checkable, because it may be checked:
+
+- We may ask you to open a claimed artifact live, show source records, or walk through how a number was produced.
+- We may re-derive your numbers with you in the interview, from your own stated inputs.
+- An [Observed] number or a Tier 2-5 evidence claim that gives a reviewer nothing to check — no link, file, screenshot, record, or reproduction step — is scored as Tier 0: claims only.
+- Review may include comparing your submission against a fresh model-generated answer to the same brief, produced at review time. Feeding this repo's public materials into an AI tool gets you to that baseline, not past it, and the baseline does not advance.
+
+The pre-screen (`python3 scripts/validate_submission.py`) flags high-tier claims with nothing checkable before you submit, so fix them before we find them.
+
 ## Operating Artifact Requirement
 
 A written answer alone is not enough. Include at least one operating artifact that shows how you work.
