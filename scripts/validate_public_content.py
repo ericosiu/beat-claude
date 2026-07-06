@@ -19,7 +19,11 @@ Scoping notes:
   never legitimate anywhere in this repo, code included.
 - A line containing the marker ``beatclaude: allow`` is skipped by all
   line-level checks, so intentional mentions do not require editing this
-  checker. Use sparingly and only for clearly benign content.
+  checker. Use sparingly and only for clearly benign content. The marker is
+  deliberately ignored under ``challenges/**``: candidate-facing challenge
+  files must stay tamper-proof, so a brief edit cannot smuggle blocked terms
+  past CI by tagging the line. Legitimate exceptions in challenge content
+  require editing this checker's allowlist instead.
 """
 from __future__ import annotations
 
@@ -32,7 +36,8 @@ SKIP_DIRS = {".git", "node_modules", ".venv", "venv", "__pycache__"}
 TEXT_EXTS = {".md", ".txt", ".yml", ".yaml", ".json", ".toml", ".py"}
 
 # Inline per-line allowlist marker: lines containing this string are skipped
-# by all line-level checks (path-level checks still apply).
+# by all line-level checks (path-level checks still apply). Not honored under
+# challenges/** -- see the module docstring.
 INLINE_ALLOW_MARKER = "beatclaude: allow"
 
 ANSWER_KEY_CHECK = ("public answer-key filename/reference", re.compile(r"claude_baseline", re.I))
@@ -93,6 +98,12 @@ def is_code_path(rel: Path) -> bool:
     return bool(rel.parts) and rel.parts[0] in CODE_DIRS
 
 
+def honors_inline_allow_marker(rel: Path) -> bool:
+    """The inline allow marker is ignored for candidate-facing challenge
+    files so a brief edit cannot exempt itself from the checks."""
+    return not (bool(rel.parts) and rel.parts[0] == "challenges")
+
+
 def is_challenge_baseline_path(rel: Path) -> bool:
     """True for challenges/<name>/claude_baseline.md paths."""
     return len(rel.parts) == 3 and rel.parts[0] == "challenges" and rel.name == "claude_baseline.md"
@@ -149,8 +160,9 @@ def validate(root: Path) -> list[str]:
             if pattern.search(rel.as_posix()):
                 failures.append(f"{rel}: path: {label}")
 
+        marker_honored = honors_inline_allow_marker(rel)
         for line_no, line in enumerate(text.splitlines(), 1):
-            if INLINE_ALLOW_MARKER in line:
+            if marker_honored and INLINE_ALLOW_MARKER in line:
                 continue
             for label, pattern in checks:
                 if is_baseline and (label, pattern) == ANSWER_KEY_CHECK:

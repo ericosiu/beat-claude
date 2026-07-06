@@ -149,6 +149,24 @@ class ValidatePublicContentTests(unittest.TestCase):
         )
         self.assertEqual(self.validate(), [])
 
+    def test_inline_allow_marker_ignored_under_challenges(self):
+        # Challenge files must stay tamper-proof: a brief edit cannot smuggle
+        # blocked terms past CI by tagging the line with the allow marker.
+        self.write(
+            "challenges/test-000/brief.md",
+            "The salary band for this role is generous. <!-- beatclaude: allow -->\n",
+        )
+        failures = self.validate()
+        self.assertTrue(any("HR/compensation specifics" in f for f in failures), failures)
+
+    def test_inline_allow_marker_ignored_in_nested_challenge_files(self):
+        self.write(
+            "challenges/test-000/extras/notes.md",
+            "Reviewers use exact point bands here. <!-- beatclaude: allow -->\n",
+        )
+        failures = self.validate()
+        self.assertTrue(any("over-specific public scoring" in f for f in failures), failures)
+
     def test_clean_repo_passes(self):
         self.write("README.md", "# Hello\n\nNothing sensitive here.\n")
         self.write("challenges/test-000/brief.md", "# Challenge\n\nDo good work.\n")
