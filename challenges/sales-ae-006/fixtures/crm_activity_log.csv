@@ -1,0 +1,16 @@
+entry_id,date,actor,activity_type,stakeholder,summary
+E-01,2026-03-04,You,call,Sarah Chen,Discovery call. Pain: HubSpot workflows break at their scale. Sarah wants consolidation.
+E-02,2026-03-11,You,demo,Sarah Chen + David Kim,Full platform demo. David asked detailed API rate-limit questions. Positive.
+E-03,2026-03-18,David Kim,email,You,Technical eval doc returned. Your API scored ahead of Marketo on 9 of 11 criteria.
+E-04,2026-03-25,You,email,Sarah Chen,Sent proposal v1: $120K ACV platform + implementation.
+E-05,2026-03-27,TechFlow procurement,portal,You,Security questionnaire (78 questions) assigned to your team via vendor portal. Due in 14 days.
+E-06,2026-04-01,Sarah Chen,email,You,"Sarah: 'Loved the proposal. Need exec alignment - can you help me build the business case?'"
+E-07,2026-04-08,You,call,Michael Torres (CFO),"Michael joined late, asked one question: 'What did your last three implementations actually cost beyond license?' Call ended before you answered fully."
+E-08,2026-04-10,Sarah Chen,slack-forward,You,"Sarah forwarded internal thread: Jennifer's team OKR this year includes 'consolidate MarTech stack from 14 tools to 8'."
+E-09,2026-04-15,You,email,Sarah Chen,Offered reference call with similar-industry customer. Sarah accepted for 4/22.
+E-10,2026-04-20,Your SE team,internal,You,Reference call for 4/22 cancelled by our side - SE double-booked. Never rescheduled.
+E-11,2026-04-24,Sarah Chen,email,You,"Sarah: 'Michael keeps repeating a horror story from his last company - a MarTech rollout that ran 9 months over. It's not really about the price.'"
+E-12,2026-04-29,You,task,internal,"Task created: 'Answer security questionnaire' - unassigned, still open as of today."
+E-13,2026-05-06,Marketo,competitive-intel,Sarah Chen,"Sarah shared Marketo's offer: 30% off list, 1-year term only, auto-renews at full list price, implementation billed separately."
+E-14,2026-05-08,Sarah Chen,email,You,"Sarah: 'Jennifer doesn't do vendor meetings. She reads one-page briefs on Sunday nights. Michael reports cost overruns to her monthly.'"
+E-15,2026-05-13,You,email,Sarah Chen,"Asked Sarah for another exec meeting slot. No reply for 6 days - unusual for her."

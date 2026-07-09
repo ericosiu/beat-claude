@@ -74,6 +74,16 @@ Your redesign should include:
 Submit as PDF, Markdown, or Figma link. **Maximum 4 pages** (wireframes don't count toward limit). Can use Figma, Sketch, or even hand-drawn + photos. Estimated time: 1-2 hours.
 
 
+## Ground It in the Sample Data (Required)
+
+This folder includes a fixture dataset: [`fixtures/onboarding_sessions.csv`](fixtures/onboarding_sessions.csv). It is a small synthetic snapshot of the situation above, and it contains seeded issues - not everything in it should be taken at face value. We know exactly what is planted in it, so your reading of the data tells us immediately whether the analysis is real.
+
+- Ground your drop-off diagnosis and redesign in these sessions. Cite specific `session_id`s, and separate real signal from vocal-minority noise.
+- Call out at least three things in the data you would **not** act on at face value, and why.
+- State the fixture checksum you worked from: `shasum -a 256 fixtures/onboarding_sessions.csv`.
+
+Fixtures rotate between hiring rounds; answers built against an old fixture will not match the current one. See the [Integrity section of SCORING.md](../../SCORING.md#integrity).
+
 ## Required Submission Packet
 
 Include these items with your submission:

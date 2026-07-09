@@ -38,6 +38,10 @@ Two dedicated engineers and a phased timeline are the real budget. Strong answer
 
 Strong or close submissions may be asked to walk through the design live with a changed constraint, such as a tighter budget or a new compliance requirement.
 
+## Fixture Verification
+
+The brief requires working the fixture dataset in `fixtures/event_sample.jsonl`. Reviewers hold the private key of seeded issues, so the fastest ways to lose are: analysis that never cites the data, conclusions that treat a planted issue as clean signal, and recommendations the fixture contradicts. Strong submissions cite specific ids, catch most of the seeded issues, state the fixture checksum, and say what they refused to conclude because the sample is small.
+
 ---
 
 Format, page limits, and the full submission packet are defined in the challenge [brief](brief.md) and the repository [README](../../README.md). You can pre-screen your packet with `python3 scripts/validate_submission.py`.

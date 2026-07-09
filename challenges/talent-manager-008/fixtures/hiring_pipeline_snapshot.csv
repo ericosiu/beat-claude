@@ -1,0 +1,17 @@
+candidate_id,role,role_days_open,source,stage,days_in_stage,scorecards_submitted,interviewers_so_far,status,notes
+P-01,Paid Media Director,127,job board,rejected_final,0,4,5,closed,Third finalist rejected by same hiring manager; feedback each time was 'not a culture fit' with no specifics
+P-02,Paid Media Director,127,referral,onsite,9,2,3,active,Strong scorecards; hiring manager slow to schedule final
+P-03,AI Automation Intern,21,Beat Claude challenge,challenge_review,11,1,1,active,Challenge scored by one reviewer; second review required by process but never assigned
+P-04,Senior Engineer,64,referral,offer,21,5,5,stalled,Offer sent 21 days ago; no decision; no follow-up logged since
+P-05,Senior Engineer,64,job board,rejected_screen,0,0,1,closed,Rejected at screen in 4 minutes per ATS log
+P-06,Content Strategist,38,outbound sourcing,phone_screen,6,1,1,active,Asked about remote policy; recruiter answer contradicted careers page
+P-07,AI Automation Intern,21,Beat Claude challenge,onsite,4,3,3,active,Fixture run was flawless; strongest intern candidate in pipeline
+P-08,Content Strategist,38,job board,rejected_screen,0,0,1,closed,Screen rejection reason field left empty
+P-09,Paid Media Director,127,agency recruiter,phone_screen,3,1,1,active,Agency fee 25 pct; no fee agreement on file
+P-10,Senior Engineer,64,referral,onsite,12,2,4,active,One interviewer has submitted no scorecard for 12 days; loop can't close
+P-11,Ops Coordinator,15,job board,phone_screen,2,1,1,active,Note in ATS mentions candidate's medical condition from casual screen chat - should never have been recorded
+P-12,Content Strategist,38,referral,onsite,5,3,3,active,Advanced to onsite with no phone-screen scorecard on file
+P-13,AI Automation Intern,21,job board,applied,14,0,0,active,Never reviewed; auto-acknowledgment email was the only touch in 14 days
+P-14,Senior Engineer,64,job board,rejected_screen,0,0,1,closed,Same resume as P-16; duplicate application under variant name
+P-15,Ops Coordinator,15,referral,offer_declined,0,3,4,closed,Second declined offer for this role in 2 months; both cited a competing offer moving faster
+P-16,Senior Engineer,64,LinkedIn outbound,phone_screen,1,0,1,active,Duplicate of P-14; sourced by recruiter unaware of prior application

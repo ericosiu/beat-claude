@@ -63,6 +63,16 @@ Your design should include:
 - Compliance: SOC 2, GDPR, CCPA
 
 
+## Ground It in the Sample Data (Required)
+
+This folder includes a fixture dataset: [`fixtures/event_sample.jsonl`](fixtures/event_sample.jsonl). It is a small synthetic snapshot of the situation above, and it contains seeded issues - not everything in it should be taken at face value. We know exactly what is planted in it, so your reading of the data tells us immediately whether the analysis is real.
+
+- Your design must state, anomaly class by anomaly class, how the pipeline handles what is actually in this sample. Cite specific `event_id`s. A small script that detects the anomalies is a strong artifact.
+- Call out at least three things in the data you would **not** act on at face value, and why.
+- State the fixture checksum you worked from: `shasum -a 256 fixtures/event_sample.jsonl`.
+
+Fixtures rotate between hiring rounds; answers built against an old fixture will not match the current one. See the [Integrity section of SCORING.md](../../SCORING.md#integrity).
+
 ## Required Submission Packet
 
 Include these items with your submission:

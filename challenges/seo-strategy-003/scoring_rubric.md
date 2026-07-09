@@ -38,6 +38,10 @@ The task includes improving conversion from organic visitors. Strong answers con
 
 Strong or close submissions may be asked to defend the triage framework live against a messy sample of real posts.
 
+## Fixture Verification
+
+The brief requires working the fixture dataset in `fixtures/content_audit_sample.csv`. Reviewers hold the private key of seeded issues, so the fastest ways to lose are: analysis that never cites the data, conclusions that treat a planted issue as clean signal, and recommendations the fixture contradicts. Strong submissions cite specific ids, catch most of the seeded issues, state the fixture checksum, and say what they refused to conclude because the sample is small.
+
 ---
 
 Format, page limits, and the full submission packet are defined in the challenge [brief](brief.md) and the repository [README](../../README.md). You can pre-screen your packet with `python3 scripts/validate_submission.py`.

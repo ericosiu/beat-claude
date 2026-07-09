@@ -1,0 +1,19 @@
+account_id,segment,employees,tickets_per_month,resolution_rate_pct,weekly_active_agents,nps,nps_responses,integration,signup_date,notes
+A-01,B2B SaaS,120,3400,61,9,75,12,Zendesk,2025-11-03,Heavy daily use; asked twice about pricing
+A-02,B2B SaaS,45,900,58,4,70,6,Intercom,2025-12-10,Steady use; champion is Head of Support
+A-03,Ecommerce,300,8200,64,14,68,18,Zendesk,2025-10-21,Largest ticket volume in beta; CFO involved in eval
+A-04,B2B SaaS,22,140,95,1,100,1,Freshdesk,2026-02-14,Tiny volume; single NPS response
+A-05,B2B SaaS,80,2100,60,6,74,9,Zendesk,2025-11-30,Resolution rate fell from 66 to 60 over last 8 weeks
+A-06,Marketplace,2000,15000,62,22,71,15,Zendesk,2026-01-08,Loves product; procurement requires SOC 2 and 6-month pilot
+A-07,B2B SaaS,60,1100,59,0,55,4,Intercom,2025-12-02,No agent logins in 6 weeks; sponsor left company
+A-08,B2B SaaS,150,2900,63,8,77,11,Intercom,2025-11-18,Asked for annual invoice option unprompted
+A-09,Fintech,90,1600,57,5,72,7,Freshdesk,2026-01-20,Compliance requires human review of refund tickets
+A-10,B2B SaaS,45,880,58,4,69,5,Intercom,2025-12-10,Second workspace of A-02 created by same company
+A-11,Ecommerce,35,700,66,3,73,6,Zendesk,2026-02-01,Seasonal: volume triples Nov-Dec
+A-12,B2B SaaS,200,4100,62,10,76,14,Zendesk,2025-10-15,Wrote unsolicited LinkedIn post praising beta
+A-13,Agency,15,90,88,1,80,2,Freshdesk,2026-03-05,Below ICP size; uses it for 3 of their own clients
+A-14,B2B SaaS,110,2400,61,7,71,10,Intercom,2026-01-12,Asked what happens to pricing when beta ends
+A-15,Edtech,70,1900,44,6,52,8,Zendesk,2026-02-20,Resolution rate well below beta average; escalations rising
+A-16,B2B SaaS,55,1000,60,5,74,7,Freshdesk,2025-12-28,Quiet but consistent; no pricing signals yet
+A-17,Healthtech,130,3100,63,8,70,9,Zendesk,2026-01-25,Legal flagged that PHI must never reach the model
+A-18,B2B SaaS,95,150,59,1,78,3,Zendesk,2026-03-10,Signed up 2 weeks before snapshot; volume still ramping

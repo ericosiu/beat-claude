@@ -1,0 +1,17 @@
+campaign_id,channel,campaign_name,spend_30d_usd,impressions,clicks,demo_requests,opportunities,closed_won,impression_share_lost_budget_pct,notes
+C-01,Google,Brand - Exact,4200,61000,8900,58,22,7,2,Brand terms only
+C-02,Google,Nonbrand - Construction PM Software,14500,410000,6100,41,15,4,38,Top nonbrand performer; losing impression share to budget
+C-03,Google,Nonbrand - Broad Match Discovery,8200,890000,12400,9,2,0,0,CTR strong; search terms report shows mostly job-seeker queries
+C-04,Google,Competitor Terms,5100,120000,2100,12,4,1,5,High CPC; legal reviewed ad copy
+C-05,Google,Display - Retargeting,3800,2400000,4100,44,3,0,0,Conversions counted on view-through; frequency 14 per user
+C-06,LinkedIn,Sponsored - Ops Directors 50-500,9600,310000,2200,19,11,4,12,Highest cost per demo; best demo-to-close rate on the account
+C-07,LinkedIn,Sponsored - All Construction Broad,7400,520000,3900,22,5,1,8,Audience overlaps C-06 by ~60 pct
+C-08,LinkedIn,Lead Gen Forms - Ebook,4900,280000,3300,61,4,0,0,Cheap form fills; sales says leads never answer
+C-09,Meta,Prospecting - Lookalike 1pct,3100,690000,5200,14,3,1,0,Creative fatigued; same 2 ads for 90 days
+C-10,Meta,Retargeting - Site Visitors 30d,1900,410000,3800,17,6,2,0,Pool only 9k users; frequency 11
+C-11,Google,Nonbrand - Schedule Optimization AI,6800,150000,2900,26,12,3,22,New theme; scaling headroom and strong intent
+C-12,Google,YouTube - In-Stream Awareness,4400,1800000,900,2,0,0,0,Agency-recommended; no view-through discounting applied
+C-13,LinkedIn,Sponsored - Ops Directors 50-500 v2,5200,180000,1300,11,6,2,10,Duplicate of C-06 built by freelancer; same audience
+C-14,Google,Nonbrand - Geo All Countries,3600,240000,3100,8,1,0,3,Targets all geos; product only sells in US
+C-15,Meta,Prospecting - Interest Stack Broad,2700,510000,4400,6,1,0,0,Low intent; comments are consumer traffic
+C-16,Google,Performance Max - Catchall,7100,980000,7600,33,7,1,15,Mixes brand and nonbrand; search term visibility limited
