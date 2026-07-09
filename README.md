@@ -125,6 +125,10 @@ Top performers: [Hall of Fame](leaderboard/HALL_OF_FAME.md)
 
 [Single Grain](https://www.singlegrain.com) is a digital marketing agency working with companies like Amazon, Uber, and Salesforce. We're building an AI-forward team that uses technology as leverage, not as a crutch.
 
+## How the Whole System Works
+
+Curious how the challenge is built and defended — the fixture system, versioning, validators, CI, and what stays private? See [ARCHITECTURE.md](ARCHITECTURE.md).
+
 ## Questions and GitHub Issue Policy
 
 Use GitHub issues only for general public clarification that would help every candidate equally, such as broken links, typo fixes, or ambiguous public instructions.
