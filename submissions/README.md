@@ -35,9 +35,11 @@ python3 scripts/validate_submission.py path/to/your_submission.md --strict
 What it checks:
 
 1. **Required packet sections (fail)**: all 7 sections above are present. The linter looks for the section names (or close variants such as "What breaks it" for failure handling), so use them as headings or labels in your document.
-2. **Verifiability (advisory)**: sections that make `[Observed]` or Tier 2-5 claims should contain something a reviewer can check — a link, an attached file path, a screenshot reference, or a reproduction command.
-3. **Number source labels (advisory)**: paragraphs with numeric claims should carry an `[Observed]`, `[Estimated]`, `[Benchmarked]`, or `[Assumed]` label, per [SCORING.md](../SCORING.md).
-4. **Evidence-tier citations (advisory)**: your evidence log should map major claims to the SCORING.md proof tiers (Tier 0-5).
+2. **Review manipulation (fail)**: text that addresses or instructs a reviewing AI model, invisible/zero-width characters that hide text from human readers, or HTML comments aimed at the review process. This is an automatic reject at review time — see the [Integrity section of SCORING.md](../SCORING.md#integrity). If you are quoting an adversarial input your own agent defended against, put the quote in a code block or blockquote and the linter will not flag it.
+3. **Verifiability (advisory)**: sections that make `[Observed]` or Tier 2-5 claims should contain something a reviewer can check — a link, an attached file path, a screenshot reference, or a reproduction command.
+4. **Number source labels (advisory)**: paragraphs with numeric claims should carry an `[Observed]`, `[Estimated]`, `[Benchmarked]`, or `[Assumed]` label, per [SCORING.md](../SCORING.md).
+5. **Evidence-tier citations (advisory)**: your evidence log should map major claims to the SCORING.md proof tiers (Tier 0-5).
+6. **Brief version (advisory)**: your written answer should state the version stamp of the brief you answered (for example, `Brief version: 2026-07`). Briefs are refreshed periodically and reviews use the version you cite.
 
 A passing pre-screen does not mean a passing review; it only confirms the packet is complete and your numbers are labeled. The advisory checks are heuristics — reviewers make the final call.
 

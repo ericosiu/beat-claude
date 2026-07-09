@@ -127,6 +127,8 @@ Your submission is reviewed using private benchmark guidance. See [SCORING.md](.
 
 ---
 
+**Brief version:** 2026-07. State this version in your written answer. Briefs are refreshed periodically; we review against the version you cite.
+
 **Ready to submit?** Apply through our careers page: **[singlegrain.com/careers](https://www.singlegrain.com/careers/)**
 Upload your challenge answer and artifact links with your application.
 

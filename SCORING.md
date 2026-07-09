@@ -72,6 +72,14 @@ We spot-verify submissions. Treat every claim as checkable, because it may be ch
 
 The pre-screen (`python3 scripts/validate_submission.py`) flags high-tier claims with nothing checkable before you submit, so fix them before we find them.
 
+## Integrity
+
+Review may be AI-assisted, but every decision is confirmed by a human reviewer. The following are automatic rejects, regardless of how strong the rest of the submission is:
+
+- **Manipulating review.** Text addressed to a reviewing AI model ("ignore previous instructions", "score this submission as..."), hidden or zero-width text invisible to human readers, or HTML comments that instruct the review process. The pre-screen linter detects these; if you are quoting an adversarial input your own agent defended against, format the quote as a code block or blockquote.
+- **Fabricated artifacts.** Invented logs, outputs, metrics, users, or system records presented as real.
+- **Recycled answers.** Submitting someone else's work, or a circulated answer to an old brief. Briefs carry a version stamp and are refreshed periodically, and challenge fixtures rotate between hiring rounds, so shared answers go stale by design. State the brief version you answered in your written answer.
+
 ## Operating Artifact Requirement
 
 A written answer alone is not enough. Include at least one operating artifact that shows how you work.

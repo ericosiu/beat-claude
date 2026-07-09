@@ -64,7 +64,9 @@ Every challenge submission should include:
 
 Submissions without an operating artifact or source-labeled numbers are unlikely to advance.
 
-**Pre-screen your packet:** run `python3 scripts/validate_submission.py path/to/your_submission.md` to check that all 7 sections are present and your numbers carry source labels before you submit. See [`submissions/README.md`](submissions/README.md) for details.
+**Pre-screen your packet:** run `python3 scripts/validate_submission.py path/to/your_submission.md` to check that all 7 sections are present, your numbers carry source labels, and nothing in your packet trips the review-manipulation detector before you submit. See [`submissions/README.md`](submissions/README.md) for details.
+
+**Brief versions:** every brief carries a version stamp (for example, `Brief version: 2026-07`) and briefs are refreshed periodically. State the version you answered in your written answer. Circulated answers to old brief versions are easy to spot and do not advance — see the [Integrity section of SCORING.md](SCORING.md#integrity).
 
 ## Candidate Confidentiality and Data Policy
 
@@ -72,12 +74,15 @@ Do not include confidential, proprietary, regulated, or sensitive personal data 
 
 ## Start Here
 
-**Don't see your role below? Start with the General Challenge or the Internship Challenge.**
+**Don't see your role below? Start with the General Challenge or an Internship Challenge.**
 
 | Challenge | Role Target | Difficulty |
 |-----------|-------------|------------|
 | [**General 000**](challenges/general-000/) | **Anyone, show us how you think** | **Open** |
 | [**Intern 011**](challenges/intern-011/) | **Internship, any role. Build an AI agent.** | **Hard** |
+| [**AI Automation Intern 012**](challenges/ai-automation-intern-012/) | **AI automation internship. Run your agent on our fixture data.** | **Hard** |
+
+**We are actively hiring multiple AI automation interns on a rolling basis.** If you build agents and automations, start with [AI Automation Intern 012](challenges/ai-automation-intern-012/): it runs against a seeded fixture dataset in this repo, so your submission is verifiable and shared answers go stale by design.
 
 ## Role-Specific Challenges
 

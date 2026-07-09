@@ -4,6 +4,8 @@
 
 **This challenge is for internship candidates - any role, any background.** Pick your domain, find a manual workflow, and build an AI agent that replaces it.
 
+**Specifically want the AI automation intern track?** We're hiring multiple AI automation interns on a rolling basis - do [AI Automation Intern 012](../ai-automation-intern-012/), which runs against a fixture dataset in this repo. Doing both is a strong signal.
+
 ### About Single Grain
 
 Single Grain is a digital marketing agency working with companies like Amazon, Uber, and Salesforce. We're transitioning from a traditional agency to a tech-enabled services company - AI agents handle the repetitive work, humans do the thinking that AI can't.
@@ -143,6 +145,8 @@ Your submission is scored alongside the private reviewer benchmark answer in a b
 For this challenge, we weight the **prototype heavily**. AI coding tools can write a great architecture doc. They can't ship a working demo with real judgment calls about what to automate vs. keep human. If you build something that works, you're already ahead.
 
 ---
+
+**Brief version:** 2026-07. State this version in your written answer. Briefs are refreshed periodically; we review against the version you cite.
 
 **Ready to submit?** Apply through our careers page: **[singlegrain.com/careers](https://www.singlegrain.com/careers/)**
 Upload your challenge answer (PDF or Markdown) along with your application.
