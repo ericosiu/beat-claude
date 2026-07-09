@@ -1,0 +1,17 @@
+video_id,type,title_style,published,views,avg_view_pct,ctr_pct,subs_gained,external_traffic_pct,notes
+V-01,longform,Big-name guest interview,2026-02-04,84000,31,6.2,210,18,Guest shared to own audience; comments mostly guest fans
+V-02,longform,Tactical AI marketing teardown,2026-02-18,7400,54,4.1,380,6,Modest views but strongest subs-per-view on channel
+V-03,longform,"Shock claim title (""SEO is DEAD"")",2026-03-03,21000,22,9.8,95,4,High CTR then mass drop-off at 1:40; several negative comments on title
+V-04,longform,Podcast episode repurpose,2026-03-10,1900,28,2.3,22,9,Straight audio-with-logo upload from Marketing School
+V-05,longform,Framework explainer with whiteboard,2026-03-17,5600,58,3.8,290,5,Retention holds through 12 minutes; low CTR is packaging problem
+V-06,shorts,Clip from V-01,2026-02-06,410000,71,0,140,2,Huge reach; near-zero channel conversion
+V-07,shorts,Native short - 3 AI tools in 40s,2026-03-05,96000,84,0,610,3,Best short; made for format not clipped
+V-08,longform,Company case study,2026-03-24,3100,49,3.2,120,44,Views spiked from company newsletter embed week 1 then flatlined
+V-09,shorts,Clip from V-03,2026-03-06,58000,52,0,25,2,Inherited the title problem
+V-10,longform,Guest interview mid-tier,2026-03-31,4200,44,3.9,160,7,Solid but unremarkable
+V-11,longform,AI news reaction (topical),2026-04-07,12800,38,5.5,240,3,Views front-loaded in 72 hours then dead; news decays
+V-12,longform,Framework explainer v2,2026-04-14,6900,57,5.9,335,4,Same format as V-05 with new thumbnail style; CTR up 55 pct after thumbnail swap in week 2
+V-13,shorts,Daily cadence test week,2026-04-20,31000,66,0,80,2,7 shorts in 7 days; per-short performance dropped each day
+V-14,longform,Listicle (10 tools),2026-04-21,8800,35,4.6,150,5,Views fine; viewers skip between chapters and leave
+V-15,longform,Contrarian essay (no guest),2026-04-28,9600,61,4.8,520,4,Highest retention + strong subs; most comments reference Eric personally
+V-16,shorts,Clip from V-15,2026-04-30,44000,74,0,310,3,Only clip that converts; points to essay format travelling

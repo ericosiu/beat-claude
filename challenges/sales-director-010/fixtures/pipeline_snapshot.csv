@@ -1,0 +1,17 @@
+opp_id,business_line,stage,amount_usd,days_in_stage,close_date,owner,last_activity_days_ago,notes
+O-01,Agency services,negotiation,240000,44,2026-06-30,closer,31,Champion went quiet after pricing call; no activity logged in a month
+O-02,Software-assisted content,proposal,36000,9,2026-07-25,you,2,Technical eval passed; buyer asked for 2-week pilot terms
+O-03,Agency services,discovery,95000,6,2026-08-15,closer,1,Inbound from podcast; strong ICP fit
+O-04,Agency services,closed_won,0,0,2026-06-12,closer,27,Marked closed-won with $0 amount; no contract attached
+O-05,Software-assisted advertising,negotiation,150000,18,2026-07-10,you,3,Enterprise buyer; legal review in progress; realistic
+O-06,Agency services,proposal,1400000,62,2026-07-31,closer,12,Single mega-deal; 8 stakeholders; procurement not yet engaged
+O-07,Software-assisted content,discovery,28000,3,2026-08-05,you,1,Referral from existing client; fast mover
+O-08,Agency services,proposal,110000,21,2026-05-30,closer,15,Close date is 5 weeks in the past; still marked open
+O-09,Software-assisted content,negotiation,42000,7,2026-07-15,you,2,Buyer confirmed budget; waiting on signature authority
+O-10,Agency services,discovery,85000,33,2026-09-01,closer,29,Contact left the company per bounce-back email; note never actioned
+O-11,Software-assisted advertising,proposal,95000,11,2026-07-20,you,4,Buyer wants agency-style custom work bundled; scope mismatch with product motion
+O-12,Agency services,negotiation,175000,13,2026-07-08,closer,2,Renewal-plus-expansion of current client; highest probability in book
+O-13,Software-assisted content,discovery,31000,2,2026-08-20,you,1,Duplicate of O-07 created by list import
+O-14,Agency services,discovery,120000,48,2026-10-01,closer,40,No meeting ever logged; created from a business card at a conference
+O-15,Software-assisted advertising,discovery,67000,5,2026-08-10,you,3,Mid-market buyer; needs integration check before advancing
+O-16,Agency services,proposal,150000,19,2026-07-22,closer,6,Decision committee formed; competitor incumbent contract ends Aug 1

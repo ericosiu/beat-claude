@@ -58,6 +58,16 @@ Your strategy should include:
 - Founder can dedicate 50% of time to GTM
 
 
+## Ground It in the Sample Data (Required)
+
+This folder includes a fixture dataset: [`fixtures/beta_accounts.csv`](fixtures/beta_accounts.csv). It is a small synthetic snapshot of the situation above, and it contains seeded issues - not everything in it should be taken at face value. We know exactly what is planted in it, so your reading of the data tells us immediately whether the analysis is real.
+
+- Base your channel prioritization, your first paid-conversion targets, and your pricing anchor on this beta snapshot. Cite specific `account_id`s in your answer.
+- Call out at least three things in the data you would **not** act on at face value, and why.
+- State the fixture checksum you worked from: `shasum -a 256 fixtures/beta_accounts.csv`.
+
+Fixtures rotate between hiring rounds; answers built against an old fixture will not match the current one. See the [Integrity section of SCORING.md](../../SCORING.md#integrity).
+
 ## Required Submission Packet
 
 Include these items with your submission:

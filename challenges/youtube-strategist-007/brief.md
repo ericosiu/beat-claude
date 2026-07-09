@@ -69,6 +69,16 @@ Your strategy should include:
 - No clickbait that damages credibility. Eric's brand is "smart, data-driven, no BS"
 
 
+## Ground It in the Sample Data (Required)
+
+This folder includes a fixture dataset: [`fixtures/channel_video_stats.csv`](fixtures/channel_video_stats.csv). It is a small synthetic snapshot of the situation above, and it contains seeded issues - not everything in it should be taken at face value. We know exactly what is planted in it, so your reading of the data tells us immediately whether the analysis is real.
+
+- Ground your channel audit and content strategy in this export. Cite specific `video_id`s: what you double down on, and which apparent winners are false positives.
+- Call out at least three things in the data you would **not** act on at face value, and why.
+- State the fixture checksum you worked from: `shasum -a 256 fixtures/channel_video_stats.csv`.
+
+Fixtures rotate between hiring rounds; answers built against an old fixture will not match the current one. See the [Integrity section of SCORING.md](../../SCORING.md#integrity).
+
 ## Required Submission Packet
 
 Include these items with your submission:

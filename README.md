@@ -68,6 +68,8 @@ Submissions without an operating artifact or source-labeled numbers are unlikely
 
 **Brief versions:** every brief carries a version stamp (for example, `Brief version: 2026-07`) and briefs are refreshed periodically. State the version you answered in your written answer. Circulated answers to old brief versions are easy to spot and do not advance — see the [Integrity section of SCORING.md](SCORING.md#integrity).
 
+**Fixture datasets:** role challenges include a small synthetic dataset in their `fixtures/` folder with seeded issues we hold the key to. The brief tells you what to do with it; strong submissions work the data, cite specific rows, and catch what's planted. Fixtures rotate between hiring rounds, so shared answers go stale by design.
+
 ## Candidate Confidentiality and Data Policy
 
 Do not include confidential, proprietary, regulated, or sensitive personal data in your submission. Use public sources, synthetic data, anonymized samples, or your own work product. Do not submit passwords, API keys, customer lists, employee records, compensation details, private analytics exports, or anything you do not have permission to share. If a task would normally require private data, state the assumption and show the artifact with safe sample data.

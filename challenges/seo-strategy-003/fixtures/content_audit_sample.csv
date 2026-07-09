@@ -1,0 +1,19 @@
+url_slug,target_keyword,position_12mo_ago,position_now,traffic_now_monthly,traffic_12mo_ago,referring_domains,publish_year,last_updated,conversions_90d,notes
+/blog/what-is-expense-management,what is expense management,1,4,6200,14100,84,2021,2024-01,9,Lost featured snippet to Ramp
+/blog/expense-management-guide,what is expense management,12,18,400,900,6,2023,2023-06,0,Second page targeting same keyword as above
+/blog/business-expense-categories,business expense categories,2,7,3800,9200,52,2020,2023-11,4,Outdated IRS category references
+/blog/corporate-card-vs-credit-card,corporate card vs credit card,3,5,4100,6800,61,2021,2024-08,31,Highest converting blog page
+/blog/expense-report-template,expense report template,4,4,5200,5400,38,2022,2024-10,12,Stable; template download drives signups
+/blog/per-diem-rates-2022,per diem rates,5,29,300,7800,22,2022,2022-03,0,Rates are 4 years stale; YMYL-adjacent
+/blog/what-is-an-invoice,what is an invoice,8,9,2900,3100,15,2020,2023-02,0,High traffic; zero product relevance
+/compare/vs-ramp,expense management ramp alternative,6,11,1100,1900,19,2023,2024-06,44,Striking distance; highest intent page on site
+/compare/vs-brex,expense management brex alternative,7,8,900,1000,17,2023,2024-06,28,Holding steady
+/blog/travel-expense-policy,travel expense policy template,9,6,2400,1700,26,2022,2025-01,8,One of few pages that improved
+/blog/company-name-expense-software,company brand expense software,1,1,3900,3600,45,2021,2024-05,52,Branded query; inflates blog totals
+/blog/bookkeeping-basics,bookkeeping basics,14,31,200,1400,4,2020,2020-09,0,Thin 600-word post; off-topic
+/blog/accounting-software-list,best accounting software,10,34,150,2200,8,2021,2021-05,0,Listicle outranked by aggregators
+/blog/receipt-scanning-app,receipt scanning app,5,5,1800,2600,29,2022,2024-03,6,Position stable; traffic fell after AI Overview appeared on SERP
+/blog/mileage-reimbursement-guide,mileage reimbursement rules,6,13,700,2900,18,2022,2022-11,2,Rules changed; needs update pass
+/blog/what-is-spend-management,what is spend management,15,11,650,300,11,2024,2024-12,3,Newer cluster; gaining unaided
+/blog/expense-fraud-statistics,expense fraud statistics,7,10,1300,1800,74,2021,2023-04,1,Strongest backlink magnet on the blog
+/blog/quarterly-tax-deadlines-2023,quarterly tax deadlines,3,41,90,5100,9,2023,2023-01,0,Dead dated page still indexed

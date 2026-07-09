@@ -45,7 +45,7 @@ Choose one of these real manual workflows that exist at agencies like ours, OR p
 A junior marketer spends 4 hours every Monday pulling data from Google Analytics, Google Search Console, and ad platforms. They copy numbers into a Google Sheet template, write 3-4 bullet points about what changed, and email it to the client. They do this for 8 clients. It's the same process every week.
 
 **Option B - Lead Qualification**
-When a new lead fills out the contact form, someone manually looks up the company, checks their website, estimates revenue, reviews their LinkedIn, and decides whether they're worth a sales call. Takes 10-15 minutes per lead. We get 30-50 leads per week.
+When a new lead fills out the contact form, someone manually looks up the company, checks their website, estimates revenue, reviews their LinkedIn, and decides whether they're worth a sales call. Takes 10-15 minutes per lead. We get 30-50 leads per week. Want realistic test input? You may use the fixture dataset from [AI Automation Intern 012](../ai-automation-intern-012/fixtures/inbound_leads.csv) - be warned that it contains seeded traps.
 
 **Option C - Content Distribution**
 After publishing a blog post, a coordinator manually creates social posts for LinkedIn, Twitter/X, and Instagram. They resize the hero image for each platform, write platform-specific captions, schedule them across tools, and then check engagement 48 hours later to report back. Takes 45 minutes per post, we publish 4x/week.

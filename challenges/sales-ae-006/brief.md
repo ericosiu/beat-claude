@@ -86,6 +86,16 @@ Your strategy should include:
 - Limited to 2 executive-level meetings before close
 
 
+## Ground It in the Sample Data (Required)
+
+This folder includes a fixture dataset: [`fixtures/crm_activity_log.csv`](fixtures/crm_activity_log.csv). It is a small synthetic snapshot of the situation above, and it contains seeded issues - not everything in it should be taken at face value. We know exactly what is planted in it, so your reading of the data tells us immediately whether the analysis is real.
+
+- Your deal diagnosis must cite specific `entry_id`s from this log. The real reason this deal is stalled is discoverable in it.
+- Call out at least three things in the data you would **not** act on at face value, and why.
+- State the fixture checksum you worked from: `shasum -a 256 fixtures/crm_activity_log.csv`.
+
+Fixtures rotate between hiring rounds; answers built against an old fixture will not match the current one. See the [Integrity section of SCORING.md](../../SCORING.md#integrity).
+
 ## Required Submission Packet
 
 Include these items with your submission:

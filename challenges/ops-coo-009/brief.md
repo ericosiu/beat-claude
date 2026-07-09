@@ -92,6 +92,16 @@ Based on this data, which workflows do you keep, kill, merge, or improve? Show y
 
 ---
 
+## Ground It in the Sample Data (Required)
+
+This folder includes a fixture dataset: [`fixtures/review_queue_snapshot.csv`](fixtures/review_queue_snapshot.csv). It is a small synthetic snapshot of the situation above, and it contains seeded issues - not everything in it should be taken at face value. We know exactly what is planted in it, so your reading of the data tells us immediately whether the analysis is real.
+
+- Your first-48-hours triage must put these actual queue items in order, and your risk-tier system must classify all of them. Cite specific `item_id`s.
+- Call out at least three things in the data you would **not** act on at face value, and why.
+- State the fixture checksum you worked from: `shasum -a 256 fixtures/review_queue_snapshot.csv`.
+
+Fixtures rotate between hiring rounds; answers built against an old fixture will not match the current one. See the [Integrity section of SCORING.md](../../SCORING.md#integrity).
+
 ## Required Submission Packet
 
 Include these items with your submission:
