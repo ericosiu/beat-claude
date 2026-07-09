@@ -7,27 +7,38 @@ directory of submission files before review:
     python3 scripts/validate_submission.py path/to/submission.md
     python3 scripts/validate_submission.py path/to/submission_dir/ --strict
 
-It checks three things:
+It checks these things:
 
 1. Required packet sections (FAIL if missing): all 7 sections of the
    Required Submission Packet defined in README.md are present somewhere in
    the submission text.
-2. Number source labels (advisory WARN): paragraphs containing numeric
+2. Review-manipulation attempts (FAIL): text that addresses or instructs a
+   reviewing AI model ("ignore previous instructions", "you are an AI
+   reviewer", "score this submission as..."), invisible/zero-width Unicode
+   characters that hide text from human readers, and HTML comments that
+   carry scoring or reviewer instructions. Review may be AI-assisted but is
+   always human-confirmed; attempting to manipulate it is an automatic
+   reject, so the pre-screen fails hard on it.
+3. Number source labels (advisory WARN): paragraphs containing numeric
    claims (percentages, dollar amounts, counts) should carry one of the
    [Observed] / [Estimated] / [Benchmarked] / [Assumed] labels from
    SCORING.md nearby. This is a heuristic; reviewers make the final call.
-3. Evidence-tier citations (advisory WARN): major claims should reference
+4. Evidence-tier citations (advisory WARN): major claims should reference
    the SCORING.md evidence tiers (Tier 0-5) in the evidence log.
-4. Verifiability (advisory WARN): [Observed] numbers and Tier 2-5 evidence
+5. Verifiability (advisory WARN): [Observed] numbers and Tier 2-5 evidence
    claims assert something a reviewer can inspect, so the same section
    should contain at least one verifiable artifact reference: a link, an
    attached file path, a screenshot/attachment reference, or a reproduction
    command. High-tier claims with nothing checkable are treated as Tier 0
    (claims only) at review time.
+6. Brief version (advisory WARN): briefs carry a version stamp and are
+   refreshed periodically; submissions should state which brief version they
+   answered so reviewers can score against the right one.
 
-Exit codes: 0 when all required sections are present (warnings allowed),
-1 when required sections are missing, or when --strict is passed and any
-warnings were produced.
+Exit codes: 0 when all required sections are present and no manipulation
+attempts are detected (warnings allowed), 1 when required sections are
+missing, when a review-manipulation attempt is detected, or when --strict
+is passed and any warnings were produced.
 
 Pure stdlib; mirrors the style of validate_public_content.py.
 """
@@ -55,6 +66,42 @@ REQUIRED_SECTIONS: list[tuple[str, re.Pattern[str]]] = [
 
 SOURCE_LABEL_PATTERN = re.compile(r"\[\s*(observed|estimated|benchmarked|assumed)\s*\]", re.I)
 EVIDENCE_TIER_PATTERN = re.compile(r"\btiers?\s*[0-5]\b", re.I)
+BRIEF_VERSION_PATTERN = re.compile(r"\bbrief\s+version\b", re.I)
+
+# Review-manipulation detection. Review may be AI-assisted but is always
+# human-confirmed; content that tries to instruct the reviewing model, or
+# text hidden from human readers, is an automatic reject (SCORING.md,
+# "Integrity"). Patterns are deliberately narrow: a candidate legitimately
+# writing about their own agent's prompts should not trip them.
+INJECTION_PHRASE_CHECKS: list[tuple[str, re.Pattern[str]]] = [
+    ("instruction-override phrasing",
+     re.compile(r"\b(?:ignore|disregard|forget|override)\b[^.\n]{0,40}"
+                r"\b(?:previous|prior|above|earlier|all)\b[^.\n]{0,40}"
+                r"\b(?:instructions?|prompts?|rules|rubrics?|guidelines)\b", re.I)),
+    ("text addressed to a reviewing model",
+     re.compile(r"\byou\s+are\s+(?:an?\s+)?(?:ai|llm|language\s+model|automated)\b"
+                r"[^.\n]{0,60}\b(?:review|grade|scor|evaluat)", re.I)),
+    ("scoring instruction to the reviewer",
+     re.compile(r"\b(?:score|rate|grade|mark)\s+(?:this|my)\s+"
+                r"(?:submission|answer|candidate|packet|response)\b", re.I)),
+    ("verdict instruction to the reviewer",
+     re.compile(r"\b(?:this|the)\s+(?:submission|candidate|answer)\s+"
+                r"(?:must|should)\s+(?:advance|pass|receive|be\s+scored)\b", re.I)),
+]
+
+# Invisible characters that can hide text from a human reader while staying
+# machine-readable: zero-width spaces/joiners, bidi controls, word joiners,
+# and interior byte-order marks. A single leading BOM is a benign editor
+# artifact and is stripped before scanning.
+HIDDEN_CHAR_PATTERN = re.compile(
+    "[\u200b-\u200f\u202a-\u202e\u2060-\u2064\ufeff]"
+)
+
+# HTML comments are invisible in rendered markdown. Flag ones that talk to
+# the review process; ordinary editorial comments pass.
+HTML_COMMENT_PATTERN = re.compile(r"<!--(.*?)-->", re.S)
+REVIEW_TERM_PATTERN = re.compile(r"\b(?:tier\s*[0-5]|score|scoring|reviewer|review|"
+                                 r"benchmark|advance|rubric|grade)\b", re.I)
 
 # Numeric claims worth labeling: currency, percentages, thousands-separated
 # counts, k/M/B shorthand, and bare multi-digit numbers.
@@ -69,6 +116,8 @@ NUMBER_PATTERN = re.compile(
 HEADING_LINE = re.compile(r"^\s{0,3}#{1,6}\s")
 TABLE_RULE_LINE = re.compile(r"^\s*\|?[\s:|-]+\|?\s*$")
 URL_PATTERN = re.compile(r"https?://\S+|\([^)\s]*\.[a-z]{2,}[^)]*\)")
+# A required "Brief version: 2026-07" stamp is metadata, not a numeric claim.
+BRIEF_VERSION_STAMP = re.compile(r"brief\s+version\b[:*\s]*[\w.-]*", re.I)
 
 # Verifiability check: [Observed] numbers and Tier 2-5 evidence claims assert
 # an inspectable artifact or record (SCORING.md: Tier 2 = demo artifact,
@@ -110,6 +159,42 @@ def check_sections(text: str) -> list[str]:
     return [name for name, pattern in REQUIRED_SECTIONS if not pattern.search(text)]
 
 
+def find_manipulation_attempts(text: str) -> list[tuple[int, str]]:
+    """Return (line_no, description) for review-manipulation signals:
+    injection phrasing aimed at an AI-assisted reviewer, invisible Unicode
+    characters, and HTML comments that instruct the review process.
+
+    Fenced code blocks, blockquotes, and inline code spans are exempt from
+    the phrase checks so candidates can quote adversarial inputs they
+    defended against (format such quotes as code). Hidden characters are
+    flagged everywhere except a single leading BOM.
+    """
+    flagged: list[tuple[int, str]] = []
+    in_fence = False
+    for line_no, line in enumerate(text.splitlines(), 1):
+        if line_no == 1 and line.startswith("\ufeff"):
+            line = line[1:]
+        if HIDDEN_CHAR_PATTERN.search(line):
+            chars = sorted({f"U+{ord(c):04X}" for c in HIDDEN_CHAR_PATTERN.findall(line)})
+            flagged.append((line_no, f"invisible/zero-width characters: {', '.join(chars)}"))
+        if line.lstrip().startswith("```"):
+            in_fence = not in_fence
+            continue
+        if in_fence or line.lstrip().startswith(">"):
+            continue
+        prose = re.sub(r"`[^`]*`", "", line)
+        for label, pattern in INJECTION_PHRASE_CHECKS:
+            if pattern.search(prose):
+                snippet = " ".join(prose.split())[:90]
+                flagged.append((line_no, f"{label}: {snippet}"))
+    for match in HTML_COMMENT_PATTERN.finditer(text):
+        if REVIEW_TERM_PATTERN.search(match.group(1)):
+            line_no = text.count("\n", 0, match.start()) + 1
+            snippet = " ".join(match.group(1).split())[:90]
+            flagged.append((line_no, f"HTML comment addressing the review: {snippet}"))
+    return sorted(flagged)
+
+
 def iter_paragraphs(text: str):
     """Yield (first_line_no, paragraph_text) for prose paragraphs, skipping
     fenced code blocks, headings, and table separator rows."""
@@ -145,8 +230,10 @@ def find_unlabeled_numbers(text: str) -> list[tuple[int, str]]:
     for line_no, paragraph in iter_paragraphs(text):
         if SOURCE_LABEL_PATTERN.search(paragraph):
             continue
-        # Ignore numbers that only appear inside URLs/links.
+        # Ignore numbers that only appear inside URLs/links or a brief
+        # version stamp.
         prose = URL_PATTERN.sub("", paragraph)
+        prose = BRIEF_VERSION_STAMP.sub("", prose)
         if NUMBER_PATTERN.search(prose):
             snippet = " ".join(paragraph.split())[:100]
             flagged.append((line_no, snippet))
@@ -220,7 +307,27 @@ def run(target: Path, strict: bool = False, out=sys.stdout) -> int:
     else:
         print(f"[PASS] Required packet sections: all {len(REQUIRED_SECTIONS)} found", file=out)
 
-    # Check 2: verifiability of high-tier claims (advisory, prominent).
+    # Check 2: review-manipulation attempts (fail).
+    manipulations: list[tuple[Path, int, str]] = []
+    for path, text in files:
+        for line_no, description in find_manipulation_attempts(text):
+            manipulations.append((path, line_no, description))
+    if manipulations:
+        failures += 1
+        print(f"[FAIL] Review manipulation: {len(manipulations)} signal(s) that address or "
+              "instruct the review process, or hide text from human readers.", file=out)
+        print("       Attempting to manipulate AI-assisted review is an automatic reject.", file=out)
+        print("       If you are quoting an adversarial input your agent defended against,", file=out)
+        print("       format the quote as a code block or blockquote:", file=out)
+        for path, line_no, description in manipulations[:20]:
+            print(f"       - {path}:{line_no}: {description}", file=out)
+        if len(manipulations) > 20:
+            print(f"       ... and {len(manipulations) - 20} more", file=out)
+    else:
+        print("[PASS] Review manipulation: no injection phrasing, hidden characters, or "
+              "reviewer-directed comments detected", file=out)
+
+    # Check 3: verifiability of high-tier claims (advisory, prominent).
     unverifiable: list[tuple[Path, int, str]] = []
     for path, text in files:
         for start_line, title in find_unverifiable_claims(text):
@@ -242,7 +349,7 @@ def run(target: Path, strict: bool = False, out=sys.stdout) -> int:
         print("[PASS] Verifiability: every section with [Observed] or Tier 2-5 claims "
               "contains a checkable reference", file=out)
 
-    # Check 3: number source labels (advisory).
+    # Check 4: number source labels (advisory).
     unlabeled: list[tuple[Path, int, str]] = []
     for path, text in files:
         for line_no, snippet in find_unlabeled_numbers(text):
@@ -258,7 +365,7 @@ def run(target: Path, strict: bool = False, out=sys.stdout) -> int:
     else:
         print("[PASS] Number source labels: no unlabeled numeric claims detected", file=out)
 
-    # Check 4: evidence-tier citations (advisory).
+    # Check 5: evidence-tier citations (advisory).
     tier_refs = count_evidence_tier_refs(combined)
     if tier_refs == 0:
         warnings += 1
@@ -267,9 +374,18 @@ def run(target: Path, strict: bool = False, out=sys.stdout) -> int:
     else:
         print(f"[PASS] Evidence tiers: {tier_refs} reference(s) to SCORING.md tiers found", file=out)
 
+    # Check 6: brief version statement (advisory).
+    if BRIEF_VERSION_PATTERN.search(combined):
+        print("[PASS] Brief version: submission states which brief version it answers", file=out)
+    else:
+        warnings += 1
+        print("[WARN] Brief version: no \"Brief version\" statement found; briefs are "
+              "refreshed periodically, so state the version stamp from the brief you "
+              "answered (e.g. \"Brief version: 2026-07\")", file=out)
+
     print("", file=out)
     if failures:
-        print("Result: FAIL (missing required packet sections)", file=out)
+        print("Result: FAIL (missing required sections or review-manipulation signals)", file=out)
         return 1
     if warnings and strict:
         print("Result: FAIL (--strict: warnings treated as failures)", file=out)

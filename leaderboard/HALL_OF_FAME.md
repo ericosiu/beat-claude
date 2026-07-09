@@ -19,9 +19,9 @@ Candidates who beat generic AI.
 
 - Your submission scored higher than the private benchmark for the same challenge
 - Reviewed blind by Single Grain team members
-- Evaluated on: Strategic Depth, Specificity, AI Fluency, Creativity, Communication
+- Evaluated on the five dimensions in the public guide: Strategic Judgment, Execution Detail, Evidence Quality, AI Fluency, Communication
 
-See [SCORING.md](../SCORING.md) for the full rubric.
+See [SCORING.md](../SCORING.md) for the public guide.
 
 ---
 

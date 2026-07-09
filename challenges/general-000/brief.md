@@ -74,7 +74,7 @@ Answer these:
 
 2. **Your best AI win.** Describe one specific time you used AI to produce a result that wouldn't have been possible (or would have taken 10x longer) without it. What was the task? What did you build/do? What was the outcome?
 
-3. **What changes in the next 2 years.** Pick your field and tell us what AI does to it by 2028. Not generic "AI will transform everything" - specific predictions. What jobs disappear? What new roles emerge? What becomes table stakes that's currently a competitive advantage? We want your honest read, not the optimistic version.
+3. **What changes in the next 2 years.** Pick your field and tell us what AI does to it two years from today. Not generic "AI will transform everything" - specific predictions. What jobs disappear? What new roles emerge? What becomes table stakes that's currently a competitive advantage? We want your honest read, not the optimistic version.
 
 ---
 
@@ -130,6 +130,8 @@ For this challenge, we're also applying the **Dinner Test:**
 If yes - you advance to a conversation regardless of score (as long as you're above 50).
 
 ---
+
+**Brief version:** 2026-07. State this version in your written answer. Briefs are refreshed periodically; we review against the version you cite.
 
 **Ready to submit?** Apply through our careers page: **[singlegrain.com/careers](https://www.singlegrain.com/careers/)**
 Upload your challenge answer (PDF or Markdown) along with your application.

@@ -95,5 +95,7 @@ Submit as PDF or Markdown. **Maximum 4 pages.** We value clarity and prioritizat
 
 **Questions about the brief?** Open an issue only for general public clarification. For role-specific ambiguity, state your assumptions in the submission.
 
+**Brief version:** 2026-07. State this version in your written answer. Briefs are refreshed periodically; we review against the version you cite.
+
 **Ready to submit?** Apply through our careers page: **[singlegrain.com/careers](https://www.singlegrain.com/careers/)**
 Upload your challenge answer (PDF or Markdown) along with your application.

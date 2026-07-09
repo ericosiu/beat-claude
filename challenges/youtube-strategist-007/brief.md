@@ -33,7 +33,7 @@ You're being hired as the YouTube Strategist for **Leveling Up with Eric Siu** (
 
 Create a **comprehensive YouTube strategy** that demonstrates three things:
 
-1. **Your AI Thinking** - How would you use AI tools (generic AI, ChatGPT, Midjourney, Runway, ElevenLabs, Opus Clip, vidIQ, etc.) throughout the content pipeline? Don't just mention AI as a buzzword. Show us your actual workflow. What do you automate? What stays human? Where does AI give you 10x leverage vs. where does it produce slop?
+1. **Your AI Thinking** - How would you use AI tools throughout the content pipeline? Name the specific tools you actually use today for scripting, thumbnails, editing, clipping, voice, and research - whatever is currently best-in-class, not whatever was fashionable last year. Don't just mention AI as a buzzword. Show us your actual workflow. What do you automate? What stays human? Where does AI give you 10x leverage vs. where does it produce slop?
 
 2. **Your YouTube Strategic Thinking** - Show deep understanding of the YouTube algorithm, audience psychology, and content strategy for both longform (8-20 min) and shortform (< 60 sec). What's the content architecture? How do longform and shortform work together? What does the content calendar look like?
 
@@ -96,6 +96,8 @@ Submit as PDF or Markdown. **Maximum 4 pages.** We value clarity and prioritizat
 ---
 
 **Questions about the brief?** Open an issue only for general public clarification. For role-specific ambiguity, state your assumptions in the submission.
+
+**Brief version:** 2026-07. State this version in your written answer. Briefs are refreshed periodically; we review against the version you cite.
 
 **Ready to submit?** Apply through our careers page: **[singlegrain.com/careers](https://www.singlegrain.com/careers/)**
 Upload your challenge answer (PDF or Markdown) along with your application.
