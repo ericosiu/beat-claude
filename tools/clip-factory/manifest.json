@@ -1,0 +1,16 @@
+{
+  "session": "0709 Eric x Neil studio recording",
+  "drive_folder": "https://drive.google.com/drive/folders/1HFJtuLIS-GRjh1coew96Tsjv--vN1GIH",
+  "speakers": ["eric", "neil"],
+  "files": [
+    {"name": "0709-ERIC.WAV",  "drive_id": "1k68JzXBvZheTbtPA4FLgk5WEcfwGjsQv", "role": "mic",  "speaker": "eric"},
+    {"name": "0709-NEIL.WAV",  "drive_id": "1kRAVQqK7ZHLDbEBVJNkYnAoBn_pIsEoX", "role": "mic",  "speaker": "neil"},
+    {"name": "0709-ERIC-1.MP4", "drive_id": "1DdT3S5V3aAoRAFRf8OEkLSFQ9kQchR0d", "role": "cam", "speaker": "eric", "segment": 1},
+    {"name": "0709-ERIC-2.MP4", "drive_id": "1D1Pxvo1TRVEcfi1uQ6pXS3uVlGxcO9Ey", "role": "cam", "speaker": "eric", "segment": 2},
+    {"name": "0709-ERIC-3.MP4", "drive_id": "1cOE3apSaDXq1OoA07nkeEAKkgzE9CKMX", "role": "cam", "speaker": "eric", "segment": 3},
+    {"name": "0709-NEIL-1.MP4", "drive_id": "1rqbsCh0Np4WtOtUL9w2caIvJ2ODVX3bc", "role": "cam", "speaker": "neil", "segment": 1},
+    {"name": "0709-NEIL-2.MP4", "drive_id": "19Sv8FdQ6LEBYT7OyCUrX6DBtZ6hcpyQy", "role": "cam", "speaker": "neil", "segment": 2},
+    {"name": "0709-NEIL-3.MP4", "drive_id": "1VbXRes9jdKoCOoc4FKz-T9kERUDWiQHN", "role": "cam", "speaker": "neil", "segment": 3},
+    {"name": "0709-WIDE.MP4",  "drive_id": "1I7MXyhiaenRdi6AhYFjaAPkR8hMjLaxU", "role": "wide"}
+  ]
+}
