@@ -23,8 +23,15 @@ import sys
 from pathlib import Path
 
 VF = {
+    # Hybrid vertical: half-width crop anchored on the speaker's seat position
+    # (x=27% of frame width for this recording's framing), blur-filled to 9:16.
+    # A raw 9:16 center crop clips the face - the source is already a close-up.
     ("vertical", "crop"): (
-        "crop=ih*9/16:ih,scale=1080:1920,setsar=1"
+        "split[a][b];"
+        "[a]scale=1080:1920:force_original_aspect_ratio=increase,"
+        "crop=1080:1920,gblur=sigma=30,eq=brightness=-0.15[bg];"
+        "[b]crop=iw*0.5:ih:iw*0.27:0,scale=1080:-2[fg];"
+        "[bg][fg]overlay=(W-w)/2:(H-h)/2,setsar=1"
     ),
     ("vertical", "blurpad"): (
         "split[a][b];"
